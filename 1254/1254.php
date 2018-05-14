@@ -18,15 +18,11 @@ $less->compileFile('less/1254.less', 'css/1254.css');
         <title>1254</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/1254.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-
-
+        <link href="<?php echo $url_path ?>/css/1254.css" rel="stylesheet" type="text/css"/>
     </head> 
-
     <body> 
-        <?php include '../1254/1254-content.php'; ?>
+        <?php include $dir_block.'/1254-content.php'; ?>
     </body>
 </html>
