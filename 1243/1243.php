@@ -23,7 +23,7 @@ $less->compileFile('less/1243.less', 'css/1243.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1243.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/1043.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/1243.js" type="text/javascript"></script>
     </head> 
     <body> 
         <?php include '../1243/1243-content.php'; ?>
