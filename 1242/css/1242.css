@@ -1,39 +1,39 @@
-.module-9 h4 {
+.type-1242 h4 {
   font: normal 24px/32px Libre Baskerville;
 }
-.module-9 p {
+.type-1242 p {
   margin: 1em 0;
 }
-.module-9 a {
+.type-1242 a {
   text-decoration: none;
 }
-.module-9 table {
+.type-1242 table {
   border-collapse: collapse;
   border-spacing: 0;
   line-height: 2;
 }
-.module-9 .blank-space {
+.type-1242 .blank-space {
   height: 60px;
   display: block;
 }
-.module-9 .row {
+.type-1242 .row {
   margin-left: 5px;
   margin-right: 5px;
   clear: both;
 }
-.module-9 .row .googlemap {
+.type-1242 .row .googlemap {
   width: 100%;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
 }
-.module-9 .row .googlemap iframe {
+.type-1242 .row .googlemap iframe {
   height: 450px;
   width: 100%;
   display: block;
   margin-right: 0;
   border: 0;
 }
-.module-9 .wapper {
+.type-1242 .wapper {
   z-index: 555;
   display: block;
   float: none;
@@ -41,45 +41,45 @@
   max-width: 1260px;
   width: auto;
 }
-.module-9 .wapper .row {
+.type-1242 .wapper .row {
   padding-top: 60px;
   margin-left: -25px;
   margin-right: -25px;
   clear: both;
 }
-.module-9 .wapper .row .main {
+.type-1242 .wapper .row .main {
   background-color: ;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
 }
-.module-9 .wapper .row .main .grid1-5,
-.module-9 .wapper .row .main .grid2-5 {
+.type-1242 .wapper .row .main .grid1-5,
+.type-1242 .wapper .row .main .grid2-5 {
   position: relative;
   float: left;
   box-sizing: border-box;
   display: block;
   padding: 0 25px;
 }
-.module-9 .wapper .row .main .grid2-5 {
+.type-1242 .wapper .row .main .grid2-5 {
   padding-top: 25px;
   padding-bottom: 0.05px;
   width: 40%;
   text-align: center;
 }
-.module-9 .wapper .row .main .grid2-5 .spacespane {
+.type-1242 .wapper .row .main .grid2-5 .spacespane {
   height: 30px;
   display: block;
 }
-.module-9 .wapper .row .main .grid2-5 h4 {
+.type-1242 .wapper .row .main .grid2-5 h4 {
   font: normal 24px/32px Libre Baskerville;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
-.module-9 .wapper .row .main .grid2-5 .timetable {
+.type-1242 .wapper .row .main .grid2-5 .timetable {
   width: 86%;
   margin-bottom: 30px;
 }
-.module-9 .wapper .row .main .grid2-5 .timetable tbody {
+.type-1242 .wapper .row .main .grid2-5 .timetable tbody {
   margin: 0;
   padding: 0;
   border: 0;
@@ -87,22 +87,22 @@
   font: inherit;
   vertical-align: baseline;
 }
-.module-9 .wapper .row .main .grid2-5 .timetable tr td {
+.type-1242 .wapper .row .main .grid2-5 .timetable tr td {
   position: relative;
   padding-bottom: 10px;
   font: normal 16px/32px Varela Round;
   padding: 8px 0px 8px 0;
 }
-.module-9 .wapper .row .main .grid2-5 .timetable tr td:last-child {
+.type-1242 .wapper .row .main .grid2-5 .timetable tr td:last-child {
   text-align: right;
 }
-.module-9 .wapper .row .main .grid2-5 .timetable tr td:after {
+.type-1242 .wapper .row .main .grid2-5 .timetable tr td:after {
   display: block;
   line-height: 1em;
   font-size: 0.4em;
   letter-spacing: 4px;
   color: #6b6b6b;
-  content: "...................................................................................................................................................................................................................................................";
+  content: " ";
   width: 100%;
   overflow: hidden;
   height: 5px;
@@ -110,7 +110,7 @@
   left: 0px;
   position: absolute;
 }
-.module-9 .wapper .row .main .grid1-5 {
+.type-1242 .wapper .row .main .grid1-5 {
   background-color: #23282F;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
@@ -121,27 +121,30 @@
   display: block;
   padding: 0 25px;
 }
-.module-9 .wapper .row .main .grid1-5 p {
+.type-1242 .wapper .row .main .grid1-5 p {
   font: normal 16px/32px Varela Round;
 }
-.module-9 .wapper .row .main .grid1-5 .blank-space1 {
+.type-1242 .wapper .row .main .grid1-5 .blank-space1 {
   margin-bottom: -20px;
   display: block;
 }
-.module-9 .wapper .row .main .grid1-5 .row {
+.type-1242 .wapper .row .main .grid1-5 .row {
   margin-left: -25px;
   margin-right: -25px;
   clear: both;
+  background-color: #23282F;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 {
+.type-1242 .wapper .row .main .grid1-5 .grid1 {
   color: #f5f5f5;
   padding-bottom: 30px;
   width: 100%;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 {
   text-align: center;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button {
   border: 1px solid #cb7152;
   font-style: normal;
   overflow: hidden;
@@ -157,7 +160,7 @@
   border-radius: 10em;
   font: normal 13px/1em "Varela Round";
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button .text-button {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button .text-button {
   color: #fff;
   position: relative;
   font-weight: 500;
@@ -168,7 +171,7 @@
   margin: 0 0;
   vertical-align: middle !important;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button::after {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button::after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -179,20 +182,20 @@
   left: 0;
   transition: all 0.3s ease-out !important;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover::after {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover::after {
   height: 100%;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover {
   border-color: #cb7152;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span {
   font-size: 1em;
   line-height: inherit;
   text-decoration: none;
   margin: 0 0;
   vertical-align: middle !important;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span .text-button {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span .text-button {
   position: relative;
   display: inline-block;
   transition: transform 0.3s ease-out !important;
@@ -200,7 +203,7 @@
   font-weight: 500;
   padding: 1em 2em;
 }
-.module-9 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span .text-button:before {
+.type-1242 .wapper .row .main .grid1-5 .grid1 .grid1-1 .button:hover span .text-button:before {
   color: #fff;
   background: #cb7152;
   position: absolute;
@@ -212,23 +215,23 @@
   height: auto;
   padding: 1em 0;
 }
-.module-9 .wapper .row .main .lastgrid p {
+.type-1242 .wapper .row .main .lastgrid p {
   text-align: center;
 }
-.module-9 .wapper .row .main .lastgrid .email {
+.type-1242 .wapper .row .main .lastgrid .email {
   font: normal 16px/24px Varela Round;
 }
-.module-9 .wapper .row .main .lastgrid a {
+.type-1242 .wapper .row .main .lastgrid a {
   text-decoration: none;
   color: #000000;
   transition: color .3s;
 }
-.module-9 .wapper .row .main .lastgrid a:hover {
+.type-1242 .wapper .row .main .lastgrid a:hover {
   text-decoration: none;
   color: #cb7152;
   outline: none;
 }
-.module-9 .wapper .row .main .lastgrid span {
+.type-1242 .wapper .row .main .lastgrid span {
   font-size: 20px !important;
   padding: 0.4em;
   border-radius: 20em;
@@ -240,18 +243,18 @@
   border: 0;
   margin: 0;
 }
-.module-9 .wapper .row::before,
-.module-9 .wapper row::after {
+.type-1242 .wapper .row::before,
+.type-1242 .wapper row::after {
   content: " ";
   display: table;
 }
-.module-9 .space {
+.type-1242 .space {
   margin-bottom: -80px;
   display: block;
 }
 @media (max-width: 956px) {
-  .module-9 .wapper .row .main .grid1-5,
-  .module-9 .wapper .row .main .grid2-5 {
+  .type-1242 .wapper .row .main .grid1-5,
+  .type-1242 .wapper .row .main .grid2-5 {
     width: 100%;
   }
 }

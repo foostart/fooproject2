@@ -1,28 +1,23 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
-?> 
-
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+?>
 
 <div class="type-1271">
     <div class="container">
         <div class="content">
-            <h1 class="classic"> Classic Blog </h1>
+            <h1 > Classic Blog </h1>
             <div class="line"><span></span></div>
         </div>
         <div class="des1">
             <div class="hour">
                 <div class="post-date">
-                        <a href="https://vip-restaurant.vamtam.com/blog-post-with-top-widgets/" title="Blog post with Top Widgets">
+                        <a href="#" title="Blog post with Top Widgets">
                             <span class="top-part">
                                 17 
                             </span>
@@ -32,19 +27,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                     </div>
                     <span class="vamtam-meta-author">
-                        <a href="https://vip-restaurant.vamtam.com/author/admin/" title="Posts by Jon Madison" rel="author">
+                        <a href="#" title="Posts by Jon Madison" rel="author">
                             <i class="fa fa-pencil fa-2x" aria-hidden="true">
                             </i>
-                            <span class="icon shortcode theme  use-hover">
+                            <span class="icon  theme  ">
                                 <br>Jon Madison
                             </span>
                         </a>
                     </span>
-                    <span class="comment-count vamtam-meta-comments">
-                        <a href="https://vip-restaurant.vamtam.com/blog-post-with-top-widgets/#respond">
+                    <span class=" vamtam-meta-comments">
+                        <a href="#">
                             <i class="fa fa-comment-o fa-2x" aria-hidden="true">
                             </i>
-                            <span class="icon shortcode theme  use-hover">
+                            <span class="icon  theme  ">
                                 <br>0 Comments
                             </span>
 
@@ -54,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             </div>
             <div class="img-content">
-                <a href="#"><img src="images/blog2.jpg" alt="img-reponsive"></a>
+                <a href="#"><img src="<?php echo $url_path ?>/images/blog2.jpg" alt="img-reponsive"></a>
             </div>
             <div class="text-content">
                 <div class="title-des">
@@ -71,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <i class="fa fa-tags" aria-hidden="true"></i>  
                         <a href="#" rel="category tag">Features</a>
                     </div>
-                    <div class="the-tags vamtam-meta-tax">
+                    <div class=" vamtam-meta-tax">
                         <i class="fa fa-database" aria-hidden="true"></i>  
                         <a href="#" rel="tag">LEFT-RIGHT-SIDEBAR</a> 
                     </div>
