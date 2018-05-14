@@ -8,12 +8,13 @@ ul {
 }
 .type-1261 .m3 .m3-container {
   margin: 0 auto;
-  max-width: 93%;
-}
-.type-1261 .m3 .m3-container .m3-content {
-  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+  max-width: 100%;
 }
 .type-1261 .m3 .m3-container .m3-content .m3-content-left {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
   transition: all 1s;
   background: url(../img/section-title-bg-6-left.jpg) left center / auto no-repeat scroll;
   background-attachment: fixed;
@@ -22,7 +23,13 @@ ul {
   min-height: 650px;
 }
 .type-1261 .m3 .m3-container .m3-content .m3-content-menu {
+  max-width: 625px;
+  width: 100%;
+  min-height: 650px;
+  background: #fff;
   transition: all 1s;
+  float: unset;
+  margin: 0 auto;
 }
 .type-1261 .m3 .m3-container .m3-content .m3-content-menu .content-menu {
   text-align: center;
@@ -263,6 +270,11 @@ ul {
   background-color: #dfdfdf;
 }
 .type-1261 .m3 .m3-container .m3-content .m3-content-right {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
   transition: all 1s;
   background: url(../img/section-title-bg-6-right.jpg) right center / auto no-repeat scroll;
   background-attachment: fixed;
@@ -272,6 +284,28 @@ ul {
 }
 .type-1261 .m3 .m3-container .m3-parallax {
   height: 50px;
+}
+@media (max-width: 768px) {
+  .type-1261 .m3 .m3-container .m3-content .m3-content-right {
+    width: 100%;
+    position: relative;
+    right: unset;
+    float: left;
+    background-size: cover;
+    min-height: 250px;
+  }
+  .type-1261 .m3 .m3-container .m3-content .m3-content-left {
+    width: 100%;
+    position: relative;
+    left: unset;
+    float: left;
+    background-size: cover;
+    min-height: 250px;
+  }
+  .type-1261 .m3 .m3-container .m3-content .m3-content-menu {
+    position: relative;
+    float: left;
+  }
 }
 @media (max-width: 486px) {
   .type-1261  .nav-tabs {
@@ -284,12 +318,6 @@ ul {
 @media (max-width: 640px) {
   .type-1261 .title-text {
     font: normal 15px/32px Libre Baskerville !important;
-  }
-}
-@media (max-width: 992px) {
-  .m3-content-left,
-  .m3-content-right {
-    min-height: 300px !important;
   }
 }
 @font-face {

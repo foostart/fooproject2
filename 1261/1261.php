@@ -28,6 +28,6 @@ $less->compileFile('less/1261.less', 'css/1261.css');
     </head> 
 
     <body> 
-        <?php include '../1261/1261-content.php'; ?>
+        <?php include '1261-content.php'; ?>
     </body>
 </html>
