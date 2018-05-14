@@ -179,18 +179,22 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                         <div class="m10-description-one-meta">
                                             <a href="#">category tag</a>
+                                  
                                             <a href="#">Healthy Food</a>
+                                            <div>
                                             <a href="#">Recipes</a>
+                                            </div>
+                                            
                                         </div>
                                         <div class="m10-description-one-title">
-                                            <div class="shei">
+                                            <div class="shei tag">
                                                 <a href="#">
                                                     <h4>24 Reasons To Seek Out Fresh Figs</h4>
                                                 </a>
-                                                <p>Dried figs are great and all, but if you’ve ever tasted a fresh fig you…</p>
+                                                <p class="tag-text">Dried figs are great and all, but if you’ve ever tasted a fresh fig you…</p>
 
                                             </div>
-                                            <div class="m10-description-one-tag">
+                                            <div class="m10-description-one-tag tag1">
                                                 <a href="#">cooking</a>,
                                                 <a href="#">Food</a>,
                                                 <a href="#">Food</a>,

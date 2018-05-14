@@ -24,4 +24,17 @@ $(document).ready(function () {
             $(this).find(".item-main").height("auto");        
         });     
     }    
-   
+    function equalize1() {       
+        $(".m10-description-one .m10-description-one-title").each(function () {      
+            var heights = $(this).find(".shei").map(function () {        
+                return $(this).height();        
+            }).get(),       
+            maxHeight = Math.max.apply(null, heights);      
+            $(this).find(".shei").height(maxHeight);     
+        });     
+    }       
+    function removeHeights1() {      
+        $(".m10-description-one .m10-description-one-title").each(function () {      
+            $(this).find(".shei").height("auto");        
+        });     
+    }    
