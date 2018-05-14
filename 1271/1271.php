@@ -15,7 +15,7 @@ $less = new lessc;
 $less->compileFile('less/1271.less', 'css/1271.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title> 1271 </title>
         <meta charset="UTF-8">
@@ -26,6 +26,6 @@ $less->compileFile('less/1271.less', 'css/1271.css');
     </head> 
 
     <body> 
-        <?php include '../1271/1271-content.php'; ?>
+        <?php $dir_block.include '1271-content.php'; ?>
     </body>
 </html>

@@ -1,13 +1,12 @@
 .type-1248 .glyphicon {
-  position: relative;
   top: 1px;
-  display: inline-block;
   font-style: normal;
   margin-top: 8px;
   font-weight: 400;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  transition: margin-left 2s, background-color 1s;
+  -moz-transition: margin-left 2s, background-color 1s;
+  -webkit-transition: margin-left 2s, background-color 1s;
 }
 .type-1248 .glyphicon-chevron-up:before {
   padding-left: 12px;
@@ -134,9 +133,10 @@
   display: block;
   float: left;
   margin: 5px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
+  transition: margin-left 2s 0.5s ease-in-out;
+  -moz-transition: margin-left 2s 0.5s ease-in-out;
+  -webkit-transition: margin-left 2s 0.5s ease-in-out;
 }
 .type-1248 #span-setting {
   position: fixed !important;

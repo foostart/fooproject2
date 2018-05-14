@@ -17,9 +17,9 @@ $less->compileFile('less/1235.less', 'css/1235.css');
 
 
 <!DOCTYPE html>
-<html>
-
-    <head>
+<html lang="en">
+<head>
+        <title>1235</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -27,21 +27,8 @@ $less->compileFile('less/1235.less', 'css/1235.css');
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1235.js"></script>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-        <script>
-            $(document).ready(function () {
-                $("#icon-responsive i").click(function () {
-                    $(".navi-menus >ul").slideToggle(200);
-                });
-                $(".type-1235 header .header-top .navi-menus > ul > li").click(function () {
-                    $(this).children().addClass("active-li");
-                });
-                $(".icon-search").click(function () {
-                    $(".search-panel ").toggleClass("show-search-panel");
-                });
-            });
+</head>
 
-        </script>
-    </head>
 
     <body>
         <?php include '../1235/1235-content.php'; ?>
