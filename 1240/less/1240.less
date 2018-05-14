@@ -4,7 +4,7 @@
 @color-pink: #cb7152;
 
 
-.Module-6 {
+.type-1240 {
     margin-top: 50px;
     font: normal 16px/24px Varela Round;
     clear: both;
@@ -46,6 +46,7 @@
     .swiper-container:hover .addtocart {
         opacity: 1;
     }
+    
     .swiper-slide {
         text-align: center;
         background: #fff;
@@ -78,7 +79,13 @@
             text-decoration: none;
             padding: 3px 10px;
             border-radius: 50px;
-            transition: 0.1s;
+            transition: 0.5s;
+        }
+        .addtocart a:hover {
+            background-color: #da9b86;
+            border-color: #da9b86;
+            color: #fff;
+            transition: 0.5s;
         }
         .home-chef {
             top: -19px;
@@ -153,8 +160,19 @@
             }
         }
     }
-
-
+    .swiper-button-next:hover {
+        .fa-angle-right{
+            color: #da9b86;
+        }
+    }
+    .swiper-button-prev:hover {
+        .fa-angle-left{
+            color: #da9b86;
+        }
+    }
+    .swiper-wrapper{
+        opacity: 1;
+    }
     .img-cafe {
         img {
             width: 100%;
@@ -265,6 +283,7 @@
     }
 
 }
+
 
 @font-face {
     font-family: theme;
