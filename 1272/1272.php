@@ -15,19 +15,19 @@ $less = new lessc;
 $less->compileFile('less/1272.less', 'css/1272.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
         <head>
         <title>1272</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/1272.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1272.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/m1-slide-js.js"></script>
         <script src="<?php echo $url_path ?>/js/modul1-navi-js.js"></script>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
     </head> 
     <body> 
-        <?php include '../1272/1272-content.php'; ?>
+        <?php include '1272-content.php'; ?>
     </body>
 </html>
