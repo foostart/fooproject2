@@ -11,18 +11,18 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="module-quocdat">
         <div class="container">
             <div class="row">
-                <div class="vamtam-add-ornaments-top manhphuc-level-01 col-md-12 pt40 pb20">
+                <div class="vamtam-add-ornaments-top col-md-12 pt40 pb20">
                     <div class="row">
-                        <div class="manhphuc-grid manhphuc-level-02 col-md-12 pt005 pb005">
+                        <div class=" col-md-12 pt005 pb005">
                             <div class="text-center">
-                                <img src="images/Capture.PNG" alt="img-reponsive">
+                                <img src="<?php echo $url_path ?>/images/Capture.PNG" alt="img-reponsive">
                                 <h4 class="text-center fs24">SEASONAL INSPIRATION MENU</h4>
                                 <span class="vamtam-blank-space height-10"></span>
                                 <p class="vamtam-font-style-2 text-center">~Cook with passion, purpose and intensity or don’t cook at all.~</p>
 
                             </div>
                         </div>
-                        <div class="vamtam-blank-space  vamtam-hide-lowres height-40"></div>
+                        <div class="vamtam-blank-space"></div>
                     </div>
                 </div>
             </div>
@@ -33,11 +33,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="row">
 
                             <!-- Blog One -->
-                            <div class="pt005 pb005 col-md-4">
+                            <div class="pt005 pb005 col-md-4 col-sm-6 col-xs-12">
                                 <div class="foodpress_menu fp_single_item_box">
-                                    <div class="new_ft3_layout fp_box menuItem c_100 normal_item fp_popTrig style_ft3 bghighl">
+                                    <div class=" fp_box   fp_popTrig style_ft3 bghighl">
                                         <div class="new_ft_img3">
-                                            <img src="images/Seafood-1.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo $url_path ?>/images/Seafood-1.jpg" alt="" class="img-responsive">
                                             <span class="fp_price">$39</span>
                                         </div>
                                         <div class="menu_info ">
@@ -55,11 +55,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!-- End Blog One -->
 
                             <!-- Blog Two -->
-                            <div class="pt005 pb005 col-md-4">
+                            <div class="pt005 pb005 col-md-4 col-sm-6 col-xs-12">
                                 <div class="foodpress_menu fp_single_item_box">
-                                    <div class="new_ft3_layout fp_box menuItem c_100 normal_item fp_popTrig style_ft3 bghighl">
+                                    <div class=" fp_box    fp_popTrig style_ft3 bghighl">
                                         <div class="new_ft_img3">
-                                            <img src="images/Seafood-2.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo $url_path ?>/images/Seafood-2.jpg" alt="" class="img-responsive">
                                             <span class="fp_price">$6.90</span>
                                         </div>
                                         <div class="menu_info ">
@@ -77,11 +77,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!-- End Blog Two  -->
 
                             <!-- Blog Three -->
-                            <div class="pt005 pb005 col-md-4">
+                            <div class="pt005 pb005 col-md-4 col-sm-6 col-xs-12">
                                 <div class="foodpress_menu fp_single_item_box">
-                                    <div class="new_ft3_layout fp_box menuItem c_100 normal_item fp_popTrig style_ft3 bghighl">
+                                    <div class=" fp_box  fp_popTrig style_ft3 bghighl">
                                         <div class="new_ft_img3">
-                                            <img src="images/Seafood-3.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo $url_path ?>/images/Seafood-3.jpg" alt="" class="img-responsive">
                                             <span class="fp_price">$9.50</span>
                                         </div>
                                         <div class="menu_info ">
