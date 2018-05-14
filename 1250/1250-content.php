@@ -1,14 +1,10 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
-
 $url_path = $url_host . $matches[1][0];
-
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
@@ -16,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="m24-container">
 
             <div class="grid-1-1">
-                <div class="extended-column-inner">
+                <div>
                     <div class="sep"></div>
                 </div>
             </div>
@@ -36,27 +32,27 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
                         <ul class="logos">
-                            <div class="row">
+                            
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h1.jpg" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h1.jpg" alt="award">
                                 </li>
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h2.png" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h2.png" alt="award">
                                 </li>
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h.png" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h.png" alt="award">
                                 </li>
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h4.jpg" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h4.jpg" alt="award">
                                 </li>
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h5.gif" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h5.gif" alt="award">
                                 </li>
                                 <li class="col-md-2 col-sm-2 col-xs-4">
-                                    <img class="img-responsive" src="images/h6.png" alt="award">
+                                    <img class="img-responsive" src="<?php echo $url_path ?>/images/h6.png" alt="award">
                                 </li>
 
-                            </div>
+                            
                         </ul>
                     </div>
                 </div>

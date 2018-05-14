@@ -1,12 +1,7 @@
-// import google font
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Varela+Round');
-
-
 .type-7000 {
     background: #eee url('../images/slider-faq.jpg') no-repeat 50% 50%;
     background-size: cover;
     position: relative;
-
     &::before {
         content: "";
         display: block;
@@ -46,27 +41,23 @@
         transition: all 0.4s;
         font-size: 14px;
         border-radius: 4px;
-
         &:focus {
             border-color: #e80000;
         }
     }
-
     textarea {
         height: 200px;
         resize: none;
     }
-
     .form {
         width: 100%;
         max-width: 655px;
         min-height: 695px;
         background: #fff;
-        padding: 30px 55px;
+        padding: 30px 25px;
         border-radius: 20px;
         margin: 130px auto;
         position: relative;
-
         &::before, &::after {
             content: "";
             display: block;
@@ -76,7 +67,6 @@
             left: 50%;
             margin-left: -78px;
         }
-
         &::before {
             background: url('../images/ornament-top.svg');
             top: -25px;
@@ -85,21 +75,17 @@
             background: url('../images/ornament-bottom.svg');
             bottom: -25px;
         }
-
         .req-symbol {
             color: #e80000;
         }
-
         &-title {
             font: normal 40px/50px 'Libre Baskerville';
             color: #333;
             margin-top: 0.6em;
             margin-bottom: 0.6em;
         }
-
         .field {
             margin-bottom: 25px;
-            
             label {
                 display:flex;
                 text-transform: uppercase;
@@ -107,13 +93,11 @@
                 font-size: 11px;
                 margin-bottom: 10px;
                 color: #6b6b6b;
-                
-            }
 
+            }
             .error-mes {
                 display: none;
             }
-
             &.required {
                 label {
                     &::after {
@@ -124,12 +108,10 @@
                     }
                 }
             }
-
             &.error {
                 input {
                     border-color: #e80000;
                 }
-
                 .error-mes {
                     display: block;
                     margin-top: 20px;
@@ -137,12 +119,10 @@
                 }
             }
         }
-
         .inline-group {
             .field {
                 float: left;
-                width: 33.333%;
-                margin-bottom: 45px;
+                margin-bottom: 10px;
             }
         }
 
@@ -164,17 +144,15 @@
             }
         }
     }
-}
-@media (max-width: 486px) 
-{
-    .type-7000 .form-title {
-        font: bold 19px/50px 'Libre Baskerville';
-        
+    @media (max-width: 486px) 
+        {
+        .form-title {
+            font: 30px/50px 'Libre Baskerville';
+
+        }
+        .form {
+            padding: 20px 15px !important;
+        }
     }
 }
-@media (max-width: 320px)
-{
-    .type-7000 .form {
-        padding: 20px 10px !important;
-    }
-}
+

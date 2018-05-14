@@ -11,6 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="type-1236">
 <div class="container">
     <div class="m2">
         <div class="m2-container">
@@ -23,9 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="m2-grip-content-2 col-md-4">
-                        <div class="img-effect">
-                            <img src="images/coffee-img-1.png">
-                        </div>
+                        
                         <h3>Welcome</h3>
                         <p>“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
                     </div>
@@ -40,4 +39,5 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>    
+</div>
 </div>

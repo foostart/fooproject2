@@ -20,17 +20,20 @@ $less->compileFile('less/1249.less', 'css/1249.css');
         <meta charset="UTF-8">
         <title>1249</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/owl.theme.min.css" type="text/css">
-        <link href="<?php echo $url_path ?>/css/1249.css" rel="stylesheet" type="text/css"/>   
+        
+         <link href="<?php echo $url_path ?>/css/1249.css" rel="stylesheet" type="text/css"/>   
+        
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css" type="text/css">
+       
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-        <script  src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/1249.js"></script>
+         <script  src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+          <script src="<?php echo $url_path ?>/js/starrating.js"></script>
 
     </head>
     <body>
-        <?php include '../1249/1249-content.php'; ?>
+        <?php include '/1249-content.php'; ?>
     </body>
 </html>

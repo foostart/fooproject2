@@ -15,22 +15,20 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/1242.less', 'css/1242.css');
 ?>
-<html>
+<html lang="en">
     <head>
         <title>1242</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" type="text/css" rel="stylesheet"  >
+        <link href="<?php echo $url_path ?>/css/1242.css" rel="stylesheet" type="text/css"/>
+    
 
-        <link href="css/1242.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/font-awesome.min.css">
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/m1-slide-js.js"></script>
-        <script src="<?php echo $url_path ?>/js/modul1-navi-js.js"></script>
 
     </head> 
 
     <body> 
-        <?php include '../1242/1242-content.php'; ?>
+        <?php $dir_block.include '1242-content.php'; ?>
     </body>
 </html>

@@ -1,47 +1,47 @@
-a,
-a:hover {
+.type-1237 a,
+.type-1237 a:hover {
   text-decoration: none;
 }
-ul {
+.type-1237 ul {
   list-style: none;
   padding: 0;
 }
-.m3 .m3-container {
+.type-1237 .m3 .m3-container {
   margin: 0 auto;
 }
-.m3 .m3-container .m3-content {
+.type-1237 .m3 .m3-container .m3-content {
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 }
-.m3 .m3-container .m3-content .m3-content-left {
+.type-1237 .m3 .m3-container .m3-content .m3-content-left {
   transition: all 1s;
   background: url(../images/coffee-photo-1.jpg) left center / auto no-repeat scroll;
   padding-top: 100px;
   padding-bottom: 0.05px;
   min-height: 611px;
 }
-.m3 .m3-container .m3-content .m3-content-menu {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu {
   transition: all 1s;
   padding-top: 60px;
   text-align: center;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-icon {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-icon {
   font-family: theme;
   color: #cb7152;
   font-size: 60px;
   margin: 16px 0;
 }
-.m3 .m3-container .m3-content .m3-content-menu h3 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu h3 {
   color: #000;
   font: normal 40px/50px Libre Baskerville;
 }
-.m3 .m3-container .m3-content .m3-content-menu h5 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu h5 {
   color: #cb7152;
   font: normal 14px/22px Handlee;
   letter-spacing: 0.3em;
   margin-bottom: 10px;
 }
-.m3 .m3-container .m3-content .m3-content-menu h5:before,
-.m3 .m3-container .m3-content .m3-content-menu h5:after {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu h5:before,
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu h5:after {
   display: inline-block;
   width: auto;
   height: 15px;
@@ -49,13 +49,13 @@ ul {
   font-size: 1.1em;
   padding: 0px 5px;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food {
   padding: 0 10px;
   text-align: start;
   padding: 10px;
   cursor: pointer;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3 {
   font-weight: 400;
   font-family: Varela Round;
   padding-bottom: 12px;
@@ -67,7 +67,7 @@ ul {
   color: #000;
   line-height: 130%;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:before {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:before {
   display: block;
   line-height: 1em;
   font-size: 0.4em;
@@ -80,7 +80,7 @@ ul {
   bottom: 0px;
   position: absolute;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food .price {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food .price {
   font-family: Varela Round;
   background: transparent;
   position: absolute;
@@ -93,35 +93,35 @@ ul {
   padding: 0px;
   color: #cb7152;
 }
-.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food .m3-content-menu-food-description {
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food .m3-content-menu-food-description {
   font-style: normal;
   font-size: 12px;
   color: #6b6b6b;
   font-family: Varela Round;
   line-height: 140%;
 }
-.m3 .m3-container .m3-content .m3-content-event {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event {
   transition: all 1s;
   min-height: 610px;
   padding-top: 60px;
   text-align: center;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-icon {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-icon {
   color: #cb7152;
   font-size: 60px;
   font-family: theme;
 }
-.m3 .m3-container .m3-content .m3-content-event h3 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h3 {
   font: normal 40px/50px Libre Baskerville;
 }
-.m3 .m3-container .m3-content .m3-content-event h5 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h5 {
   color: #cb7152;
   font: normal 14px/22px Handlee;
   letter-spacing: 0.3em;
   margin-bottom: 10px;
 }
-.m3 .m3-container .m3-content .m3-content-event h5:before,
-.m3 .m3-container .m3-content .m3-content-event h5:after {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h5:before,
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h5:after {
   display: inline-block;
   width: auto;
   height: 15px;
@@ -129,25 +129,25 @@ ul {
   font-size: 1.1em;
   padding: 0px 5px;
 }
-.m3 .m3-container .m3-content .m3-content-event p {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event p {
   padding: 0 10px;
   font: normal 16px/24px Varela Round;
   margin: 1em 0;
 }
-.m3 .m3-container .m3-content .m3-content-event h4 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h4 {
   font: normal 24px/32px Libre Baskerville;
 }
-.m3 .m3-container .m3-content .m3-content-event h6 {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event h6 {
   font: normal 11px/12px Varela Round;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn {
   display: inline-block;
   margin-top: 50px;
   font: normal 16px/24px Varela Round;
   color: #2c2c2c;
   margin-bottom: 0;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a {
   position: relative;
   text-decoration: none;
   display: inline-block;
@@ -156,7 +156,7 @@ ul {
   overflow: hidden;
   transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:after {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -167,7 +167,7 @@ ul {
   left: 0;
   transition: all 0.3s ease-out !important;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span {
   padding: 10px 24px;
   display: inline-block;
   width: 100%;
@@ -175,7 +175,7 @@ ul {
   color: #000;
   font-size: 14px;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span:before {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span:before {
   color: #fff;
   position: absolute;
   content: "Book a table!";
@@ -186,7 +186,7 @@ ul {
   height: 100%;
   padding: 10px 24px;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:after {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -197,14 +197,14 @@ ul {
   left: 0;
   transition: all 0.3s;
 }
-.m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:hover .span-hover {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn a:hover .span-hover {
   transform: translateY(-100%);
   transition: all 0.3s;
 }
-.m3 .m3-container .m3-content .m3-content-event p:hover a:after {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event p:hover a:after {
   height: 100%;
 }
-.m3 .m3-container .m3-content .m3-content-event:before {
+.type-1237 .m3 .m3-container .m3-content .m3-content-event:before {
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -214,20 +214,20 @@ ul {
   content: "";
   background-color: #dfdfdf;
 }
-.m3 .m3-container .m3-content .m3-content-right {
+.type-1237 .m3 .m3-container .m3-content .m3-content-right {
   transition: all 1s;
   background: url(../images/coffee-photo-2.jpg) right center / auto no-repeat scroll;
   padding-top: 100px;
   padding-bottom: 0.05px;
   min-height: 610px;
 }
-.m3 .m3-container .m3-parallax {
+.type-1237 .m3 .m3-container .m3-parallax {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 200px;
 }
-.m3 .m3-container .m3-parallax .m3-background {
+.type-1237 .m3 .m3-container .m3-parallax .m3-background {
   width: 100%;
   height: 450px;
   position: absolute;
@@ -240,10 +240,18 @@ ul {
   z-index: -1;
 }
 @media (max-width: 767px) {
-  .m3-content-left,
-  .m3-content-right {
+  .type-1237 .m3-content-left,
+  .type-1237 .m3-content-right {
     background-position: center !important;
     background-size: 0;
+  }
+}
+@media (max-width: 992px) {
+  .type-1237 .m3-parent-content-left {
+    display: inline-block;
+  }
+  .type-1237 .m3-parent-content-right {
+    display: inline-block;
   }
 }
 @font-face {

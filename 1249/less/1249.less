@@ -10,34 +10,38 @@ body {
 
 
 .type-1249 {
+    .swiper-button-next, .swiper-button-prev  {
+    top: 25%!important;
+        background-size: 15px 44px !important;
+}
+      h4.quote-summary {
+    margin: 0.6em 50px;
+    text-align: center;
+}
     font: normal 16px/24px Varela Round;
 
-    .content {
+
 
         margin: 0 50px;
 
         .quote-text {
             cursor: pointer;
+          
             overflow: hidden;
             text-align: center;
             .icon-star-half:before {
                 content: "\e9d8";
             }
-
-            .quote-summary {
-                margin-top: 0;
-                margin-bottom: 0.6em;
-                color: #000000;
-                font: normal 25px Libre Baskerville;
-                vertical-align: baseline;
-            }
+        
+         
+          
 
             .quote-title-wrapper {
                 margin: 0;
             }
             .the-title {
                 font-family: inherit;
-                font-size: 10px;
+                font-size: 15px;
                 color: #6b6b6b;
                 font-weight: 600;
             }
@@ -59,9 +63,11 @@ body {
             }
 
         }
+  
 
-
-        .owl-carousel {
+/*       
+// đây là nút ở dưới để clic;
+.owl-carousel {
             .owl-page {
                 width: 13px;
                 height: 13px;
@@ -87,26 +93,52 @@ body {
                 margin-bottom: 20px !important;
 
             }
-        }
+        }*/
 
 
         @font-face {
             font-family: 'icomoon';
-            src: url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.ttf?sphd9') format('truetype'),
-            url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.woff?sphd9') format('woff'),
-            url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.svg?sphd9#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
         }
     }
+    .rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:1.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
 }
 
 @media screen and (max-width: 480px) {
-    .type-1249 .content .quote-text .quote-summary {
+    .type-1249  .quote-text .quote-summary {
         margin-top: 0;
         margin-bottom: 0.6em;
         color: #000000;
-        font: normal 20px Libre Baskerville;
+        font: inherit 20px Libre Baskerville;
         vertical-align: baseline;
     }
+   
+
 }
+ 

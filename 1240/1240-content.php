@@ -1,18 +1,14 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-
-$url_path = $url_host . $matches[1][0];
-
-$url_path = str_replace('\\', '/', $url_path);
+$url_host = 'http://'.$_SERVER['HTTP_HOST'];
+        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+        $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+        
+        preg_match_all($pattern_uri, __DIR__, $matches);
+        $url_path = $url_host . $matches[1][0];
+        $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="Module-6">
+<div class="type-1240">
     <div class="container">
         <div class="row ">
             <div class="col-md-4">
@@ -25,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4">
 
                 <div class="M6-grid-1-2">
-                    <img src="images/icon-coffe.PNG">
+                    <img src="<?php echo $url_path ?>/images/icon-coffe.PNG" alt="anh1">
                     <h2>Buddha:<br> How to drink tea?</h2>
                     <p> The types of tea are white tea, green tea, yellow tea, oolong tea, black tea, and pu-erh tea. “When you have the title ‘white tea’ or ‘green tea’, you’re actually describing the process by which it has been made,” Woollard says. </p>
                 </div>
@@ -33,11 +29,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4">
                 <div class="M7">
                     <div class='row'>
-                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                            <!-- Bottom Carousel Indicators -->
-                            <!-- Carousel Slides / Quotes -->
-                            <div class="carousel-inner">        
-                                <!-- Quote 1 -->
+                       
+                           
                                 <div class="item active">
                                    
                                         <div class="row"> 
@@ -45,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <div class="swiper-wrapper">
                                                     
                                                     <div class="swiper-slide">
-                                                        <img src="images/anh6.jpg" alt="anh6">
+                                                        <img src="<?php echo $url_path ?>/images/anh6.jpg" alt="anh6">
                                                         <div class="addtocart">
                                                             <a href="#">Add to Cart</a>
                                                         </div>
@@ -64,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                                     </div>
                                                      <div class="swiper-slide">
-                                                        <img src="images/anh6.jpg" alt="anh6">
+                                                        <img src="<?php echo $url_path ?>/images/anh6.jpg" alt="anh6">
                                                         <div class="addtocart">
                                                             <a href="#">Add to Cart</a>
                                                         </div>
@@ -75,7 +68,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                 <a href="#">CAPPUCCINO</a>
                                                                 <a href="#">COFFEE</a>
                                                                 <br>
-                                                                <a href="#"class="name-slide">Mix of Croissants Breakfast</a>
+                                                                <a href="#" class="name-slide">Mix of Croissants Breakfast</a>
                                                                 <br>
                                                                 <span class="price">£5.00</span>
                                                             </span>
@@ -83,7 +76,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <img src="images/anh6.jpg" alt="anh6">
+                                                        <img src="<?php echo $url_path ?>/images/anh6.jpg" alt="anh6">
                                                         <div class="addtocart">
                                                             <a href="#">Add to Cart</a>
                                                         </div>
@@ -103,7 +96,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
 
                                                 </div>
-                                                <!-- Add Arrows -->
+                                               
                                                 <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
                                                 <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
                                             </div>
@@ -112,10 +105,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     
                                 </div>  
-                            </div>
-                        </div>   
+                            
+                           
 
-                    </div>
+                   
 
                 </div>
             </div>
@@ -131,3 +124,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+</div>

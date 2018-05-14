@@ -15,17 +15,15 @@ $less = new lessc;
 $less->compileFile('less/1266.less', 'css/1266.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <title>1266</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <link href="<?php echo $url_path ?>/css/1266.css" rel="stylesheet" type="text/css"/>
     </head> 
     <body> 
-        <?php include '../1266/1266-content.php'; ?>
+        <?php include $dir_block.'/1266-content.php'; ?>
     </body>
 </html>

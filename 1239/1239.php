@@ -16,19 +16,15 @@
     $less->compileFile('less/1239.less', 'css/1239.css');
     
 ?>
-<html>
+<html lang="en">
     <head>
-        <title>Modun 1239</title>
+        <title>Module 1239</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1239.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="<?php echo $url_path ?>/js/jquery.js"></script>
-       
-
+     
     </head> 
-
     <body> 
         <?php include '../1239/1239-content.php'; ?>
     </body>

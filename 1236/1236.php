@@ -16,7 +16,7 @@
     $less->compileFile('less/1236.less', 'css/1236.css');
     
 ?>
-<html>
+<html lang="zxx">
     <head>
         <title>Modun 1236</title>
         <meta charset="UTF-8">
@@ -27,6 +27,6 @@
         <script src="<?php echo $url_path ?>/js/modul-2-js.js"></script>
     </head> 
     <body> 
-        <?php include '../1236/1236-content.php'; ?>
+        <?php include $dir_block.'/1236-content.php'; ?>
     </body>
 </html>

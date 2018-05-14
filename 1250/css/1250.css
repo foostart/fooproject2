@@ -1,3 +1,14 @@
+.type-1250 img {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  margin: 0 10px 5px 0;
+}
+.type-1250 img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
 .type-1250 .m24-container .grid-1-1 {
   width: 100%;
   padding: 0;

@@ -15,7 +15,7 @@ $less = new lessc;
 $less->compileFile('less/1238.less', 'css/1238.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <title>1238</title>
@@ -23,9 +23,7 @@ $less->compileFile('less/1238.less', 'css/1238.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1238.css" rel="stylesheet" type="text/css"/>
-       
     </head> 
-
     <body> 
         <?php include '../1238/1238-content.php'; ?>
     </body>

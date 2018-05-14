@@ -14,8 +14,9 @@
         margin-top: 8px;
         font-weight: 400;
         line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+        transition: margin-left 2s, background-color 1s;
+        -moz-transition: margin-left 2s, background-color 1s;
+        -webkit-transition: margin-left 2s, background-color 1s;
     }
     .glyphicon-chevron-up:before {
         padding-left: 12px;
@@ -53,6 +54,7 @@
         position: fixed !important;
         z-index: 900000 !important;
         top: 170px;
+
         * {
             font: 11px/12px Arial, sans-serif;
         }
@@ -63,6 +65,7 @@
             text-indent: 0;
             text-align: center;
             line-height: 1 !important;
+
         }
         section {
             &:first-child {
@@ -156,8 +159,6 @@
     display: block;
     float: left;
     margin: 5px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
 }
 .type-1248{
@@ -173,6 +174,7 @@
             border-radius: 0 1px 1px 0;
             margin-left: 0;
             margin-right: 2px;
+
             &:after {
                 border-right-color: @border_right_color_1 !important;
             }
@@ -189,6 +191,7 @@
                 padding-left: 6px !important;
                 margin-right: 0 !important;
                 opacity: 1;
+
             }
         }
 

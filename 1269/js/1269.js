@@ -1,39 +1,30 @@
 
 $(document).ready(function () {
-	$(".single-item").slick({
-		dots: true
-	});
-	   $('.row.full').slick({
-                dots:true,
-                autoplaySpeed: 1000,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: false,
-                prevArrow:'<button type="button" class="slick-prev"></button>',
-                nextArrow:'<button type="button" class="slick-next"></button>',
-                responsive: [
-                {
-                  breakpoint: 1200,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                  }
+    var swiper = new Swiper('.swiper-container', {
+                loop: true,
+                slidesPerView: 4,
+                slidesPerGroup: 1,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
-                {
-                  breakpoint: 767,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                  }
-                },
-                {
-                  breakpoint: 469,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
+                breakpoints: {
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                    960: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    480: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
                 }
-            ]
+            });
+});
 
-});
-});
+
+

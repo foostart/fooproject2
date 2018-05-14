@@ -18,7 +18,7 @@ $less->compileFile('less/1257.less', 'css/1257.css');
 <html lang="en">
     <head>
         <meta charset="UTF-8">  
-        <title>1257</title>
+        <title>module 1257</title>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
         <link href="<?php echo $url_path ?>/css/1257.css" rel="stylesheet" type="text/css"/>
