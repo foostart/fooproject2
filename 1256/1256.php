@@ -14,7 +14,7 @@ $less = new lessc;
 $less->compileFile('less/1256.less', 'css/1256.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <title>Module 1256</title>
