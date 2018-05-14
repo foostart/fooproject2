@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $("#slider").owlCarousel({
+        items:1,
+        center:true,
+       	autoWidth:true,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+    });
+});

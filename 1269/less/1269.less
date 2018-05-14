@@ -1,0 +1,101 @@
+.type-1269{
+    background: #f5f5f5;
+    padding-bottom: 30px;
+    font-family: 'Varela Round';
+    img.attachment-full.size-full.img-responsive {
+        width: 100%;
+    }
+    .title {
+
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        color: #000;
+        h4{
+            font-size: 23px;
+        }
+    }/*title*/
+
+    .full{
+        padding-top: 30px;
+        cursor: -webkit-grab;
+        cursor: -o-grab;
+        cursor: -ms-grab;
+    }
+    .fb_khung {
+        border-radius: 6px;
+        background: #fff;
+        -webkit-transition: -webkit-transform .35s;
+        transition: transform .35s;
+        .post-media{
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            overflow: hidden;
+            .fb_thumbnail img {
+                transition: transform 0.5s;
+                transform: scale(1.10);
+            }/*content img*/
+
+        }	
+        .fb_content {
+            h4{
+                font-size: 22px;
+                padding: 0 25px;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                line-height: 1.4em;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+
+            .post-actions{
+                border-top: solid 1px #EDEDED;
+                padding: 10px 30px;
+                text-transform: uppercase;
+
+                font-size: 12px;
+
+                .icon-pen{
+                    display:none;
+                }
+
+                .meta-author{
+                    display: inline;
+                }
+
+                .meta-author::after{
+                    content: "\00B7";
+                    font-size: 16px;
+                    color: #cb7152;
+                }
+
+                .comment-count{
+                    display: inline;
+                }
+            }
+        }
+
+        .fb_content a:hover{
+            color: #cb7152;	
+            text-decoration: none;
+        }
+    }	
+
+    .fb_khung:hover {
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.7);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.7);
+        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.7);
+        .fb_thumbnail img{
+            opacity: 1;
+            transform: scale(1);
+        }	
+
+        .fb_slider img{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+
+

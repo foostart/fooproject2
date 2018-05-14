@@ -1,0 +1,128 @@
+@fonth4: 24px;
+@fonth3: 40px;
+.m2{
+    word-break: break-word;
+    padding: 51px 0;
+    background: white;
+    .m2-container{
+        margin: 0 auto;
+        .m2-grip{
+            transition: all 1s;
+            position: relative;
+            padding: 0px 0px 40px 0px;
+            background: url(../images/coffee-img-4-1.jpg);
+            background-position: 44% 73%;
+            background-repeat: no-repeat;
+            .m2-grip-content{
+                background-color: transparent;
+                display: block;
+                z-index: 10;
+                position: relative;
+                padding-bottom: 60px;
+                p{
+                    font: normal 16px/24px Varela Round;
+                     font-size: 14px;
+                }
+                .m2-grip-content-1{
+                    margin-top: 9%;
+                    background: url(../images/coffee-img-2.jpg) no-repeat center top;
+                    background-size: calc;
+                    background-attachment: scroll;
+                    
+                    .m2-grip-content-1-left{
+                        animation: element-from-left 0.7s 1 ease-out;
+                        padding-left: 0;
+                        padding-top: 230px;
+                        padding-right: 0;
+                        h4{
+                            font-size: @fonth4;
+                            font: normal 24px/32px Libre Baskerville;
+                            margin-top: 0.6em;
+                            margin-bottom: 0.6em;
+                        }
+                       
+                    }
+
+                }
+                .m2-grip-content-2{
+                    position: relative;
+                    text-align: center;
+                    
+                    .img-effect {
+                        position: absolute;
+                        top: -198px;
+                    }
+                    img{
+                        max-width: 100%;
+                    }
+                   p{
+                        text-align: center;
+                        margin: 16px 0;
+                        font-size: 14px;
+                    }
+                    h3{
+                        margin: 24px 0;
+                        font-size: @fonth3;
+                        font: normal 40px/50px Libre Baskerville;
+                    }
+
+                }
+                .m2-grip-content-3{
+                    background: url(../images/coffee-img-3.jpg) no-repeat center top;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    
+    .m2{
+        .m2-grip-content{
+            .m2-grip-content-1{
+                background: transparent !important;
+                padding-top: 20px !important;
+                margin-top: 0px !important;
+                background: none !important;
+
+                .m2-grip-content-1-left{
+                    padding-top: 0 !important;
+
+                }
+                h4 {
+                   
+                }
+            }
+            .m2-grip-content-2{
+                margin-top: 0 !important;
+                
+                .img-effect {
+                    position: static !important;
+                }
+            }
+        }
+        
+    }
+}
+
+@font-face{
+    font-family: Kaushan Script;
+    src: url(../fonts/Kaushan-Script.woff2);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Libre Baskerville;
+    src: url(../fonts/Libre-Baskerville.woff2);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Varela Round;
+    src: url(../fonts/Varela-Round.woff2);
+    font-weight: bold;
+}
+@font-face{
+    font-family: theme;
+    src: url(../fonts/theme-icons.ttf);
+    font-weight: bold;
+}

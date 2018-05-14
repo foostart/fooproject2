@@ -1,0 +1,355 @@
+/* font-color */
+@color-white: #000;
+@color-pink: #cb7152;
+@color-gray: #6b6b6b;
+
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.type-1261{
+    .m3{
+        .m3-container{
+            margin: 0 auto;
+            max-width: 93%;
+            .m3-content{
+                box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+                .m3-content-left{
+                    transition: all 1s;
+                    background: url(../img/section-title-bg-6-left.jpg) left center / auto no-repeat scroll;
+                    background-attachment: fixed;
+                    padding-top: 100px;
+                    padding-bottom: 0.05px;
+                    min-height: 650px;
+                }
+
+                .m3-content-menu{
+                    transition: all 1s; 
+                    .content-menu{
+                        text-align: center;
+                        .m3-content-menu-icon{
+                            font-family: theme;
+                            color: @color-pink;
+                            font-size: 60px;                   
+                            margin: 16px 0;
+                        }
+                        h3{
+                            color: @color-white;
+                            font: normal 40px/50px Libre Baskerville;
+                        }
+                        h5{
+                            color: @color-pink;
+                            font: normal 14px/22px Handlee;
+                            letter-spacing: 0.3em;
+                            margin-bottom: 10px;
+                        }
+                        h5:before, h5:after {
+                            display: inline-block;
+                            width: auto;
+                            height: 15px;
+                            content: "~";
+                            font-size: 1.1em;
+                            padding: 0px 5px;
+                        }
+                    }
+
+                    .tab-content{
+                        .menu{
+                            text-align: center;
+                        }
+                        .nav-tabs{
+                            border-bottom:0;
+                            overflow: hidden;
+                            display: inline-block;
+                            li > a{
+                                align-items: center;
+                                border: 0;
+                                padding: 10px 20px;
+                                color: #000;
+                                border-bottom: 3px solid white;
+                            }
+                            li a:hover{
+                                color: #cb7152;
+                                border-bottom: 3px solid #cb7152;
+                                background: none;
+                            }
+                            .active-tab {
+                                border-bottom: 3px solid #cb7152;
+                                color: #cb7152 !important;
+                            }
+                        }
+                        .title-text{
+                            font-size: 100%;
+                            font: normal 22px/32px Libre Baskerville;
+                            vertical-align: baseline;
+                        }
+                        .price {
+                            font-family: Varela Round;
+                            background: transparent;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            border-radius: 25px;
+                            padding: 0px;
+                            color: @color-pink;
+                        }
+                        .text-menu{
+                            margin-left: 10px;
+                        }
+                        .menu-text:hover{
+                            color: #cb7152;
+                        }
+                        .m3-content-menu-food-description{
+                            font-style: normal;
+                            font-size: 12px;
+                            color: @color-gray;
+                            font-family: Varela Round;
+                            line-height: 140%;
+                        }
+                        h3{
+                            cursor: pointer;
+                            font-weight: 400;
+                            font-family: Varela Round;
+                            padding-bottom: 12px;
+                            padding-right: 80px;
+                            position: relative;
+                            margin-bottom: 2px;
+                            transition: all .3s;
+                            font-size: 16px;
+                            color: @color-white;
+                            line-height: 130%;
+                            transition: 0.3s;
+                            color: #6b6b6b;
+                        }
+                        h3:hover{
+                            color: #cb7152;
+                            transition: 0.3s;
+                        }
+                        h3:before{
+                            display: block;
+                            line-height: 1em;
+                            font-size: 0.4em;
+                            letter-spacing: 4px;
+                            color: @color-gray;
+                            content: "...................................................................................................................................................................................................................................................";
+                            width: 100%;
+                            overflow: hidden;
+                            height: 10px;
+                            bottom: 0px;
+                            position: absolute;
+                        }
+
+                    }
+
+                    .m3-content-menu-food{
+                        padding: 0 10px;
+                        text-align: start;
+                        padding: 10px;
+                        cursor: pointer;
+
+
+                    }
+
+                    p{
+                        color: #6b6b6b;
+                    }
+
+
+
+
+                }
+
+                .m3-content-event{             
+                    transition: all 1s;
+                    min-height: 610px;
+                    padding-top: 60px;
+                    text-align: center;
+                    text-align: center;
+
+                    .m3-content-event-icon{
+                        color: @color-pink;
+                        font-size: 60px;
+                        font-family: theme;            
+                    }
+                    h3{
+                        font: normal 40px/50px Libre Baskerville;
+                    }
+                    h5{
+                        color: @color-pink;
+                        font: normal 14px/22px Handlee;
+                        letter-spacing: 0.3em;
+                        margin-bottom: 10px;
+                    }
+                    h5:before, h5:after {
+                        display: inline-block;
+                        width: auto;
+                        height: 15px;
+                        content: "~";
+                        font-size: 1.1em;
+                        padding: 0px 5px;
+                    }
+                    p{
+                        padding: 0 10px;
+                        font: normal 16px/24px Varela Round;
+                        margin: 1em 0;
+                    }
+                    h4{
+                        font: normal 24px/32px Libre Baskerville;
+                    }
+                    h6{
+                        font: normal 11px/12px Varela Round;
+                    }
+                    .m3-content-event-btn{
+                        display: inline-block;
+                        margin-top: 50px;
+                        font: normal 16px/24px Varela Round;
+                        color: #2c2c2c;
+                        margin-bottom: 0;
+                        a{
+                            position: relative;
+                            text-decoration: none;
+                            display: inline-block;
+                            border-radius: 10em;
+                            border: 1px solid @color-pink;
+                            overflow: hidden;
+                            transition: color .3s ease-out,border .3s ease-out,background .3s ease-out!important;
+                        }
+                        a:after{
+                            background: @color-pink;
+                            content: '';
+                            position: absolute;
+                            z-index: -1;
+                            width: 100%;
+                            height: 0;
+                            bottom: 0;
+                            left: 0;
+                            transition: all 0.3s ease-out!important;
+                        }
+
+                        span{
+                            padding: 10px 24px;
+                            display: inline-block;
+                            width: 100%;
+                            position: relative;
+                            color: @color-white;
+                            font-size: 14px;
+
+                        }
+                        span:before{
+                            color: #fff;
+                            position: absolute;
+                            content: "Book a table!";
+                            transform: translateY(0);
+                            top: 100%;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            padding: 10px 24px;
+                        }
+
+                        a:after{
+                            background: @color-pink;
+                            content: '';
+                            position: absolute;
+                            z-index: -1;
+                            width: 100%;
+                            height: 0;
+                            bottom: 0;
+                            left: 0;
+                            transition: all 0.3s;
+                        }
+                        a:hover{
+                            .span-hover{        
+                                transform: translateY(-100%);
+                                transition: all 0.3s;
+                            }
+                        }
+
+                    }
+                    p:hover{
+                        a:after{
+                            height: 100%;                            
+                        }
+                    }
+                }
+                .m3-content-event:before{
+                    position: absolute;
+                    top: 0%;
+                    bottom: 0%;
+                    left: 0;
+                    width: 1px;
+                    height: 100%;
+                    content: "";
+                    background-color: #dfdfdf;
+                }
+
+                .m3-content-right{
+                    transition: all 1s;
+                    background: url(../img/section-title-bg-6-right.jpg) right center / auto no-repeat scroll;
+                    background-attachment: fixed;
+                    padding-top: 100px;
+                    padding-bottom: 0.05px;
+                    min-height: 650px;
+                }
+            }
+            .m3-parallax{
+                height: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 486px){
+
+    .type-1261  .nav-tabs{
+        display: inline-grid !important;
+    }
+    .type-1261 .title-text {
+        font: normal 15px/32px Libre Baskerville !important;
+    }
+}
+@media (max-width: 640px){
+
+    .type-1261 .title-text {
+        font: normal 15px/32px Libre Baskerville !important;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .m3-content-left, .m3-content-right {
+        min-height: 300px !important;
+    }
+}
+@font-face{
+    font-family: Handlee;
+    src: url(../fonts/Handlee.woff2);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Kaushan Script;
+    src: url(../fonts/Kaushan-Script.woff2);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Libre Baskerville;
+    src: url(../fonts/Libre-Baskerville.woff2);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Varela Round;
+    src: url(../fonts/Varela-Round.woff2);
+    font-weight: bold;
+}
+@font-face{
+    font-family: theme;
+    src: url(../fonts/theme-icons.ttf);
+    font-weight: bold;
+}

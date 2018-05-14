@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Varela+Round');
+.type-7000 {
+  background: #eee url('../images/slider-faq.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.type-7000::before {
+  content: "";
+  display: block;
+  width: 156px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -78px;
+  background: url('../images/ornament-bottom.svg');
+  background-size: cover;
+}
+.type-7000 .nf-after-field .nf-error-msg {
+  margin-right: 10px;
+}
+.type-7000 .hide {
+  display: none;
+}
+.type-7000 .nf-error-msg,
+.type-7000 .ninja-forms-req-symbol {
+  color: #e80000;
+}
+.type-7000 input[type="text"],
+.type-7000 input[type="email"],
+.type-7000 input[type="tel"],
+.type-7000 textarea {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+  border: none;
+  outline: none;
+  border: solid 1px rgba(0,0,0,0.15);
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.type-7000 input[type="text"]:focus,
+.type-7000 input[type="email"]:focus,
+.type-7000 input[type="tel"]:focus,
+.type-7000 textarea:focus {
+  border-color: #e80000;
+}
+.type-7000 textarea {
+  height: 200px;
+  resize: none;
+}
+.type-7000 .form {
+  width: 100%;
+  max-width: 655px;
+  min-height: 695px;
+  background: #fff;
+  padding: 30px 55px;
+  border-radius: 20px;
+  margin: 130px auto;
+  position: relative;
+}
+.type-7000 .form::before,
+.type-7000 .form::after {
+  content: "";
+  display: block;
+  width: 156px;
+  height: 26px;
+  position: absolute;
+  left: 50%;
+  margin-left: -78px;
+}
+.type-7000 .form::before {
+  background: url('../images/ornament-top.svg');
+  top: -25px;
+}
+.type-7000 .form::after {
+  background: url('../images/ornament-bottom.svg');
+  bottom: -25px;
+}
+.type-7000 .form .req-symbol {
+  color: #e80000;
+}
+.type-7000 .form-title {
+  font: normal 40px/50px 'Libre Baskerville';
+  color: #333;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+.type-7000 .form .field {
+  margin-bottom: 25px;
+}
+.type-7000 .form .field label {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: normal !important;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #6b6b6b;
+}
+.type-7000 .form .field .error-mes {
+  display: none;
+}
+.type-7000 .form .field.required label::after {
+  content: "*";
+  color: #e80000;
+  display: inline-block;
+  margin-left: 5px;
+}
+.type-7000 .form .field.error input {
+  border-color: #e80000;
+}
+.type-7000 .form .field.error .error-mes {
+  display: block;
+  margin-top: 20px;
+  color: #e80000;
+}
+.type-7000 .form .inline-group .field {
+  float: left;
+  width: 33.333%;
+  margin-bottom: 45px;
+}
+.type-7000 .form .btn-form {
+  display: inline-block;
+  border-radius: 10em;
+  font-size: 13px;
+  padding: 1em 1em;
+  transition: all .3s ease-out;
+  background: #fff;
+  border: solid 1px #cb7152;
+  color: #000000;
+  text-align: center;
+  width: 92px;
+}
+.type-7000 .form .btn-form:hover {
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+@media (max-width: 486px) {
+  .type-7000 .form-title {
+    font: bold 19px/50px 'Libre Baskerville';
+  }
+}
+@media (max-width: 320px) {
+  .type-7000 .form {
+    padding: 20px 10px !important;
+  }
+}

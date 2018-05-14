@@ -1,0 +1,187 @@
+.type-1262 {
+  background: #F6F6F6;
+  padding: 50px 0;
+}
+.type-1262 .img-top,
+.type-1262 .img-bottom {
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+}
+.type-1262 .img-top {
+  bottom: 100%;
+}
+.type-1262 .img-bottom {
+  transform: rotate(180deg);
+  top: 100%;
+}
+.type-1262 .SoftDrinks {
+  background-color: #ffffff;
+  padding: 30px 55px 40px;
+  min-height: 680px;
+  border-radius: 20px;
+  z-index: 10;
+  position: relative;
+}
+.type-1262 .SoftDrinks .sep-text {
+  position: relative;
+  margin: 30px 0;
+  text-align: center;
+}
+.type-1262 .SoftDrinks .sep-text .centered .sep-text-before {
+  width: 50%;
+  font-size: 10px;
+}
+.type-1262 .SoftDrinks .sep-text .centered .sep-text-after {
+  text-align: left;
+  width: 50%;
+  font-size: 10px;
+}
+.type-1262 .SoftDrinks .sep-text .sep-text-before {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: right;
+}
+.type-1262 .SoftDrinks .sep-text .content {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.type-1262 .SoftDrinks .sep-text .content h3 {
+  margin: 0;
+  font-size: 23px;
+  font: normal 40px/50px Libre Baskerville;
+}
+.type-1262 .SoftDrinks .sep-text .sep-text-line {
+  display: inline-block;
+  width: 30%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #ededed;
+  vertical-align: baseline;
+}
+.type-1262 .SoftDrinks .sep-text .centered .sep-text-after {
+  width: 50%;
+  font-size: 10px;
+  text-align: left;
+}
+.type-1262 .SoftDrinks .sep-text .sep-text-after {
+  text-align: left;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.type-1262 .SoftDrinks .sep-text .text-drink {
+  color: #cb7152;
+  font-family: handlee;
+  font-size: 1em;
+  letter-spacing: .3em;
+}
+.type-1262 .SoftDrinks .sep-text .text-drink:before {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0 5px;
+}
+.type-1262 .SoftDrinks .sep-text .text-drink:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0 5px;
+}
+.type-1262 .SoftDrinks .img-drinks img {
+  width: 100%;
+}
+.type-1262 .SoftDrinks .menu-coffe h3 {
+  font-size: 16px;
+  padding-bottom: 12px;
+  position: relative;
+  font-family: Varela Round;
+  margin-bottom: 2px;
+  transition: all .3s;
+}
+.type-1262 .SoftDrinks .menu-coffe h3:before {
+  display: block;
+  line-height: 1em;
+  font-size: .4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  content: "...................................................................................................................................................................................................................................................";
+  width: 100%;
+  overflow: hidden;
+  height: 10px;
+  bottom: 0;
+  position: absolute;
+}
+.type-1262 .SoftDrinks .menu-coffe .fp_price {
+  background: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 0;
+  color: #cb7152;
+}
+.type-1262 .SoftDrinks .menu-coffe .menu_description {
+  color: #6b6b6b;
+}
+.type-1262 .SoftDrinks .menu-coffe:hover h3 {
+  color: #cb7152;
+}
+.type-1262 .contact {
+  background: #32363D !important;
+  background-color: #ffffff;
+  padding: 2px 12px;
+  min-height: 680px;
+  border-radius: 20px;
+  text-align: center;
+}
+.type-1262 .contact .time-contact {
+  padding: 5px 0;
+  position: relative;
+}
+.type-1262 .contact .time-contact h1 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.type-1262 .contact .time-contact p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.type-1262 .contact a {
+  text-decoration: none !important;
+}
+.type-1262 .contact a .reservation {
+  background: #cb7152;
+  color: white;
+  padding: 9px 13px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.type-1262 .contact .txt-contact {
+  text-align: center;
+  position: relative;
+  padding: 20px 0 29px 0;
+}
+.type-1262 .contact .txt-contact h3 {
+  font: normal 40px/50px Libre Baskerville;
+  color: #cb7152;
+}
+.type-1262 .contact .txt-contact p {
+  color: #cb7152;
+  font: normal 16px/24px Varela Round;
+}
+.type-1262 .contact .txt-contact h4 {
+  color: #fff;
+  font: normal 22px/32px Libre Baskerville;
+}

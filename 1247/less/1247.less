@@ -1,0 +1,96 @@
+@fontsize-big: 24px;
+@fontsize-small: 16px;
+@color: #cb7152;
+.type-1247 {
+    position: relative;
+    .cone {
+        display: block;
+        background: #fff;
+        height: 26px;
+        content: " ";
+        -webkit-mask-image: url(../images/ornament-top.svg);
+        mask: url(../images/ornament-top.svg);
+        width: 156px;
+        position: absolute;
+        left: 50%;
+    }
+    .cone-midle {
+        margin-top: -25px;
+        margin-left: -78px;
+        z-index: 10;
+        bottom: 0;
+    }
+
+    .cone-bottom {
+        margin-left: -78px;
+        transform: rotate(180deg);
+        z-index: 10;
+    }
+
+    .cone-top {
+        margin-left: -78px;
+        z-index: 10;
+        top: -26px;
+    }
+
+
+    .vamtam-grid-top {
+        position: relative;
+        background-color: #F5F3F0;
+        padding: 60px 225px 70px 225px;
+        .grid-dot p {
+            text-align: center;
+            font-size: fontsize-small;
+            line-height: 24px;
+        }
+        .grid-text {
+            padding: 9px 0;
+            p {
+                text-align: center;
+                font-size: @fontsize-big;
+                line-height: 32px;
+                font-family: "Libre Baskerville";
+            }
+        }
+
+    }
+
+    .vamtam-grid-bottom {
+        background-color: #ffffff;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .limit-wrapper {
+            .color-accent-1 {
+                margin-top: 0.6em;
+                margin-bottom: 0.6em;
+                text-align: center;
+                color: @color;
+                font-size: @fontsize-big;
+                line-height: 32px;
+                font-family: "Libre Baskerville";
+            }
+            p {
+                text-align: center;
+                color: #333;
+                margin: 1em 0;
+                font-style: normal;
+                font-size: fontsize-small;
+                line-height: 24px;
+                font-family: "Varela Round";
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .vamtam-grid-top {
+        background-color: #F5F3F0;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .type-1247 .vamtam-grid-top .grid-text p {
+        font-size: 15px;
+    }
+}

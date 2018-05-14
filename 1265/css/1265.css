@@ -1,0 +1,59 @@
+.type-1265 {
+  font-family: Varela Round;
+  margin: 15px 0px;
+}
+.type-1265 .content {
+  padding: 15px;
+}
+.type-1265 .content .title {
+  width: 80%;
+  float: left;
+  color: #000;
+  font-size: 16px;
+}
+.type-1265 .content .content1 {
+  padding-bottom: 8px;
+}
+.type-1265 .content .content2 {
+  font-size: 12px;
+  color: #6b6b6b;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.type-1265 .content .price {
+  float: right;
+  font-size: 16px;
+}
+.type-1265 .content .content1 a {
+  color: #cb7052;
+}
+.type-1265 .content .title:hover {
+  color: #cb7052;
+}
+.type-1265 .content h2 {
+  color: #cb7052;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.type-1265 .content .content3 {
+  font-size: 0.4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  width: 100%;
+  overflow: hidden;
+}
+.type-1265 .content .content2 a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+.type-1265 .content .main {
+  margin-top: 30px;
+}
+.type-1265 .content .hinh1 {
+  text-align: center;
+  background: #66ff33;
+}
+.type-1265 .content .hinh2 {
+  text-align: center;
+  background: #66ff33;
+}

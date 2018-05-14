@@ -1,0 +1,201 @@
+a,
+a:hover {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.type-1271 .content {
+  padding: 50px 20px 40px 20px;
+  text-align: center;
+  position: relative;
+  font: normal 74px/82px Libre Baskerville;
+  font-size: 54px;
+  line-height: 1.4em;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  color: #000000;
+}
+.type-1271 .content .line span {
+  display: block;
+  background: #CB7152;
+  border-radius: 30px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 120px;
+}
+.type-1271 a {
+  color: #000000;
+  transition: color .3s;
+}
+.type-1271 a:hover {
+  color: #CB7152;
+  text-decoration: none;
+}
+.type-1271 a:hover span {
+  color: #CB7152;
+}
+.type-1271 .des1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.type-1271 .des1 .title-des h3 {
+  margin: 0;
+}
+.type-1271 .des1 .hour {
+  width: 10%;
+  vertical-align: top;
+  text-align: center;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.type-1271 .des1 .hour .vamtam-meta-author,
+.type-1271 .des1 .hour .vamtam-meta-comments {
+  border-top: 1px solid #EDEDED;
+  padding: 10px 0px 0px 0px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1em;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.type-1271 .des1 .hour .post-date .top-part {
+  font: normal 56px/68px Libre Baskerville;
+  line-height: 1;
+  font-size: 36px;
+}
+.type-1271 .des1 .hour .post-date .top-part,
+.type-1271 .des1 .hour .post-date .bottom-part {
+  display: block;
+  text-align: center;
+  width: 100%;
+  transition: color .3s ease;
+}
+.type-1271 .des1 .hour .vamtam-meta-author a,
+.type-1271 .des1 .hour .vamtam-meta-comments a {
+  font-size: 10px;
+  line-height: 1em;
+  transition: color .3s ease !important;
+}
+.type-1271 .des1 .hour .post-date .bottom-part {
+  padding-top: 10px;
+  line-height: 1;
+}
+.type-1271 .des1 .text-content {
+  padding: 0 15px;
+  width: 60%;
+}
+.type-1271 .des1 .text-content title-des h3,
+.type-1271 .des1 .text-content .title-des a {
+  color: #000000;
+  font-size: 32px !important;
+  font: normal 74px/82px Libre Baskerville;
+  line-height: 1.3em;
+  margin: 0 auto;
+  transition: color .3s ease;
+}
+.type-1271 .des1 .text-content .post-des,
+.type-1271 .des1 .text-content p {
+  margin: 1em 0;
+  text-align: justify;
+  font: normal 16px/24px Varela Round;
+}
+.type-1271 .des1 .text-content .post-meta {
+  margin: 1em 0;
+  line-height: 1.3em;
+}
+.type-1271 .des1 .text-content .post-meta .vamtam-meta-tax {
+  float: left;
+  padding-right: 20px;
+  min-height: 20px;
+  line-height: 19px;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.type-1271 .des1 .img-content {
+  width: 30%;
+}
+.type-1271 .des1 .img-content img {
+  height: 100% !important;
+  width: 100%;
+  max-width: 100% !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.type-1271 .des:hover .vamtam-meta-author,
+.type-1271 .des:hover .vamtam-meta-comments,
+.type-1271 .title-des h3,
+.type-1271 .title-des a {
+  opacity: 1;
+}
+.type-1271 .des1:hover .vamtam-meta-author,
+.type-1271 .des1:hover .vamtam-meta-comments,
+.type-1271 .title-des h3,
+.type-1271 .title-des a {
+  opacity: 1;
+}
+.type-1271 .vamtam-meta-author span,
+.type-1271 .vamtam-meta-comments span {
+  font: normal 10px/20px Varela Round !important;
+  color: #6b6b6b;
+  padding: 5px 0px 5px 0px !important;
+}
+@media only screen and (max-width: 768px) {
+  .type-1271 .des1 .img-content {
+    order: -1;
+    width: 100%;
+  }
+  .type-1271 .des1 .hour {
+    order: 1;
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+  }
+  .type-1271 .des1 .hour .post-date {
+    position: relative;
+    top: 13px;
+  }
+  .type-1271 .des1 .hour .vamtam-meta-author {
+    margin: 0 10px;
+    margin-top: 15px;
+  }
+  .type-1271 .des1 .text-content {
+    width: 100%;
+    order: 2;
+  }
+  .vamtam-meta-author {
+    opacity: 1 !important;
+  }
+  .vamtam-meta-comments {
+    opacity: 1 !important;
+  }
+  .type-1271 .des1 .hour .vamtam-meta-author,
+  .type-1271 .des1 .hour .vamtam-meta-comments {
+    border: none !important;
+  }
+  .type-1271 .des1 .hour .post-date .top-part {
+    font-size: 25px;
+  }
+}
+@font-face {
+  font-family: Libre Baskerville;
+  src: url(../fonts/Libre-Baskerville.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Varela Round;
+  src: url(../fonts/Varela-Round.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: theme;
+  src: url(../fonts/theme-icons.ttf);
+  font-weight: bold;
+}

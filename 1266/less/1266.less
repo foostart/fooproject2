@@ -1,0 +1,162 @@
+
+.type-1266{
+    .sep-text {
+        position: relative;
+        margin: 30px 0;
+        text-align: center;
+
+        .centered .sep-text-before{
+            width: 30%;
+            font-size: 10px;
+        }
+        .centered .sep-text-after {
+            text-align: left;
+            width: 30%;
+            font-size: 10px;
+        }
+
+        .sep-text-before{
+            display: table-cell;
+            width: 50%;
+            vertical-align: middle;
+            text-align: right;
+        }
+
+        .content{
+            display: table-cell;
+            vertical-align: middle;
+            white-space: nowrap;
+            h3{
+                font-size: 23px;
+                font: normal 40px/50px Libre Baskerville;
+            }
+        }
+        .sep-text-line{
+            display: inline-block;
+            width: 30%;
+            border-top: 0 solid;
+            border-bottom: 1px solid;
+            color: #ededed;
+            vertical-align: baseline;
+
+        }
+        .centered .sep-text-after {
+            width: 50%;
+            font-size: 10px;
+            text-align: left;
+        }
+        .sep-text-after {
+            text-align: left;
+            display: table-cell;
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+    //produts
+    .img-products{
+        cursor: pointer;
+
+        p{
+            color: #6b6b6b;
+            font-style: normal;
+            font-size: 14px;
+        }
+        .menu-products 
+        {
+            position: relative;
+            overflow: hidden;
+        }
+        img{
+
+            border-radius: 6px;
+            width: 100%;
+            height: auto;
+            transform: scale(1.1);
+            transition: transform .6s;
+            border-radius: 5px;
+
+        }
+        .menu_info {
+           height: 85px;
+        }
+
+        .pd-price{
+            cursor: pointer;
+            font-family: Varela Round;
+            background: #fff;
+            padding: 5px 15px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            border-radius: 25px;
+            color: #cb7152;
+            position: absolute;
+            bottom: 20px;
+            left: 17px;
+        }
+
+        .menu_info{
+
+            .fp_inner_box{
+
+                h3{
+                    font-size: 18px;
+                    position: relative;
+                    font-family: Varela Round;
+                    padding-bottom: 15px;
+                    margin-bottom: 5px;
+                    line-height: 130%;
+                }
+
+                h3:before {
+
+                    display: block;
+                    line-height: 1em;
+                    font-size: .4em;
+                    letter-spacing: 4px;
+                    color: #6b6b6b;
+                    content: "...................................................................................................................................................................................................................................................";
+                    width: 100%;
+                    overflow: hidden;
+                    height: 10px;
+                    bottom: 0;
+                    margin-top: 20px;
+                    padding-bottom: 5px;
+                    position: absolute;
+
+                }
+                p{
+                    color: #6b6b6b;
+                    font-style: normal;
+                    font-size: 12px;
+                    font-family: Varela Round;
+                    line-height: 140%;
+                    font-weight: 300;
+                }
+
+
+            }
+        }
+    }
+    .img-products:hover{
+        width: 100%;
+        img{
+            transform: scale(1);
+            transition: transform .6s;
+            width: 100%;
+            height: auto;
+
+            border-radius: 5px; 
+
+        }
+        h3{
+            color: #cb7152;
+
+        }
+        .reservation{
+
+        }
+
+    }
+
+}
