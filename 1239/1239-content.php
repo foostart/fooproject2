@@ -11,23 +11,25 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
- 
-                 <!--Tea-->
-    <div class="m5">
-        <div class="m5-parallax"></div>
-            <div class="m5-container">
-                <div class="m5-content">
-                    <div class="m5-content-line-left">
-                        <div class="m5-content-line"></div>
-                    </div>
-                        <div class="m5-content-text">
-                            <h2>
-                                Tea
-                            </h2>
-                        <div class="m5-content-text-subtitle">Today Specials</div>                            
-                    </div>
-                    <div class="m5-content-line-right"><div class="m5-content-line"></div></div>
-                </div> 
-            </div>
-        </div>    
-   
+
+<!--Tea-->
+<div class="type-1239">
+    <div class="m5-parallax"></div>
+    <div class="container m5-container">
+        <div class="row">
+            <div class="m5-content">
+                <div class="m5-content-line-left">
+                    <div class="m5-content-line"></div>
+                </div>
+                <div class="m5-content-text">
+                    <h2>
+                        Tea
+                    </h2>
+                    <div class="m5-content-text-subtitle">Today Specials</div>                           
+                </div>
+                <div class="m5-content-line-right"><div class="m5-content-line"></div></div>
+            </div> 
+        </div>
+    </div>
+</div>    
+
