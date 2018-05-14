@@ -1,9 +1,5 @@
-// khai bao 
-$(document).ready(function(){
-    
-   
-   setTimeout(function(){
-       
+ $(document).ready(function(){ 
+   setTimeout(function(){ 
        $('.m-splash-screen-progress').addClass('active100');
    }, 2000);
    setTimeout(function(){
@@ -15,6 +11,4 @@ $(document).ready(function(){
        $('.type-1234').removeClass('loaded');
        
    }, 3500);
-   
-   
 });

@@ -17,15 +17,17 @@ $less->compileFile('less/1234.less', 'css/1234.css');
 <!DOCTYPE html>
 <html>
     <head>
-        <title>1234</title>
+        <title> 1243 </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1234.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
+        <script src="<?php echo $url_path ?>/js/1234.js" ></script>
+
     </head> 
-    <body>
-        <?php include './1234-content.php'; ?>
+
+    <body> 
+        <?php include '../1234/1234-content.php'; ?>
     </body>
 </html>

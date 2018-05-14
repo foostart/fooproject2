@@ -8,7 +8,7 @@
   z-index: 99999;
   visibility: hidden;
   opacity: 0;
-  transition: 1s;
+  transition: 2s;
 }
 .type-1234 .m-splash-screen-progress-wrapper {
   position: absolute;
