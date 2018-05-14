@@ -15,9 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1262">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 SoftDrinks">
+            <div class="col-md-4 SoftDrinks">
                 <div class="img-top">
-                    <img src="images/ornament-top.svg">
+                    <img src="images/ornament-top.svg" alt="">
                 </div>
                 <div class="sep-text single centered">
                     <div class="sep-text-before"> 
@@ -62,12 +62,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="img-bottom">
-                    <img src="images/ornament-top.svg">
+                    <img src="images/ornament-top.svg" alt="">
                 </div>
             </div>
 
-            <div class="col-md-2 contact">
-                
+            <div class="col-md-4 contact">
+                <div class="ornament-top1"></div>
                 <div class="txt-contact">
                     <h3>Contact</h3>
                     <p>Book your table for lunch or dinner.</p>
@@ -88,12 +88,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                
 
-
+                <div class="ornament-bottom1"></div>
             </div>
 
-            <div class="col-md-5 SoftDrinks">
+            <div class="col-md-4 SoftDrinks">
                 <div class="img-top">
-                    <img src="images/ornament-top.svg">
+                    <img src="images/ornament-top.svg" alt="">
                 </div>
                 <div class="sep-text single centered">
                     <div class="sep-text-before"> 
@@ -139,7 +139,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 </div>
                 <div class="img-bottom">
-                    <img src="images/ornament-top.svg">
+                    <img src="images/ornament-top.svg " alt="">
                 </div>
             </div>
         </div>

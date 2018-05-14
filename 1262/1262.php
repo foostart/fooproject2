@@ -15,7 +15,7 @@ $less = new lessc;
 $less->compileFile('less/1262.less', 'css/1262.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>1262</title>
         <meta charset="UTF-8">
