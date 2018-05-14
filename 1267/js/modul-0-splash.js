@@ -16,5 +16,15 @@ $(document).ready(function(){
        
    }, 3500);
    
-   
+    $(function () {
+                $("#datepicker").datepicker();
+            });
 });
+       $(document).ready(function () {
+                $("#text-require").click(function () {
+                    $(".error-mes1").css('color', 'red');
+                    $(".error-mes1").show();
+                });
+
+            });
+       

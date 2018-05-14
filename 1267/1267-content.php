@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <div class="wrapper">
                     <div class="col-sm-3 text-center contact-col con-col">
-                        <span class="icon shortcode theme" style="color:#cb7152;font-size:60px !important;"></span>
+                        <span class="icon shortcode theme"></span>
                         <h3 class="title">Contact</h3>
                         <h5 class="phone">+359 562 958</h5>
                         <p>
@@ -159,7 +159,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!-- end contact-form-inner -->
                     </div>
                     <div class="col-sm-3 text-center contact-col time-col">
-                        <span class="icon shortcode theme" style="color:#cb7152;font-size:80px !important;"></span>
+                        <span class="icon shortcode theme"></span>
                         <h3 class="title">Time</h3>
                         <h5>Weekdays</h5>
                         <p>07:00am – 11:00pm</p>
@@ -174,7 +174,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <!-- end contact -->
     <div class="wrap-map">
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDwaeroZWoFDb7a6nXtexnqA-mwgBqoeYM'></script>
-        <div style='overflow:hidden'>
+        <div class="app">
             <div id='gmap_canvas'></div>
 
         </div>

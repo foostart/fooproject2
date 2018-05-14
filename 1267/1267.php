@@ -15,7 +15,7 @@ $less = new lessc;
 $less->compileFile('less/1267.less', 'css/1267.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>1267</title>
         <meta charset="UTF-8">
@@ -24,25 +24,10 @@ $less->compileFile('less/1267.less', 'css/1267.css');
         <link href="<?php echo $url_path ?>/css/1267.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
-        
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/datepicker.min.js" ></script>
-        <script >
-            $(function () {
-                $("#datepicker").datepicker();
-            });
-        </script>
-
-
-        <script >
-            $(document).ready(function () {
-                $("#text-require").click(function () {
-                    $(".error-mes1").css('color', 'red');
-                    $(".error-mes1").show();
-                });
-
-            });
-        </script>
+     
     </head> 
     <body>
         <?php include './1267-content.php'; ?>

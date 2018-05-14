@@ -92,7 +92,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="m1-navi-icon">
                     <div class="m1-navi-icon-cart">
                         <a class="m1-navi-cart-icon" href="#">
-                            <span class="icon"></span>
+                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                             <span class="products cart-empty">0</span>
                         </a>
                         <div class="m1-widget_shopping_cart">
@@ -116,22 +116,24 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="extended-column-inner">
 
                     <div class="title">
-                        <p><img src="images/De-logo.svg" alt="img-responsive"></p>
+                        <p><img src="http://<?php echo $url_path ?>/images/De-logo.svg" alt="img-responsive"></p>
 
                         <h2>Minimalism is a way of living at the maximum of your potential.</h2>
-                        <a class="" href="#"><img src="images/arrow-long-down.svg" alt="img-responsive"></a>
+                        <a class="" href="#"><img src="http://<?php echo $url_path ?>/images/arrow-long-down.svg" alt="img-responsive"></a>
+
                     </div>
+                 
 
                 </div>
             </div>
         </div>
     </header> 
     <div id="vamtam-overlay-search" class="vamtam-animated vamtam-fadein">
-        <button id="vamtam-overlay-search-close" style="display: block; animation-duration: 300ms;" class="vamtam-animated vamtam-zoomin">
+        <button id="vamtam-overlay-search-close" ;" class="vamtam-animated vamtam-zoomin">
             <span class="fa fa-times" style=""></span>
         </button>
         <form action="#" class="searchform vamtam-animated vamtam-zoomin">
-            <input type="search" required="required" placeholder="Search..." name="s" value="" style="max-width: calc(100% - 100px);">
+            <input type="search" required="required" placeholder="Search..." name="s" value=""
         </form>
     </div>
 </div>
