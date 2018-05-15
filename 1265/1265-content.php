@@ -18,28 +18,28 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="logo-footer col-md-4 col-sm-4 col-xs-12">
                 <!--columns-->
                 <div class="content">   
-                    <h2>Pancakes</h2>
+                    <h2>Bánh kép</h2>
 
                     <div class="content1">
-                        <a href="#"><div class="title">American Brunch Combo Menu merican Brunch Com</div><div class="price">$15</div></a><br>
+                        <a href="#"><div class="title">Combo thức ăn nhẹ kiểu Mỹ.</div><div class="price">$15</div></a><br>
                         <div class="content3">...........................................................</div>    
                     </div>
                     <div class="content2">
-                        <a href="#">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese.</a>
+                        <a href="#">Trứng với thịt xông khói, cà chua, hành lá và phô mai cheddar.</a>
                     </div>  
                     <div class="content1">
-                        <a href="#"><div class="title">Blueberry banana pancakes</div><div class="price">$5</div></a><br>
+                        <a href="#"><div class="title">Bánh kép nhân chuối, việt quất.</div><div class="price">$5</div></a><br>
                         <div class="content3">...........................................................</div>   
                     </div>
                     <div class="content2">
-                        <a href="#">Banana, almond milk, vanilla, cinnamon, blueberry topping</a>
+                        <a href="#">Chuối, sữa hạnh nhân, vani, quế, quả việt quất.</a>
                     </div>  
                     <div class="content1">
-                        <a href="#"><div class="title">Traditional pancakes with maple syrup butter & berry jam</div><div class="price">$5</div></a><br>
+                        <a href="#"><div class="title">Bánh kép truyền thống với bơ và mứt dâu.</div><div class="price">$5</div></a><br>
                         <div class="content3">...........................................................</div>   
                     </div>
                     <div class="content2">
-                        <a href="#">Milk, eggs, strawberries, butter, maple syrup</a>
+                        <a href="#">Sữa, trứng, dâu tây, bơ, xi-rô.</a>
                     </div>  
                 </div>
                 <!--end columns-->
@@ -47,24 +47,24 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="logo-footer col-md-4 col-sm-4 col-xs-12">
                 <!--columns-->
                 <div class="content">   
-                    <h2>Sandwiches</h2>
+                    <h2>Bánh Sandwiches</h2>
 
                     <div class="content1">
-                        <a href="#"><div class="title">French Toast with Strawberry Jam</div><div class="price">$11</div></a><br>
+                        <a href="#"><div class="title">Bánh mì nướng kiểu pháp và mứt dâu.</div><div class="price">$11</div></a><br>
                         <div class="content3">...........................................................</div>   
                     </div>
                     <div class="content2">
-                        <a href="#"> Hot coffee in the company of fresh bread toast topped with homemade strawberry butter, warm maple syrup, and fresh ...</a>
+                        <a href="#">Cà phê nóng, bánh mì nướng tươi cùng với bơ dâu tây tự làm và xi-rô...</a>
                     </div>
                     <div class="content1">
-                        <a href="#"><div class="title">Home made bread</div><div class="price">$3 each</div></a><br>
+                        <a href="#"><div class="title">Bánh mì truyền thống</div><div class="price">$3 each</div></a><br>
                         <div class="content3">...........................................................</div>   
                     </div>
                     <div class="content2">
-                        <a href="#"></a>
+                        <a href="#">Bánh mì được làm thủ công cho hương vị thơm ngon.</a>
                     </div>
                     <div class="content1">
-                        <a href="#"><div class="title">Sun-Dried Tomato Bruschetta</div><div class="price">$7</div></a><br>
+                        <a href="#"><div class="title">Cà chua khô Bruschetta</div><div class="price">$7</div></a><br>
                         <div class="content3">...........................................................</div>      
                     </div>
                     <div class="content2">
@@ -77,24 +77,24 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="logo-footer col-md-4 col-sm-4 col-xs-12">
                 <!--columns-->
                 <div class="content">   
-                    <h2>Brunch</h2>
+                    <h2>Thức ăn nhẹ</h2>
 
                     <div class="content1">
-                        <a href="#"><div class="title">Coffee & Strawberry Jam French Toast with Strawberry Butter Combo Menu</div><div class="price">$11</div></a><br>
+                        <a href="#"><div class="title">Combo Cà phê & Mứt dâu Bánh mì nướng Pháp với Bơ dâu.</div><div class="price">$11</div></a><br>
                         <div class="content3">...........................................................</div>       
                     </div>
                     <div class="content2">
-                        <a href="#"> Hot coffee in the company of fresh bread toast topped with homemade strawberry butter, warm maple syrup, and fresh ...</a>
+                        <a href="#">Cà phê nóng, bánh mì nướng tươi cùng với bơ dâu tây tự làm và xi-rô......</a>
                     </div>  
                     <div class="content1">
-                        <a href="#"><div class="title">Coffee and Pain au chocolat (Chocolate croissant) Combo Menu</div><div class="price">$11</div></a><br>
+                        <a href="#"><div class="title">Combo Cafe & Bánh sừng bò.</div><div class="price">$11</div></a><br>
                         <div class="content3">...........................................................</div>       
                     </div>
                     <div class="content2">
-                        <a href="#">Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</a>
+                        <a href="#">Cà phê nóng cùng với bánh sừng bò tự làm tuyệt đẹp, mỗi loại có chứa một thanh sôcôla đen chất lượng cao, làm cho...</a>
                     </div>  
                     <div class="content1">
-                        <a href="#"><div class="title">Optic Big Breakfast Combo Menu</div><div class="price">$20</div></a><br>
+                        <a href="#"><div class="title">Combo bữa sáng lớn.</div><div class="price">$20</div></a><br>
                         <div class="content3">...........................................................</div>       
                     </div>
                     <div class="content2">
