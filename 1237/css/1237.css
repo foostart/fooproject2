@@ -246,12 +246,24 @@
     background-size: 0;
   }
 }
+@media (max-width: 767px) {
+  .type-1237 h3 {
+    font-size: 22px !important;
+  }
+  .type-1237 h4 {
+    font-size: 18px !important;
+  }
+  .type-1237 p {
+    font-size: 12px !important;
+  }
+}
 @media (max-width: 992px) {
   .type-1237 .m3-parent-content-left {
     display: inline-block;
   }
   .type-1237 .m3-parent-content-right {
-    display: inline-block;
+    border-top: 1px solid #CB7152;
+    padding: 5px;
   }
 }
 @font-face {

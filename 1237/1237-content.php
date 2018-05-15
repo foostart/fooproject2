@@ -61,12 +61,14 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="m3-parallax">
+                    <div class="m3-parallax hidden-xs">
                         <div class="m3-background"> </div>
                     </div>
                 </div>
                 </div>
             </div>
         </div>
-    </div>
+    <div class="clearfix"></div>
+</div>
+
 
