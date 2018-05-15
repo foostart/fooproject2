@@ -25,9 +25,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="grid-2-3">
-                        <h4>Awards</h4>
+                        <h4>Giải thưởng</h4>
                         <p>
-                            In July 2006, Ramsay won the Catey award for “Independent Restaurateur of the Year”, becoming only the third person to have won three Catey awards.
+                            Vào tháng 7 năm 2006, Ramsay giành giải Catey cho “Nhà hàng độc lập của năm”, trở thành người thứ ba giành được ba giải thưởng Catey.
                         </p>
 
 

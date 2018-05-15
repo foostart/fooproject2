@@ -1,5 +1,5 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--Brunch -->
                 <div class="col-xs-12  col-md-6 m3-content-menu">
                     <div class="content-menu">
-                        <span class="m3-content-menu-icon"><img src="img/cookie.JPG" alt="img-reposive"></span>
+                        <span class="m3-content-menu-icon"><img src="<?php echo $url_path ?>/img/cookie.JPG" alt="img-reposive"></span>
                         <h3>Brunch</h3>
                         <h5>Today Specials</h5> 
                     </div>

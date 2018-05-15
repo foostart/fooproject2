@@ -16,9 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class=" col-md-12 pt005 pb005">
                             <div class="text-center">
                                 <img src="<?php echo $url_path ?>/images/Capture.PNG" alt="img-reponsive">
-                                <h4 class="text-center fs24">SEASONAL INSPIRATION MENU</h4>
+                                <h4 class="text-center fs24">KIỂM TRA SỰ KIỆN MENU</h4>
                                 <span class="vamtam-blank-space height-10"></span>
-                                <p class="vamtam-font-style-2 text-center">~Cook with passion, purpose and intensity or don’t cook at all.~</p>
+                                <p class="vamtam-font-style-2 text-center">~Nấu ăn với niềm đam mê, mục đích và cường độ hoặc không nấu ăn chút nào.~</p>
 
                             </div>
                         </div>
@@ -42,9 +42,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                         <div class="menu_info ">
                                             <div class="fp_inner_box">
-                                                <h3 class="">Head on prawns, manila clams &amp; mussels</h3>
+                                                <h3 class="">Đầu tôm, manila clams & amp; con trai</h3>
                                                 <div class="menu_description">
-                                                    These small shellfish have a sweet flavour and a firm texture.
+                                                    Những loài sò ốc nhỏ này có vị ngọt và kết cấu chắc chắn.
                                                     <a class="fp_popTrig fp_inline_btn"> Read More</a>
                                                 </div>
                                             </div>
@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="fp_inner_box">
                                                 <h3 class="">Campari</h3>
                                                 <div class="menu_description">
-                                                    Campari's bracing bitterness and lush grapefruit notes are refreshing when mixed simply with soda, drunk before dinner to awaken ...
+                                                    Hương vị cay đắng của Campari và những ghi chú bưởi tươi tốt được làm mới khi pha trộn đơn giản với soda, say rượu trước bữa tối để đánh thức ...
                                                     <a class="fp_popTrig fp_inline_btn"> Read More</a>
                                                 </div>
                                             </div>
@@ -86,9 +86,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                         <div class="menu_info ">
                                             <div class="fp_inner_box">
-                                                <h3 class="">Creamy smoked salmon, leek & potato soup</h3>
+                                                <h3 class="">Cá hồi hun khói kem, súp tỏi tây và khoai tây</h3>
                                                 <div class="menu_description">
-                                                    Served in deep bowls with smoked salmon and snipped chives on the top.
+                                                    Phục vụ trong bát sâu với cá hồi hun khói và hẹ hớp trên đỉnh.
                                                     <a class="fp_popTrig fp_inline_btn"> Read More</a>
                                                 </div>
                                             </div>

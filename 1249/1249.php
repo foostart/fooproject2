@@ -31,9 +31,10 @@ $less->compileFile('less/1249.less', 'css/1249.css');
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
          <script  src="<?php echo $url_path ?>/js/swiper.min.js"></script>
           <script src="<?php echo $url_path ?>/js/starrating.js"></script>
+          <script src="<?php echo $url_path ?>/js/1249.js"></script>
 
     </head>
     <body>
-        <?php include '/1249-content.php'; ?>
+        <?php include '../1249/1249-content.php'; ?>
     </body>
 </html>

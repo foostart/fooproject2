@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <h4 class="quote-summary ">Tucked away down a little lane, it is not easy to find, but worth a serious try! The food is outstanding: I started with a raw fish platter, totally fresh and delicious.
+                        <h4 class="quote-summary ">Tucked xuống một làn đường nhỏ, nó không phải là dễ tìm, nhưng giá trị một thử nghiêm trọng! Thức ăn là nổi bật: Tôi bắt đầu với một đĩa cá sống, hoàn toàn tươi và ngon.
                     </h4>
                         <div class="quote-title-wrapper clearfix">
                             <div class="quote-title">
@@ -46,8 +46,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <h4 class="quote-summary "> This place was little, tucked away from the crowds and the food was delicious! And very prompt and kind service.
-                    </h4>
+                            <h4 class="quote-summary "> 
+                            Nơi này rất nhỏ, cách xa đám đông và thức ăn rất ngon! Và rất nhanh chóng và loại dịch vụ.
+                        </h4>
                             <div class="quote-title-wrapper clearfix">
                                 <div class="quote-title">
                                     <section class='rating-widget'>
@@ -74,8 +75,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <h4 class="quote-summary ">The restaurant is a charming place to relax and savour delicious meals especially the seafood. Service was impeccable , best in Italy we had so far – we could not fault anything.
-                    </h4>
+                                <h4 class="quote-summary ">
+                                Nhà hàng là nơi tuyệt vời để thư giãn và thưởng thức những bữa ăn ngon đặc biệt là hải sản. Dịch vụ là hoàn hảo, tốt nhất ở Ý, chúng tôi đã có cho đến nay - chúng tôi không thể bất cứ điều gì lỗi.
+                            </h4>
                                 <div class="quote-title-wrapper clearfix">
                                     <div class="quote-title">
                                         <section class='rating-widget'>
@@ -102,8 +104,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h4 class="quote-summary ">Delicious food, nice atmosphere and both friendly and competent service – just perfect. We will definitely come back.
-                    </h4>
+                                    <h4 class="quote-summary ">
+                                    Thức ăn ngon, bầu không khí đẹp và cả dịch vụ thân thiện và có thẩm quyền - chỉ hoàn hảo. Chúng tôi chắc chắn sẽ quay trở lại.
+                                </h4>
                                     <div class="quote-title-wrapper clearfix">
                                         <div class="quote-title">
                                             <section class='rating-widget'>
@@ -130,8 +133,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <h4 class="quote-summary ">The meal we had at Antico Giardinetto was perfect in almost every way. It’s nestled in a little alley way off the beat path.
-                    </h4>
+                                        <h4 class="quote-summary ">
+                                        Bữa ăn chúng tôi có tại Antico Giardinetto là hoàn hảo trong hầu hết mọi cách. Nó nép mình trong một con hẻm nhỏ ngoài con đường mòn.
+                                    </h4>
                                         <div class="quote-title-wrapper clearfix">
                                             <div class="quote-title">
                                                 <section class='rating-widget'>
@@ -158,8 +162,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <h4 class="quote-summary ">We were staying in Venice for a week and did some research on a local restaurant near our apartment. What a find this was.
-                    </h4>
+                                            <h4 class="quote-summary ">
+                                            Chúng tôi ở Venice một tuần và làm một số nghiên cứu về một nhà hàng địa phương gần căn hộ của chúng tôi. Thật là một điều này.
+                                        </h4>
                                             <div class="quote-title-wrapper clearfix">
                                                 <div class="quote-title">
                                                     <section class='rating-widget'>
@@ -186,8 +191,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
-                                                <h4 class="quote-summary ">The food was excellent and the service was the best we’ve experienced in Venice so far. We’ll definitely come back to try out more of the dishes!
-                    </h4>
+                                                <h4 class="quote-summary ">
+                                                Thức ăn tuyệt vời và dịch vụ là tốt nhất mà chúng tôi đã trải nghiệm ở Venice cho đến nay. Chúng tôi chắc chắn sẽ quay lại để thử thêm các món ăn!
+                                            </h4>
                                                 <div class="quote-title-wrapper clearfix">
                                                     <div class="quote-title">
                                                         <section class='rating-widget'>
@@ -214,8 +220,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <h4 class="quote-summary ">This is my first review because the food was so amazingly good we actually offered to take the chef with us to Dubai! You have to try this restaurant! It’s mouthwatering.
-                    </h4>
+                                                    <h4 class="quote-summary ">
+                                                    Đây là lần đánh giá đầu tiên của tôi bởi vì thức ăn tuyệt vời đến nỗi chúng tôi thực sự đề nghị đưa đầu bếp đến Dubai! Bạn phải thử nhà hàng này! Đó là tưới nước.        </h4>
                                                     <div class="quote-title-wrapper clearfix">
                                                         <div class="quote-title">
                                                             <section class='rating-widget'>
@@ -242,8 +248,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide">
-                                                        <h4 class="quote-summary ">Our hotel made us reservations for our anniversary, so we were seated in the smaller, more intimate room, which was nice. The service was great and so was our food.
-                    </h4>
+                                                        <h4 class="quote-summary ">
+
+                                                        Khách sạn của chúng tôi đã khiến chúng tôi đặt chỗ cho lễ kỷ niệm của chúng tôi, vì vậy chúng tôi đã ngồi trong căn phòng nhỏ hơn, thân mật hơn, rất đẹp. Dịch vụ rất tuyệt vời và đó là thức ăn của chúng tôi.
+                                                    </h4>
                                                         <div class="quote-title-wrapper clearfix">
                                                             <div class="quote-title">
                                                                 <section class='rating-widget'>
@@ -277,20 +285,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
 
                                                 <!-- Swiper JS -->
-                                                <script src="js/swiper.min.js"></script>
-
-                                                <!-- Initialize Swiper -->
-                                                <script>
-                                                    var swiper = new Swiper('.swiper-container', {
-                                                        loop: true,
-
-                                                        navigation: {
-                                                            nextEl: '.swiper-button-next',
-                                                            prevEl: '.swiper-button-prev',
-                                                        },
-
-                                                    });
-                                                </script>
+                                                 
 
                                             </div>
 

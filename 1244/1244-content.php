@@ -20,20 +20,20 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="clearfix"></div>
             <div class="col-md-4 c1 col-sm-12">
-                <h4>About</h4>
-                <p style="display: block;">Osteria Francescana is a restaurant owned and run by chef Massimo Bottura in Modena, Italy</p>
+                <h4>Về chúng tôi</h4>
+                <p class="info">Osteria Francescana là một nhà hàng thuộc sở hữu và điều hành bởi đầu bếp Massimo Bottura ở Modena, Ý</p>
                 <p class="c1-btn">
                     <a href="#">
-                        <span class="span-hover">Buy this Delicious Theme</span>
+                        <span class="span-hover">Mua chủ đề này</span>
                     </a>
                 </p>
             </div>
             <div class="col-md-4 c2 col-sm-12">
-                <h4>Get news & offers</h4>
+                <h4>Đăng ký nhận tin tức và ưu đãi</h4>
                 <div class="c2-input">
-                    <input type="email" name="EMAIL" placeholder="Your email" required="">
-                    <input type="submit" value="Subscrible">
-                    <p>* We never send you spam!</p>
+                    <input type="email" name="EMAIL" placeholder="Nhập email..." required="">
+                    <input type="submit" value="Đăng ký">
+                    <p>*Chúng tôi không bao giờ gửi thư rác cho bạn!</p>
                 </div>
                 <div class="c2-icon">
                     <a href="#">
@@ -54,9 +54,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-4 c3 col-sm-12">
-                <h4>Contacts</h4>
-                <p>Via Stella, 22<br> Modena MO, Italy<br> +390 59 223 912</p>
-                <p><a href="#">hello@yoursite.com</a></p>
+                <h4>Liên hệ</h4>
+                <p class="info">Via Stella, 22<br> Modena MO, Italy<br> +390 59 223 912</p>
+                <p class="info"><a href="#">hello@yoursite.com</a></p>
             </div>
         </div>
     </div>
