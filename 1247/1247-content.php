@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
 
             <div class="grid-text">
-                <p>Since I was a kid I was Massimo Bottura — I was escaping from my older brother under the table in the kitchen and from down there, where my grandmother was defending me, in the meantime she was rolling pasta, i was looking at the world from another point of view. It’s what we do in Osteria Francescana every day.
+                <p>Từ khi còn là một đứa trẻ, tôi là Massimo Bottura - tôi đã trốn thoát khỏi anh trai dưới bàn trong nhà bếp và từ dưới đó, nơi bà tôi bảo vệ tôi, trong khi đó cô ấy đang lăn mì ống, tôi đang nhìn thế giới từ một góc nhìn khác. Đó là những gì chúng tôi làm ở Osteria Francescana mỗi ngày.
                 </p>
             </div>
 
@@ -39,15 +39,15 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
                             <h4 class="color-accent-1">1995</h4>
-                            <p>Opens Osteria Francescana, Via Stella 22 Modena Italy</p>
+                            <p>Khai trương Osteria Francescana, Via Stella 22 Modena Ý</p>
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <h4 class="color-accent-1">2002</h4>
-                            <p>Michelin Guide One-Michelin-Star. Gambero Rosso Up and Coming Chef Award.</p>
+                            <p>Hướng dẫn Michelin 1 sao Michelin. Giải thưởng Gambero Rosso Up và Coming Chef.</p>
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <h4 class="color-accent-1">2016</h4>
-                            <p>The world’s 50 restaurants 1st best restaurant in the world. Michelin Guide<br> three-michelin-stars.
+                            <p>50 nhà hàng tốt nhất thế giới 1 nhà hàng trên thế giới. Bản đồ Michelin<br> three-michelin-stars.
                             </p>
                         </div>
                     </div>

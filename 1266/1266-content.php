@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="content">
-                <h3>Breakfast</h3>
+                <h3>Bữa ăn sáng</h3>
             </div>
             <div class="sep-text-after">
                 <div class="sep-text-line">
@@ -33,7 +33,7 @@
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Antioxidant Fruits Mix</h3>
+                            <h3>Hỗn hợp trái cây chống oxy hóa</h3>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Traditional pancakes with maple syrup butter & berry jam</h3>
+                            <h3>Bánh kếp truyền thống với bơ syrup phong và mứt dâu</h3>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Fig and lemon cake</h3>
+                            <h3>Hình và bánh chanh</h3>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Antioxidant Fruits Mix</h3>
+                            <h3>Hỗn hợp trái cây chống oxy hóa</h3>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Antioxidant Fruits Mix</h3>
+                            <h3>Hỗn hợp trái cây chống oxy hóa</h3>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                     </div>    
                         <div class="menu_info">
                             <div class="fp_inner_box">
-                                <h3>Antioxidant Fruits Mix</h3>
+                                <h3>Hỗn hợp trái cây chống oxy hóa</h3>
                             </div>
                         </div>
                     </div>
