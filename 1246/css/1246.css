@@ -1,46 +1,3 @@
-.type-1246 body {
-  background-color: black;
-  background-image: -moz-radial-gradient(circle,#FFFFFF 2px,rgba(248,255,128,0.5) 4px,transparent 40px), -moz-radial-gradient(circle,#FFFFFF 1px,rgba(255,186,170,0.4) 3px,transparent 30px), -moz-radial-gradient(ellipse,rgba(255,255,255,0.9) 1px,rgba(251,255,186,0.3) 2px,transparent 40px), -moz-radial-gradient(ellipse,rgba(255,255,255,0.4),rgba(253,255,219,0.2) 1px,transparent 30px);
-  background-image: -webkit-gradient(radial,50% 50%,2,50% 50%,40,from(white),color-stop(0.1,rgba(248,255,128,0.5)),to(transparent)), -webkit-gradient(radial,50% 50%,1,50% 50%,30,from(white),color-stop(0.1,rgba(255,186,170,0.4)),to(transparent)), -webkit-gradient(radial,50% 50%,1,50% 50%,40,from(rgba(255,255,255,0.9)),color-stop(0.05,rgba(251,255,186,0.3)),to(transparent)), -webkit-gradient(radial,50% 50%,0,50% 50%,30,from(rgba(255,255,255,0.4)),color-stop(0.03,rgba(253,255,219,0.2)),to(transparent));
-  background-size: 550px 550px, 350px 350px, 250px 270px, 220px 200px;
-  background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
-  animation-name: movement;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -moz-animation-name: movement;
-  -moz-animation-duration: 5s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-name: movement;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-}
-@keyframes movement {
-  .type-1246 from {
-    background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
-  }
-  .type-1246 to {
-    background-position: -550px 0, -320px 60px, -120px 270px, -150px 150px;
-  }
-}
-@-moz-keyframes movement {
-  .type-1246 from {
-    background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
-  }
-  .type-1246 to {
-    background-position: -550px 0, -320px 60px, -120px 270px, -150px 150px;
-  }
-}
-@-webkit-keyframes movement {
-  .type-1246 from {
-    background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
-  }
-  .type-1246 to {
-    background-position: -550px 0, -320px 60px, -120px 270px, -150px 150px;
-  }
-}
 .type-1246 .fa {
   font-size: 22px;
   color: #5a5882;
@@ -326,6 +283,11 @@
 }
 .type-1246 .m1-navi-scrollTop .m1-navi .m1-navi-icon .m1-search-btn {
   color: #000 !important;
+}
+@media (max-width: 720px) {
+  .type-1246 h2 {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 960px) {
   .type-1246 .m1-banner-caption .m1-banner-caption-layer {

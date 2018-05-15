@@ -27,6 +27,7 @@ $less->compileFile('less/1267.less', 'css/1267.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/datepicker.min.js" ></script>
+        
      
     </head> 
     <body>

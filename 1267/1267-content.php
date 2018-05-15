@@ -9,7 +9,50 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-25">
 
-    <div class="top"></div>
+    <div class="top">
+   <div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="6500" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+       <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item carousel-fade">
+                <h2>Slide 1</h2>
+                <div class="carousel-caption">
+                  <h3>First slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item carousel-fade">
+                <h2>Slide 2</h2>
+                <div class="carousel-caption">
+                  <h3>Second slide label</h3>
+                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                </div>
+            </div>
+            <div class="item carousel-fade">
+                <h2>Slide 3</h2>
+                <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+    </div>
     <div class="container">
         <div class="contact">
             <div class="row">
@@ -181,7 +224,8 @@ $url_path = str_replace('\\', '/', $url_path);
        
         <a href='http://maps-generator.com/'>add google map</a>
         <script  src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
-        <script >function init_map() { var myOptions = { zoom: 16, center: new google.maps.LatLng(40.712784, - 74.005941), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(40.712784, - 74.005941) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Osteria Francescana</strong><br>Open<br>Tuesday<br>Saturday<br>Lunch and Dinner' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <script src="<?php echo $url_path ?>/js/jsmap.js" ></script>
+
 
     </div>
    

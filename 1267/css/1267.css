@@ -1,5 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Varela+Round');
-@import url('font-awesome.min.css');
+.type-25 {
+  background: #e4dccf;
+  background-size: cover;
+  position: relative;
+  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Varela+Round');
+  @import url('font-awesome.min.css');
+}
+.type-25 h2 {
+  margin: 0;
+  color: #666;
+  padding-top: 90px;
+  font-size: 52px;
+  font-family: "trebuchet ms", sans-serif;
+}
+.type-25 .item {
+  background: #797171;
+  text-align: center;
+  height: 300px !important;
+}
+.type-25 .carousel {
+  margin-top: 20px;
+}
+.type-25 .bs-example {
+  margin: 20px;
+}
+.type-25 .carousel.carousel-fade .item {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.type-25 .carousel.carousel-fade .active.item {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
 @font-face {
   font-family: 'icomoon';
   src: url(../fonts/icons.ttf) format('truetype');
@@ -12,13 +43,12 @@
   font-weight: normal;
   font-style: normal;
 }
-.top {
-  background: url('../images/photo-coffee-6.jpg') no-repeat 50% 50%;
+.type-25 .top {
   background-size: cover;
   min-height: 300px;
   position: relative;
 }
-.top::before {
+.type-25 .top::before {
   content: "";
   display: block;
   width: 100%;
@@ -28,17 +58,18 @@
   left: 0;
   background: rgba(0,0,0,0.5);
 }
-.type-25 {
-  background: #F5F3F0;
-  background-size: cover;
-  position: relative;
-}
 .type-25 .app {
   overflow: hidden;
 }
 .type-25 .icon {
   color: #cb7152;
   font-size: 60px !important;
+}
+.type-25 .icon:hover {
+  font-size: 66px !important;
+}
+.type-25 .icon {
+  line-height: 100px !important;
 }
 .type-25 .wrapper {
   width: 100%;

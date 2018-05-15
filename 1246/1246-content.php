@@ -129,11 +129,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </header> 
     <div id="vamtam-overlay-search" class="vamtam-animated vamtam-fadein">
-        <button id="vamtam-overlay-search-close" ;" class="vamtam-animated vamtam-zoomin">
+        <button id="vamtam-overlay-search-close"  class="vamtam-animated vamtam-zoomin">
             <span class="fa fa-times" style=""></span>
         </button>
-        <form action="#" class="searchform vamtam-animated vamtam-zoomin">
-            <input type="search" required="required" placeholder="Search..." name="s" value=""
-        </form>
+        
     </div>
 </div>
