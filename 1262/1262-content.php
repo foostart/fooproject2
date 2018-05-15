@@ -1,5 +1,5 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
+$url_host = 'http://'.$_SERVER['HTTP_HOST'];
 
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1262">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 SoftDrinks">
+            <div class="col-md-5 SoftDrinks">
                 <div class="img-top">
                     <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
                 </div>
@@ -66,8 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
 
-            <div class="col-md-4 contact">
-                <div class="ornament-top1"></div>
+            <div class="col-md-2 contact">
                 <div class="txt-contact">
                     <h3>Contact</h3>
                     <p>Book your table for lunch or dinner.</p>
@@ -86,12 +85,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p>Weekends</p>
                     <p>09:00am - 12:00pm</p>
                 </div>
-               
-
-                <div class="ornament-bottom1"></div>
             </div>
 
-            <div class="col-md-4 SoftDrinks">
+            <div class="col-md-5 SoftDrinks">
                 <div class="img-top">
                     <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
                 </div>
