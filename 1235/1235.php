@@ -32,7 +32,6 @@ $less->compileFile('less/1235.less', 'css/1235.css');
 
     <body>
         <?php include '../1235/1235-content.php'; ?>
-       
     </body>
 
 </html>
