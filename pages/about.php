@@ -22,29 +22,27 @@
         <link href="../1246/css/1246.css" rel="stylesheet" type="text/css"/> 
         <link href="../1247/css/1247.css" rel="stylesheet" type="text/css"/>
         <link href="../1253/css/1253.css" rel="stylesheet" type="text/css"/>
-         <link href="../1249/css/1249.css" rel="stylesheet" type="text/css" /> 
-         <link href="../1250/css/1250.css" rel="stylesheet" type="text/css" />
-         <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/> 
+        <link href="../1249/css/1249.css" rel="stylesheet" type="text/css" /> 
+        <link href="../1250/css/1250.css" rel="stylesheet" type="text/css" />
+        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/> 
 
-        
-        
-        
 
         <script src="../1246/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../1246/js/bootstrap.min.js" type="text/javascript"></script>
-         <script src="../1246/js/1246.js" type="text/javascript"></script>
-          <script src="../1249/js/1249.js" type="text/javascript"></script>
-          <script  src="../1249/js/swiper.min.js"></script>
-          <script src="../1249/js/starrating.js"></script>
+        <script src="../1246/js/1246.js" type="text/javascript"></script>
+        <script src="../1249/js/1249.js" type="text/javascript"></script>
+        <script src="../1246/js/about.js"></script>
+        <script  src="../1249/js/swiper.min.js"></script>
+        <script src="../1249/js/starrating.js"></script>
         
     </head>
-    <body>
+    <body style="position: relative;">
+        <div class="about" style="width: 100%;height: 100%;position: absolute;background: #fff;"></div>
         <?php  include '../1246/1246-content.php'; ?>
         <?php  include '../1247/1247-content.php'; ?>
         <?php  include '../1253/1253-content.php'; ?>
         <?php  include '../1249/1249-content.php'; ?>
         <?php  include '../1250/1250-content.php'; ?>
         <?php  include '../1244/1244-content.php'; ?>
-
     </body>
 </html>
