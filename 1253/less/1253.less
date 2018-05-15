@@ -1,7 +1,9 @@
-.type-1253{
-    
-    .hoangnghiep{
-        background-color: #22272d;
+.type-1253 {
+    @color-bg-cheft: #22272d;
+    margin: 50px 0;
+    .cheft {
+        position: relative;
+        background-color: @color-bg-cheft;
         padding-top: 0.05px;
         padding-bottom: 0.05px;
         color: #f4f4f4;
@@ -13,7 +15,7 @@
             max-width: 1260px;
             width: auto;
             .left{
-                background: url(../images/chef-dark.jpg) center top / auto no-repeat scroll;
+                background: url("../images/chef-dark.jpg") center top / auto no-repeat scroll;
                 padding-top: 0.05px;
                 padding-bottom: 0.05px;
                 min-height: 618px;
@@ -22,24 +24,26 @@
             }
 
         }
-        .right{
+        .right {
             text-align: center;
             .img-banner {
                 margin-top: 30px;
             }
-            img{
+            img {
                 width: 200px;
                 margin: 0 auto;
             }
-            h2{
+            h2 {
                 text-align: center;
                 margin-top: 0.6em;
                 margin-bottom: 0.6em;
-                font: normal 56px/68px Libre Baskerville;
+                font-size: 60px;
+                font-family: 'Libre Baskerville', serif;
             }
-            .font-color{
+            .font-color {
                 color: #cb7152!important;
-                font: normal 14px/22px Handlee;
+                font: normal 14px/22px;
+                font-family: 'Handlee', cursive;
                 letter-spacing: 0.3em;
                 margin-bottom: 1.6em;
             }
@@ -52,21 +56,76 @@
                 padding: 0px 5px;
 
             }
-            .font-p{
-                font: normal 16px/24px Varela Round;}
-
-
+            .font-p {
+                font: 16px/24px;
+                font-family: 'Varela Round', sans-serif;
+            }
         }
-
         .blank-space {
             display: block;
             height: 60px;
         }
     }
-}
-@media screen and(max-width:480px){ 
-    .type-1253 .hoangnghiep .right h2{
-        font-size: 25px;
+    .cheft:after {
+        display: block;
+        background: @color-bg-cheft;
+        height: 26px;
+        content: " ";
+        -webkit-mask-image: url("../images/ornament-bottom.svg");
+
+        width: 156px;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        margin-left: -78px;
+        z-index: 10;
+    }
+    .cheft:before {
+        display: block;
+        background: @color-bg-cheft;
+        height: 26px;
+        content: " ";
+        -webkit-mask-image: url("../images/ornament-top.svg");
+
+        width: 156px;
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        margin-left: -78px;
+        z-index: 10;
+    }
+    @media screen and (max-width: 992px) {
+        .cheft {
+            .left {
+                display: none;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) and (min-width: 480px) {
+        .cheft {
+            .right {
+                h2 {
+                    font-size: 40px;
+                }
+                im g{
+                    width: 150px;
+                    height: auto;             
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .cheft {
+            .right {
+                h2 {
+                    font-size: 30px;
+                }
+                img {
+                    width: 130px;
+                    height: auto;             
+                }
+            }
+        }
     }
 }
 

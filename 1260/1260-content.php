@@ -1,25 +1,20 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
+$url_host = 'http://'.$_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
-
 $url_path = $url_host . $matches[1][0];
-
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1260">
     <div class="container">
         <div class="content">
+            <div class="row row-top"></div>
             <div class="row">
                 <div class="col-xs-12 col-sm-3 col-md-3 background-left"></div>
-
                 <div class="col-xs-12 col-sm-6 col-md-6 content-menu">
-
-                    <img src="images/ico.PNG">
+                    <img src="<?php echo $url_path ?>/images/ico.PNG" alt="icon">
                     <div class="menu-center">
                         <div class="sep-before"> 
                             <div class="sep-line"></div>
@@ -41,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="content-menu-food">
                         <h3>Coffee Strawberry Jam French Toast with Strawberry Butter Combo Menu<span class="disk-price">$11</span></h3>
                         <div class="disk-descitpion">
-                            Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</div>
+                        Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</div>
                     </div>
 
                     <div class="content-menu-food">
@@ -67,9 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <div class="col-xs-12 col-sm-3 col-md-3 background-right"></div>
             </div>
-
-
+            <div class="row row-bottom"></div>
         </div>
-
     </div>
 </div>

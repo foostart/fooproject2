@@ -1,5 +1,4 @@
 /* font-color */
-
 @color-white: #000;
 @color-pink: #cb7152;
 @color-gray: #6b6b6b;
@@ -20,26 +19,40 @@ ul {
         margin: 0 auto;
         max-width: 100%;
         padding:0;
-
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            background: #ededed;
+        }
         .content {
-
+            .row-top {
+                height: 100px;
+                background: #ededed;
+            }
+            .row-bottom {
+                height: 50px;
+                background: #ededed;
+            }
             .background-left {
                 transition: all 1s;
-                background: url(../images/section-title-bg-5.jpg) left center / auto no-repeat scroll;
-                padding-top: 100px;
-                padding-bottom: 0.05px;
-                min-height: 809px;
+                background: url("../images/section-title-bg-5.jpg") left center / auto no-repeat scroll;
+                min-height: 800px;
+                background-attachment: fixed;
             }
             .content-menu {
+                min-height: 800px;
                 transition: all 1s;
                 text-align: center;
                 position: relative;
-                    padding-bottom: 25px;
+                padding-bottom: 25px;
+                background-color: #fff;
+                border-radius: 15px;
+                z-index: 88;
+                margin-top: -50px;
                 .icon {
                     color: #cb7152;
                     font-size: 50px !important;
                 }
-
                 .menu-center {
                     position: relative;
                     margin: 30px 0 30px 0;
@@ -53,11 +66,9 @@ ul {
                         padding-top: 24px;
                     }
                 }
-
                 .menu-center:last-child {
                     margin-bottom: 20px;
                 }
-
                 .sep-line {
                     display: inline-block;
                     width: 35%;
@@ -74,25 +85,23 @@ ul {
                     vertical-align: middle;
                     padding-top: 24px;
                 }
-
                 .content {
                     display: table-cell;
                     white-space: nowrap;
-
                     .text-divider-double {
                         position: relative;
                         letter-spacing: 2px;
                         color: #000000;
                         font-size: 70px;
-                        font-family: Libre Baskerville;
+                        font-family: "Libre Baskerville";
                     }
                     .text-divider-subtitle {
                         color: #cb7152;
-                        font-family: 'Handlee';
+                        font-family: 'Handlee', cursive;
                         opacity: 0.8;
                         letter-spacing: 0.3em;
                         vertical-align: baseline;
-                        font-size: 20px;
+                        font-size: 15px;
                     }
                     .text-divider-subtitle:before,
                     .text-divider-subtitle:after {
@@ -104,21 +113,18 @@ ul {
                         padding: 0px 5px;
                     }
                 }
-
                 h3 {
                     color: @color-white;
                     font: normal 70px Libre Baskerville;
-                    letter-spacing: 2px;
                     position: relative;
                 }
-
                 h5 {
                     color: @color-pink;
-                    font: normal 14px/22px Handlee;
+                    font: normal 14px/22px;
+                    font-family: 'Handlee', cursive;
                     letter-spacing: 0.3em;
                     margin-bottom: 10px;
                 }
-
                 h5:before,
                 h5:after {
                     display: inline-block;
@@ -128,13 +134,11 @@ ul {
                     font-size: 1.1em;
                     padding: 0px 5px;
                 }
-
                 .content-menu-food {
                     padding: 0 10px;
                     text-align: start;
                     padding: 10px;
                     cursor: pointer;
-
                     h3 {
                         font-weight: 500;
                         font-family: Varela Round;
@@ -163,7 +167,6 @@ ul {
                         bottom: 0px;
                         position: absolute;
                     }
-
                     .disk-price {
                         font-family: Varela Round;
                         background: transparent;
@@ -171,13 +174,12 @@ ul {
                         right: 0px;
                         top: 0px;
                         font-style: normal;
-                        font-weight: normal;
-                        font-size: 14px;
+                        font-weight: 700;
+                        font-size: 15px;
                         border-radius: 25px;
                         padding: 0px;
                         color: @color-pink;
                     }
-
                     .disk-descitpion {
                         font-style: normal;
                         font-size: 14px;
@@ -186,11 +188,13 @@ ul {
                         line-height: 140%;
                     }
                 }
-                
-                p{
+                p {
                     font: normal 16px/24px Varela Round;
                     margin: 4em 0;
                     text-align: center;
+                }
+                .icon_page {
+                    margin: 20px 0;
                 }
             }
             .content-menu:after {
@@ -198,8 +202,7 @@ ul {
                 background: #fff;
                 height: 26px;
                 content: " ";
-                -webkit-mask-image: url(../images/ornament-bottom.svg);
-               
+                -webkit-mask-image: url("../images/ornament-bottom.svg");
                 width: 156px;
                 position: absolute;
                 bottom: -25px;
@@ -212,8 +215,7 @@ ul {
                 background: #fff;
                 height: 26px;
                 content: " ";
-                -webkit-mask-image: url(../images/ornament-top.svg);
-               
+                -webkit-mask-image: url("../images/ornament-top.svg");
                 width: 156px;
                 position: absolute;
                 top: -25px;
@@ -223,17 +225,80 @@ ul {
             }
             .background-right {
                 transition: all 1s;
-                background: url(../images/section-title-bg-5.jpg) right center / auto no-repeat scroll;
-                padding-top: 100px;
-                padding-bottom: 0.05px;
-                min-height: 809px;
+                background: url("../images/section-title-bg-5.jpg") right center / auto no-repeat scroll;
+                min-height: 800px;
+                background-attachment: fixed;
             }
         }
     }
-}
-@media (max-width: 992px)
-{
-    .background-left, .background-right {
-            min-height: 300px !important;
+    @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content {
+            .row-top {
+                height: 150px!important;
+            }
+            .content-menu {
+                margin-top: -100px!important;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) and (min-width: 480px) {
+        .background-left, .background-right {
+            min-height: 300px!important;
+        }
+        .row-top, .row-bottom {
+            height: 0!important;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .background-left, .background-right {
+            min-height: 200px!important;
+        }
+        .background-right {
+            margin-top: -20px;
+        }
+        .row-top, .row-bottom {
+            height: 0!important;
+        }
+        .content {
+            .content-menu {
+                .menu-center {
+                    h3 {
+                        font-size: 50px;
+                    }
+                }
+                .content-menu-food {
+                    h3 {
+                        font-size: 18px!important;
+                    }
+                    .disk-descitpion {
+                        font-size: 12px!important;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .content {
+            .content-menu {
+                .content {
+                    .text-divider-subtitle {
+                        font-size: 12px!important;
+                    }
+                }
+                .menu-center {
+                    h3 {
+                        font-size: 40px!important;
+                    }
+                }
+                .content-menu-food {
+                    h3 {
+                        font-size: 18px!important;
+                    }
+                    .disk-descitpion {
+                        font-size: 12px!important;
+                    }
+                }
+            }
+        }
     }
 }
