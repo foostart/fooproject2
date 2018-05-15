@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-md-4 SoftDrinks">
                 <div class="img-top">
-                    <img src="images/ornament-top.svg" alt="">
+                    <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
                 </div>
                 <div class="sep-text single centered">
                     <div class="sep-text-before"> 
@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="img-drinks">
-                    <img src="images/header-small-1.jpg" alt="img-reponsive">
+                    <img src="<?php echo $url_path ?>/images/header-small-1.jpg" alt="img-reponsive">
                 </div>
                 <div class="menu-coffe">
                     <h3>Caffè macchiato
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="img-bottom">
-                    <img src="images/ornament-top.svg" alt="">
+                    <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
                 </div>
             </div>
 
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <div class="col-md-4 SoftDrinks">
                 <div class="img-top">
-                    <img src="images/ornament-top.svg" alt="">
+                    <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
                 </div>
                 <div class="sep-text single centered">
                     <div class="sep-text-before"> 
@@ -112,7 +112,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="img-drinks">
-                    <img src="images/header-small-2.jpg" alt="img-reponsive">
+                    <img src="<?php echo $url_path ?>/images/header-small-2.jpg" alt="img-reponsive">
                 </div>
                 <div class="menu-coffe">
                     <h3>Caffè macchiato
@@ -139,7 +139,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 </div>
                 <div class="img-bottom">
-                    <img src="images/ornament-top.svg " alt="">
+                    <img src="<?php echo $url_path ?>/images/ornament-top.svg " alt="">
                 </div>
             </div>
         </div>
