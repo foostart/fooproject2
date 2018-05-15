@@ -34,6 +34,9 @@
   color: #000;
   font: normal 40px/50px Libre Baskerville;
 }
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu :hover {
+  color: #CB7152;
+}
 .type-1237 .m3 .m3-container .m3-content .m3-content-menu h5 {
   color: #cb7152;
   font: normal 14px/22px Handlee;
@@ -178,7 +181,7 @@
 .type-1237 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span:before {
   color: #fff;
   position: absolute;
-  content: "Book a table!";
+  content: "Đặt bàn ngay!";
   transform: translateY(0);
   top: 100%;
   left: 0px;
