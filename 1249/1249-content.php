@@ -285,20 +285,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
 
                                                 <!-- Swiper JS -->
-                                                <script src="js/swiper.min.js"></script>
-
-                                                <!-- Initialize Swiper -->
-                                                <script>
-                                                    var swiper = new Swiper('.swiper-container', {
-                                                        loop: true,
-
-                                                        navigation: {
-                                                            nextEl: '.swiper-button-next',
-                                                            prevEl: '.swiper-button-prev',
-                                                        },
-
-                                                    });
-                                                </script>
+                                                 
 
                                             </div>
 
