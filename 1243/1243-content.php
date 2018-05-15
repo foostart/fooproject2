@@ -115,7 +115,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </span></a>
                                                 <a href="#">
                                                     <span class="cate-2">
-                                                        1 Sep, 2018 
+                                                        27 Sep, 2018 
                                                     </span>
                                                 </a>
                                                 <a href="#" class="cate-3">
@@ -181,9 +181,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <a href="#">category tag</a>
                                   
                                             <a href="#">Healthy Food</a>
-                                            <div>
+                                           
                                             <a href="#">Recipes</a>
-                                            </div>
+                                            
                                             
                                         </div>
                                         <div class="m10-description-one-title">
