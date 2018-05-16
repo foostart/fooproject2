@@ -47,7 +47,7 @@
 
                                 <div>
                                     <div class="image">
-                                        <img src="<?php echo $url_path ?>/image/content.jpg" alt=""/>
+                                        <img class="img-reponsive" src="<?php echo $url_path ?>/image/content.jpg" alt=""/>
                                     </div>
                             </div>
                         </div>
