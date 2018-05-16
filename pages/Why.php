@@ -12,24 +12,25 @@
         <meta name="description" content="Tai lieu web" />
         <meta name="keywords" content="Tai lieu web"/>
 
-        <link href="../1244/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../1244/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../1273/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../1273/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         
-        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/>
+        <link href="../1273/css/1273.css" rel="stylesheet" type="text/css"/>
         <link href="../1248/css/1248.css" rel="stylesheet" type="text/css">
+        <link href="../1274/css/1274.css" rel="stylesheet" type="text/css"/>
+        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/>
+       
         
-        <script src="../1244/js/jquery-2.1.4.min.js" type="text/javascript"></script>      
+        <script src="../1273/js/jquery-2.1.4.min.js" type="text/javascript"></script>  
+        <script src="../1273/js/1273.js" type="text/javascript"></script>    
         <script src="../1248/js/amination.js" type="text/javascript"></script>
         <script src="../1248/js/backtotop.js" type="text/javascript"></script>
-        <style>
-            .hide{
-                display:none;
-            }
-        </style>
 
     </head>
     <body>
-        <?php include '../1244/1244-content.php'; ?>
+        <?php include '../1273/1273-content.php'; ?>
         <?php include '../1248/1248-content.php'; ?>
+        <?php include '../1274/1274-content.php'; ?>        
+        <?php include '../1244/1244-content.php'; ?>
     </body>
 </html>
