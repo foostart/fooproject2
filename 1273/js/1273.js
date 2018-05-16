@@ -69,15 +69,3 @@ $(document).ready(function(){
         $("#vamtam-overlay-search").fadeOut();
     })
 })
-
-$(document).ready(function () {
-    $("#icon-responsive i").click(function () {
-        $(".m1-navi-menus >ul").slideToggle(200);
-    });
-    $(".type-1273 header .header-top .m1-navi-menus > ul > li").click(function () {
-        $(this).children().addClass("active-li");
-    });
-    $(".icon-search").click(function () {
-        $(".search-panel ").toggleClass("show-search-panel");
-    });
-});
