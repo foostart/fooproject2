@@ -32,7 +32,7 @@
 
         <link href="../1264/css/1264.css" rel="stylesheet" type="text/css"/>
         <link href="../1264/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../1264/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  \
+        <link href="../1264/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
 
         
         <link href="../1265/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -58,6 +58,11 @@
         <?php  include '../1264/1264-content.php'; ?>
         <?php  include '../1265/1265-content.php'; ?>
        	<?php  include '../1248/1248-content.php'; ?>
+        <?php  include '../1264/1264-content.php'; ?>
+        <?php  include '../1265/1265-content.php'; ?>
+        <?php  include '../1263/1263-content.php'; ?>
+        <?php  include '../1264/1264-content.php'; ?>
+        <?php  include '../1265/1265-content.php'; ?>
         <?php  include '../1244/1244-content.php'; ?>
     </body>
 </html>
