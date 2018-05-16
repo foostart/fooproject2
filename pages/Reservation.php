@@ -19,25 +19,28 @@
 
         <link href="../1234/css/1234.css" rel="stylesheet" type="text/css" />
         <link href="../1246/css/1246.css" rel="stylesheet" type="text/css" />
+		<link href="../1279/css/1279.css" rel="stylesheet" type="text/css" />
         
         
         <link href="../1250/css/1250.css" rel="stylesheet" type="text/css" />
        
          <link href="../1244/css/1244.css" rel="stylesheet" type="text/css" />
           <link href="../1248/css/1248.css" rel="stylesheet" type="text/css" />
+		  <link href="../1267/css/1267.css" rel="stylesheet" type="text/css"/>
 
 
         
         <script src="../1235/js/jquery-2.1.4.min.js"></script>
         <script src="../1248/js/amination.js"></script>
-        <script src="../1234/js/modul-0-splash.js" ></script>
+		<script src="../1234/js/modul-0-splash.js" ></script>
+        <script src="../1267/js/modul-0-splash.js" ></script>
         <script src="../1249/js/owl.carousel.min.js"></script>
         <script src="../1262/js/bootstrap.min.js"></script>
+		<script src="../1267/js/datepicker.min.js" ></script>
        
 
     
     
-        <script src="../blocks/1249/js/1249.js"></script>
       
 
 
@@ -50,6 +53,8 @@
 
         <?php include '../1234/1234-content.php'; ?>
         <?php include '../1246/1246-content.php'; ?>
+		 <?php include '../1267/1267-content.php'; ?>
+		  <?php include '../1279/1279-content.php'; ?>
        
 
          
