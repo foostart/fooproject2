@@ -14,7 +14,7 @@
             <header class="page-header">
                 <h1>Theme Options</h1>
                 
-            </header> 
+            </header>  
 
             <div class="product-menu">
                 <!--menu-->
