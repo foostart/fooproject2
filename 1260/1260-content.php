@@ -29,32 +29,29 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
 
                     <div class="content-menu-food">
-                        <h3>American Brunch Combo Menu<span class="disk-price">$15</span></h3>
-                        <div class="disk-descitpion">Freshly scrambled eggs with applewood smoked bacon, tomatoes, green onions and cheddar cheese</div>
+                        <h3>Combo Menu Kiểu Mỹ<span class="disk-price">$15</span></h3>
+                        <div class="disk-descitpion">Trứng với thịt xông khói xông khói, cà chua, hành lá và phô mai</div>
                     </div>
 
                     <div class="content-menu-food">
-                        <h3>Coffee Strawberry Jam French Toast with Strawberry Butter Combo Menu<span class="disk-price">$11</span></h3>
-                        <div class="disk-descitpion">
-                        Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</div>
+                        <h3>Combo Menu Cà Phê Bơ Dâu Với Bánh Mì Nướng Kiểu Pháp<span class="disk-price">$11</span></h3>
+                        <div class="disk-descitpion">Cà phê nóng, bánh sừng bò, mỗi loại có chứa một thanh sôcôla đen chất lượng cao</div>
                     </div>
 
                     <div class="content-menu-food">
-                        <h3 class="">Coffee and Pain au chocolat (Chocolate croissant) Combo Menu<span class="disk-price">$11</span></h3>
-                        <div class="disk-descitpion">Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</div>
+                        <h3 class="">Combo Menu Cà Phê Và Bánh Sừng Bò<span class="disk-price">$11</span></h3>
+                        <div class="disk-descitpion">Cà phê nóng , bánh sừng bò, mỗi loại có chứa một thanh sôcôla đen chất lượng cao</div>
                     </div>
 
                     <div class="content-menu-food">
-                        <h3 class="">Optic Big Breakfast Combo Menu<span class="disk-price">$20</span></h3>
+                        <h3 class="">Combo Menu Bữa Sáng Bự<span class="disk-price">$20</span></h3>
                         <div class="disk-descitpion">
                         </div>
                     </div>
 
                     <div class="content-menu-food">
-                        <h3>Cashew Chicken With Stir-Fry Vegetables Green Salad<span class="disk-price">$22</span></h3>
-                        <div class="disk-descitpion">
-                            Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.
-                        </div>
+                        <h3>Gà Điều Xào Rau Xanh<span class="disk-price">$22</span></h3>
+                        <div class="disk-descitpion">Gà điều với rau xào ăn kèm với rau xanh, rau mầm và nấm hầm.</div>
                     </div>
 
                     <p class="icon_page">❈</p>
