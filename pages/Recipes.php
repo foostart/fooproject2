@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="vi">
     <head>
-        <title>Recipes Page</title>
+        <title>Recipes page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=100" />
         <meta http-equiv="REFRESH" content="1800" />
@@ -12,39 +12,67 @@
         <meta name="description" content="Tai lieu web" />
         <meta name="keywords" content="Tai lieu web"/>
 
-        <script src="../1269/css/swiper.min.css" type="text/javascript"></script>
-        <link href="../1269/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../1269/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <script src="../1269/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        
-        <link href="../1269/css/1269.css" rel="stylesheet" type="text/css"/>
-       
 
-        
-         
-        <script src="../1269/js/1269.js" type="text/javascript"></script>
-        <script src="../1269/js/swiper.min.js" type="text/javascript"></script>
 
-        <link href="../1251/css/1251.css" rel="stylesheet" type="text/css"/>
- 
-  
+
+     <link href="../1277/css/1277.css" rel="stylesheet" type="text/css" />
+        <script src="../1277/js/jquery-2.1.4.min.js"></script>
+        <script src="../1277/js/1277.js"></script>
+        <link href="../1277/css/font-awesome.min.css" rel="stylesheet">
+
+
+
       
-        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/>
-        
+        <link href="../1269/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../1269/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  
+        <link href="../1269/css/1269.css" rel="stylesheet" type="text/css" />
 
-    </head>
-    <body>
-        
-       
+         <link href="../1269/css/swiper.min.css" rel="stylesheet" type="text/css" />
+          <script src="../1269/js/jquery-2.1.4.min.js"></script>
+     <script src="../1269/js/1269.js"></script>
+            <script src="../1269/js/swiper.min.js"></script>
+    
+
+
+
+
+
+
+
+
    
-        <?php include '../1269/1269-content.php'; ?>
-          
-       <?php include '../1244/1244-content.php'; ?>
-   
+  
+        <link href="../1266/css/1266.css" rel="stylesheet" type="text/css" />     
            
+    
+
+
+        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css" />
+  
+
        
 
     
+    
+ 
 
+
+
+
+        
+    </head>
+    <body><div class="Recipes"></div>
+
+            <?php include '../1277/1277-content.php' ?>
+
+     
+             <?php include '../1269/1269-content.php'; ?>
+       
+
+            <?php include '../1266/1266-content.php'; ?>
+        
+            <?php include '../1244/1244-content.php'; ?>
+         
     </body>
 </html>
