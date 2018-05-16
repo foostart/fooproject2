@@ -14,6 +14,7 @@
 
         <link href="../1234/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../1234/css/1234.css" rel="stylesheet" type="text/css"/>
+        <link href="../1277/css/1277.css" rel="stylesheet" type="text/css" />
         <link href="../1248/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="../1248/css/1248.css" rel="stylesheet" type="text/css"/>
         <link href="../1269/css/swiper.min.css" rel="stylesheet" type="text/css"/>
@@ -23,14 +24,15 @@
         <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/>
 
         <script src="../1234/js/jquery-2.1.4.min.js" ></script>
-        <script src="../1234/js/1234.js" ></script> 
+        <script src="../1234/js/1234.js" ></script>
+        <script src="../1277/js/1277.js"></script> 
         <script src="../1248/js/amination.js"></script> 
 
    
-       <script src="../1269/js/bootstrap.min.js"></script>  
+        <script src="../1269/js/bootstrap.min.js"></script>  
         <script src="../1269/js/swiper.min.js"></script>
         <script src="../1269/js/m1-slide-js.js"></script>
-         <script src="../1269/js/modul1-navi-js.js"></script>
+        <script src="../1269/js/modul1-navi-js.js"></script>
         <script src="../1269/js/1269.js"></script>
             
 
@@ -38,6 +40,8 @@
     </head>
     <body>
         <?php include '../1234/1234-content.php'; ?>
+
+        <?php include '../1277/1277-content.php' ?>
 
         <?php include '../1248/1248-content.php'; ?>
 
