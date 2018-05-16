@@ -9,7 +9,7 @@
 ?>
 <div class="type-1241">
     
-    <div class="container">
+    <div class="container full">
         <div class="row type-1241-tabs-all">
             <div class="col-md-12">
                 <ul class="nav nav-tabs">

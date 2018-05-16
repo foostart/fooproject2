@@ -24,9 +24,9 @@ $less->compileFile('less/1235.less', 'css/1235.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1235.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/1235.js"></script>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 
