@@ -113,6 +113,9 @@ a {
   font-size: 20px;
   line-height: initial;
 }
+.type-1277 .header-top .navi-cart .shop-cart a:hover {
+  color: #cb7152;
+}
 .type-1277 .header-top .navi-cart .shop-cart > span {
   display: block;
   position: absolute;
@@ -146,6 +149,9 @@ a {
   cursor: pointer;
   color: black;
   font-size: 20px;
+}
+.type-1277 .header-top .navi-cart .search .icon-search:hover {
+  color: #cb7152;
 }
 .type-1277 .header-top .navi-cart .search .show-search-panel {
   transform: translateX(0) !important;
@@ -216,7 +222,6 @@ a {
   .type-1277 header .header-top {
     display: flex;
     z-index: 111;
-    background: #00000052;
     padding: 0 10px !important;
     position: absolute;
   }

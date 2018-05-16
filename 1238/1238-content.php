@@ -17,9 +17,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="content">
                         <h2 class="text-divider-double">
-                            We offer
+                            Dịch Vụ
                         </h2>
-                        <div class="text-divider-subtitle">Today Specials</div>
+                        <div class="text-divider-subtitle">Sự Kiện Đặc Biệt</div>
                     </div>
                     <div class="sep-after">
                         <div class="sep-line"></div>
@@ -37,10 +37,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <img src="<?php echo $url_path ?>/images/anh1.jpg " alt="reponsive-img" class="size-full">  </a>
                                     </div>
                                     <h4 class="m4-limit-services-title">
-                                        <a href="/" title="Child Friendly">Coffee & Tea</a>
+                                        <a href="/" title="Child Friendly">Cà Phê & Trà</a>
                                     </h4>
                                     <div>
-                                        <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+                                        <p>Hỗn hợp mịn của nó và những thành phần khác giúp bạn cảm thấy ngọt ngào hơn.</p>
                                     </div>
                                 </div>
                             </div>
@@ -53,10 +53,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <img src="<?php echo $url_path ?>/images/anh2.jpg" alt="reponsive-img" class="size-full"> </a>
                                         </div>
                                         <h4 class="m4-limit-services-title">
-                                            <a href="/" title="Child Friendly">Bakery & Sweets</a>
+                                            <a href="/" title="Child Friendly">Bánh & Kẹo</a>
                                         </h4>
                                         <div>
-                                            <p>These desserts aren’t simply favorites of ours; they also help define, in their own way…</p>
+                                            <p>Những món tráng miệng này không đơn giản là món ăn yêu thích của chúng tôi, họ cũng giúp xác định, theo cách riêng của họ...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,11 +69,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <img src="<?php echo $url_path ?>/images/anh3.jpg" alt="reponsive-img"  class="size-full"> </a>
                                             </div>
                                             <h4 class="m4-limit-services-title">
-                                                <a href="/" title="Child Friendly">Lunch Menu</a>
+                                                <a href="/" title="Child Friendly">Thực đơn bữa trưa</a>
                                             </h4>
                                             <div>
-
-                                                <p>We make our lunches and dinners with the finest ingredients we can find to make our meals as flavorful as possible.</p>
+                                                <p>Chúng tôi làm cho bữa trưa và bữa tối của chúng tôi với các thành phần tốt nhất chúng ta có thể tìm thấy để làm cho bữa ăn của chúng tôi nhiều hương vị càng tốt.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -87,10 +86,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </a>
                                             </div>
                                             <h4 class="m4-limit-services-title">
-                                                <a href="/" title="Child Friendly">Work Spots</a>
+                                                <a href="/" title="Child Friendly">Nơi làm việc</a>
                                             </h4>
                                             <div>
-                                                <p>Coffice in Stockholm is a great place to work from. Food options beyond pastries. Free WiFi.</p>
+                                                <p>Coffice ở Stockholm là một nơi tuyệt vời để làm việc. Lựa chọn thực phẩm ngoài bánh ngọt. Wifi miễn phí.</p>
                                             </div>
                                         </div>
                                     </div>
