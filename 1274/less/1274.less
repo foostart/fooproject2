@@ -1,53 +1,66 @@
-a {
-    text-decoration: none;
-    color: #555;
-    font-size: 13.5px;
-}
-
 @font-face {
-    font-family: Kaushan Script;
-    src: url(../fonts/Kaushan-Script.woff2);
-    font-weight: bold;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v37/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
-
-@font-face {
-    font-family: Libre Baskerville;
-    src: url(../fonts/Libre-Baskerville.woff2);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: Varela Round;
-    src: url(../fonts/Varela-Round.woff2);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: theme;
-    src: url(../fonts/theme-icons.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: theme;
-    src: url(../fonts/IcoMoon-Free.ttf);
-    font-weight: bold;
-}
-
 .type-1274 {
    .content-1{
+        z-index: 555;
         padding-top: 50px;
+        h2{
+            font: 400 24px/32px Libre Baskerville;
+        }
+        p{
+            font: 400 16px/24px Varela Round;
+            vertical-align: baseline;
+            color: #9f9f9f;
+        }
 
         .fa{
             color: #89b649;
+        }
+        .fa-layers {
+          transform:rotate(50deg) skewX(24deg) skewY(12deg);  
+          -webkit-transform:rotate(50deg) skewX(24deg) skewY(12deg);  
+          -ms-transform:rotate(50deg) skewX(24deg) skewY(12deg);  
+        }
+        .material-icons {
+          font-family: 'Material Icons';
+          font-weight: normal;
+          font-style: normal;
+          font-size: 24px;
+          color: #89b649;
+          line-height: 1;
+          letter-spacing: normal;
+          text-transform: none;
+          display: inline-block;
+          white-space: nowrap;
+          word-wrap: normal;
+          direction: ltr;
+          -webkit-font-feature-settings: 'liga';
+          -webkit-font-smoothing: antialiased;
         }
    }
    .content-2{
+        h3{
+            font: 400 30px/38px Libre Baskerville;
+        }
+        p{
+            font: 400 16px/24px Varela Round;
+            vertical-align: baseline;
+            color: #464646;
+        }
         .top h1{
             margin: 70px 0;
+            font: 400 40px/50px Libre Baskerville;
         }
         .fa{
             color: #89b649;
+        }
+        .col-md-4{
+            padding-right: 30px;
+            padding-left: 30px;
         }
    }
 }

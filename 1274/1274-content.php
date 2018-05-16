@@ -17,54 +17,54 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="content-1">
                         <div class="col-md-3 text-center">
-                            <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                            <i class="fa fa-eye hvr-grow" style="font-size: 46px;"></i>
                             <h2>Live Customizer</h2>
                             <p>All theme options are available in the WordPress Live Customizer to style your site easily in the front end.</p>
                         </div>
                         <div class="col-md-3 text-center">
-                            <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                            <i class="material-icons hvr-grow" style="font-size: 46px;"> layers</i>
                             <h2>Drag & Drop Builder</h2>
                             <p>All theme options are available in the WordPress Live Customizer to style your site easily in the front end.</p>
                         </div>
                         <div class="col-md-3 text-center">
-                            <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                            <i class="fa fa-cutlery hvr-grow" style="font-size: 46px;"></i>
                             <h2>FoodPress</h2>
                             <p>All theme options are available in the WordPress Live Customizer to style your site easily in the front end.</p>
                         </div>
                         <div class="col-md-3 text-center">
-                            <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                            <i class="material-icons hvr-grow" style="font-size:46px">access_time</i>
                             <h2>Timely Support</h2>
                             <p>All theme options are available in the WordPress Live Customizer to style your site easily in the front end.</p>
                         </div>
                     </div>
 
                     <div class="content-2">
-                        <div class="col-md-12 ">
+                        <div class="col-md-12">
                             <div class="top text-center">
                                 <h1>FULL FEATURE LIST</h1>
                             </div>
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-12 col-sm-12">
                                     <div class="text-center">
-                                        <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                                        <i class="fa fa-star hvr-grow" style="font-size: 46px;"></i>
                                         <h3>Highlights</h3><hr>
                                     </div>
 
                                     <ul>
                                         <li>
-                                            <p>23 Meticulously-scripted and professionally-produced HD video tutorials for beginners worth $79!</p>
+                                            <p>23 Meticulously-scripted and professionally-produced HD video tutorials for beginners worth <strong>$79!</strong></p> 
                                         </li>
                                         <li>
-                                            <p>Cube Portfolio Grid worth $16 !</p>
+                                            <p>Cube Portfolio Grid worth <strong>$16!</strong></p>
                                         </li>
                                         <li>
                                             <p>Sleek and easy to use Drag & Drop page, blog posts and portfolio posts builder, entirely based on the popular Visual Composer.</p>
                                         </li>
                                         <li>
-                                            <p>1200+ Premium Icon Set – $39 !</p>
+                                            <p>1200+ Premium Icon Set – <strong>$39 !</strong></p>
                                         </li>
                                         <li>
-                                            <p>Revolution Slider Responsive WordPress Plugin – $19 !</p>
+                                            <p>Revolution Slider Responsive WordPress Plugin – <strong>$19 !</strong></p>
                                         </li>
                                         <li>
                                             <p>Max Mega Menu plugin.</p>
@@ -78,9 +78,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </ul>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-12">
                                     <div class="text-center">
-                                        <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                                        <i class="fa fa-adjust hvr-grow" style="font-size: 46px;"></i>
                                         <h3>Top notch customer support</h3><hr>
                                     </div>
 
@@ -106,9 +106,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </ul>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-12">
                                     <div class="text-center">
-                                        <i class="fa fa-adjust hvr-grow" style="font-size: 30px;"></i>
+                                        <i class="fa fa-adjust hvr-grow" style="font-size: 46px;"></i>
                                         <h3>Page/Post drag & drop builder</h3><hr>
                                     </div>
 
