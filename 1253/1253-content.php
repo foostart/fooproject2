@@ -16,8 +16,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-md-6 right">
                         <div class="img-banner"><img src="<?php echo $url_path; ?>/images/sushi-icon-4.1.svg" alt="sushi-icon-4.1"></div>
                         <h2>Massimo Bottura</h2>
-                        <h6 class="font-color">Our Chef</h6>
-                        <p class="font-p">“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
+                        <h6 class="font-color">Our Cheft</h6>
+                        <p class="font-p">“Tôi là một đầu bếp, cho dù đằng sau bếp lò tại một trong những nhà hàng ở Bắc California của tôi hoặc trong 15 năm qua trước máy ảnh trên các chương trình nấu ăn. Tạo ra các món ăn và hương vị kết hợp mới mang lại cho đầu bếp và nhà hàng của chúng tôi niềm vui là công việc của tôi và tôi thích nó.”</p>
                         <div>
                             <img class="size-white" src="<?php echo $url_path; ?>/images/sign-white-1.svg" alt="sign-white"><br>
                             <span class="blank-space "></span>
