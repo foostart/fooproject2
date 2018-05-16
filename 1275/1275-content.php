@@ -14,7 +14,7 @@
             <header class="page-header">
                 <h1>Theme Options</h1>
                 
-            </header>  
+            </header> 
 
             <div class="product-menu">
                 <!--menu-->
@@ -47,7 +47,7 @@
 
                                 <div>
                                     <div class="image">
-                                        <img class="img-reponsive" src="<?php echo $url_path ?>/image/content.jpg" alt=""/>
+                                        <img src="<?php echo $url_path ?>/image/content.jpg" alt=""/>
                                     </div>
                             </div>
                         </div>

@@ -34,9 +34,10 @@
         <script src="../1246/js/about.js"></script>
         <script  src="../1249/js/swiper.min.js"></script>
         <script src="../1249/js/starrating.js"></script>
+        
     </head>
-    <body>
-        <div class="about"></div>
+    <body style="position: relative;">
+        <div class="about" style="width: 100%;height: 100%;position: absolute;background: #fff;"></div>
         <?php  include '../1246/1246-content.php'; ?>
         <?php  include '../1247/1247-content.php'; ?>
         <?php  include '../1253/1253-content.php'; ?>

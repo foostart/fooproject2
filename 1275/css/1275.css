@@ -88,11 +88,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-@media screen and (max-width: 767px) {
-  .type-1275 .product-menu .portfolio_wrapper .all .img-reponsive {
-    width: 100% !important;
-  }
-}
 @media (max-width: 1140px) and (min-width: 998px) {
   .type-1275 .product-menu .portfolio_wrapper .all .item {
     width: 25%;
