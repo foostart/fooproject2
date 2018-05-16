@@ -97,7 +97,7 @@ a {
 
 
                 > li:hover {
-                    //                        background:#ffffffb3;
+                    //background:#ffffffb3;
                 }
                 > li:hover > ul {
                     display: block;
@@ -153,6 +153,7 @@ a {
                 .icon-search {
                     cursor: pointer;
                     color: white;
+                    float: right;
                     font-size: 20px;
                 }
                 .show-search-panel {
@@ -162,10 +163,10 @@ a {
                 .search-panel {
                     transform: translateX(-30px);
                     opacity: 0;
-                    position: absolute;
+                    position: relative;
                     transition: 0.5s;
-                    right: 100%;
-                    top: 22%;
+                    right: 30px;
+                    bottom: 40%;
                     .menu-search-text {
                         border: none;
                         padding: 9px 22px 9px 12px;
@@ -176,7 +177,7 @@ a {
                         background: transparent;
                         border: none;
                         position: absolute;
-                        top: 7px;
+                        top: 30px;
                         right: 1px;
                     }
                 }
@@ -206,7 +207,7 @@ a {
                 font-size: 102px;
                 font-weight: 400;
                 color: #ffffff;
-
+                width: 99%;
             }
             p {
                 color: #ffffff;
@@ -230,13 +231,9 @@ a {
     .type-1235 header .header-top .navi-cart .search .search-panel .menu-search-text {
         padding: 9px 13px 9px 6px !important;
     }
-    .type-1235 .header-top .navi-cart .search .search-panel{
-        right: 16%;
-        top: 74%
-    }
 }
 
-@media (max-width: 520px){
+@media (max-width: 580px){
     .type-1235{
         .navi-cart #icon-responsive i {
             font-size: 28px !important;
@@ -311,3 +308,10 @@ a {
         padding: 12px 10px !important;
     }
 }
+@media (max-width: 1170px) {
+    .type-1235 .header-top .navi-cart .search .search-panel{
+        top: 20%;
+        right: 8%;
+    }
+}
+

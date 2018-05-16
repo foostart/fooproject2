@@ -12,10 +12,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1269">
-    <div class="container-fluid clearfix">\
+    <div class="container-fluid clearfix">
         <div class="row">
             <div class="header-middle type-featured col-md-12">
-                <h5 style="text-align: center">FEATURED POSTS</h5>
+                <h5>CÁC BÀI VIẾT</h5>
                 <div class="loop-wrapper clearfix news">
                     <div class="kkk-cubeportfolio cbp cbp-slider-edge cbp-ready cbp-mode-slider">
                         <div class="cbp-wrapper-outer">
@@ -33,25 +33,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                         <div class="post-content-wrapper">
                                                             <div class="post-content-meta">
-                                                                <div class=" the-categories">
+                                                                <div class="the-categories">
 
-                                                                    <span class="visuallyhidden">Category </span>
-                                                                    <a href="#" rel="category tag">Recipes</a>
-                                                                    <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                                                                    <a  class="tag" href="#" rel="category tag">Recipes</a>
+                                                                    <a class="tag" href="#" rel="category tag">Tips &amp; Tricks</a>
                                                                 </div>
                                                             </div>
                                                             <header class="single">
                                                                 <div >
-                                                                    <h4><a href="#" >Which Lamb is the Best: American, Australian or New Zealand?</a></h4>
+                                                                    <h4><a href="#" >Thịt cừu ở đâu ngon nhất: Mỹ, Úc hay New Zealand?</a></h4>
                                                                 </div>
                                                             </header>
                                                             <div class="post-content-outer">
-                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                                                                <p>Thịt cừu rất tốt cho sức khỏe. Nhiều người cảm thấy rằng thịt cừu ở New Zealand và Úc...</p>
                                                             </div>
                                                             <div class="post-content-meta">
                                                                 <div >
-
                                                                     <a href="#" rel="tag">Bio</a>
+                                                                    <a href="#" rel="tag">Food</a>
+
                                                                 </div>
                                                             </div>
                                                             <div class="post-actions-wrapper clearfix">
@@ -85,25 +85,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                         <div class="post-content-wrapper">
                                                             <div class="post-content-meta">
-                                                                <div class=" the-categories">
+                                                                <div class="the-categories">
 
-                                                                    <span class="visuallyhidden">Category </span>
-                                                                    <a href="#" rel="category tag">Recipes</a>
-                                                                    <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                                                                    <a  class="tag" href="#" rel="category tag">Recipes</a>
+                                                                    <a class="tag" href="#" rel="category tag">Tips &amp; Tricks</a>
                                                                 </div>
                                                             </div>
                                                             <header class="single">
                                                                 <div >
-                                                                    <h4><a href="#" >Which Lamb is the Best: American, Australian or New Zealand?</a></h4>
+                                                                    <h4><a href="#" >Thịt cừu ở đâu ngon nhất: Mỹ, Úc hay New Zealand?</a></h4>
                                                                 </div>
                                                             </header>
                                                             <div class="post-content-outer">
-                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                                                                <p>Thịt cừu rất tốt cho sức khỏe. Nhiều người cảm thấy rằng thịt cừu ở New Zealand và Úc...</p>
                                                             </div>
                                                             <div class="post-content-meta">
                                                                 <div >
-
                                                                     <a href="#" rel="tag">Bio</a>
+                                                                    <a href="#" rel="tag">Food</a>
+
                                                                 </div>
                                                             </div>
                                                             <div class="post-actions-wrapper clearfix">
@@ -137,24 +137,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                         <div class="post-content-wrapper">
                                                             <div class="post-content-meta">
-                                                                <div class=" the-categories">
+                                                                <div class="the-categories">
 
-                                                                    <span class="visuallyhidden">Category </span>
-                                                                    <a href="#" rel="category tag">Recipes</a>
-                                                                    <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                                                                    <a  class="tag" href="#" rel="category tag">Recipes</a>
+                                                                    <a class="tag" href="#" rel="category tag">Tips &amp; Tricks</a>
                                                                 </div>
                                                             </div>
                                                             <header class="single">
                                                                 <div >
-                                                                    <h4><a href="#" >Which Lamb is the Best: American, Australian or New Zealand?</a></h4>
+                                                                    <h4><a href="#" >Thịt cừu ở đâu ngon nhất: Mỹ, Úc hay New Zealand?</a></h4>
                                                                 </div>
                                                             </header>
                                                             <div class="post-content-outer">
-                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                                                                <p>Thịt cừu rất tốt cho sức khỏe. Nhiều người cảm thấy rằng thịt cừu ở New Zealand và Úc...</p>
                                                             </div>
                                                             <div class="post-content-meta">
                                                                 <div >
                                                                     <a href="#" rel="tag">Bio</a>
+                                                                    <a href="#" rel="tag">Food</a>
+
                                                                 </div>
                                                             </div>
                                                             <div class="post-actions-wrapper clearfix">
@@ -188,25 +189,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                         <div class="post-content-wrapper">
                                                             <div class="post-content-meta">
-                                                                <div class=" the-categories">
+                                                                <div class="the-categories">
 
-                                                                    <span class="visuallyhidden">Category </span>
-                                                                    <a href="#" rel="category tag">Recipes</a>
-                                                                    <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                                                                    <a  class="tag" href="#" rel="category tag">Recipes</a>
+                                                                    <a class="tag" href="#" rel="category tag">Tips &amp; Tricks</a>
                                                                 </div>
                                                             </div>
                                                             <header class="single">
                                                                 <div >
-                                                                    <h4><a href="#" >Which Lamb is the Best: American, Australian or New Zealand?</a></h4>
+                                                                    <h4><a href="#" >Thịt cừu ở đâu ngon nhất: Mỹ, Úc hay New Zealand?</a></h4>
                                                                 </div>
                                                             </header>
                                                             <div class="post-content-outer">
-                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                                                                <p>Thịt cừu rất tốt cho sức khỏe. Nhiều người cảm thấy rằng thịt cừu ở New Zealand và Úc...</p>
                                                             </div>
                                                             <div class="post-content-meta">
                                                                 <div >
-
                                                                     <a href="#" rel="tag">Bio</a>
+                                                                    <a href="#" rel="tag">Food</a>
+
                                                                 </div>
                                                             </div>
                                                             <div class="post-actions-wrapper clearfix">
@@ -224,9 +225,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                     </a>
                                                                 </span>
                                                             </div>
-
                                                         </div>
-
                                                     </div> 
                                                 </div>
                                             </div>
@@ -242,25 +241,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                         <div class="post-content-wrapper">
                                                             <div class="post-content-meta">
-                                                                <div class=" the-categories">
+                                                                <div class="the-categories">
 
-                                                                    <span class="visuallyhidden">Category </span>
-                                                                    <a href="#" rel="category tag">Recipes</a>
-                                                                    <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                                                                    <a  class="tag" href="#" rel="category tag">Recipes</a>
+                                                                    <a class="tag" href="#" rel="category tag">Tips &amp; Tricks</a>
                                                                 </div>
                                                             </div>
                                                             <header class="single">
                                                                 <div >
-                                                                    <h4><a href="#" >Which Lamb is the Best: American, Australian or New Zealand?</a></h4>
+                                                                    <h4><a href="#" >Thịt cừu ở đâu ngon nhất: Mỹ, Úc hay New Zealand?</a></h4>
                                                                 </div>
                                                             </header>
                                                             <div class="post-content-outer">
-                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                                                                <p>Thịt cừu rất tốt cho sức khỏe. Nhiều người cảm thấy rằng thịt cừu ở New Zealand và Úc...</p>
                                                             </div>
                                                             <div class="post-content-meta">
                                                                 <div >
-
                                                                     <a href="#" rel="tag">Bio</a>
+                                                                    <a href="#" rel="tag">Food</a>
+
                                                                 </div>
                                                             </div>
                                                             <div class="post-actions-wrapper clearfix">
@@ -283,6 +282,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </div>
                                             </div>
                                         </div>
+
+
                                     </div>
                                 </div>
                             </div>
