@@ -11,7 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-push-1"> 
-                <h3>If you want to become a great chef, you have to work with great chefs. And that’s exactly what I did.</h3>
+                <h3>Nếu bạn muốn trở thành một đầu bếp giỏi, bạn phải làm việc với những đầu bếp giỏi. Và đó chính xác là những gì tôi đã làm.</h3>
                 <h6 class="vamtam-font-style-2 with-color">Michael Strahan</h6>
                 <p>❈</p>
             </div>
