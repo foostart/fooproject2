@@ -27,6 +27,7 @@
 
         <script src="../1277/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../1277/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../1246/js/about.js" type="text/javascript"></script>
         <script src="../1277/js/1277.js"></script>
         <script src="../1248/js/jquery.js"></script>
         <script src="../1248/js/amination.js"></script>
@@ -41,6 +42,7 @@
         
     </head>
     <body>
+        <div class="about"></div>
         <?php  include '../1277/1277-content.php'; ?>
         <?php  include '../1248/1248-content.php'; ?>
         <?php  include '../1268/1268-content.php'; ?>
