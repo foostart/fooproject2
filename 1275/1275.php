@@ -27,7 +27,7 @@
 
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/js-1.js" ></script>
+        <script src="<?php echo $url_path ?>/js/1275.js" ></script>
 
         <link href="<?php echo $url_path ?>/css/1275.css" rel="stylesheet" type="text/css"/>
 
