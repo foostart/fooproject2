@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <!--banner-->
 <div class="type-1261">
-    <div class="m3">
+    <div class="m3 container">
         <div class="m3-container">
             <div class="m3-content">
                 <div class="col-xs-12 col-md-3  m3-content-left"></div>
