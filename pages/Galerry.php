@@ -13,20 +13,20 @@
         <meta name="keywords" content="Tai lieu web"/>
 
         <!--file css-->
-        <link href="../blocks/1277/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="../blocks/1277/css/1277.css" rel="stylesheet" type="text/css" />
-        <link href="../blocks/1277/css/font-awesome.min.css" rel="stylesheet">
-        <link href="../blocks/1251/css/1251.css" rel="stylesheet" type="text/css" />
-        <link href="../blocks/1244/css/1244.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1248/css/1248.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1234/css/1234.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1241/css/1241.css" rel="stylesheet" type="text/css"/>
+        <link href="../1277/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../1277/css/1277.css" rel="stylesheet" type="text/css" />
+        <link href="../1277/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../1251/css/1251.css" rel="stylesheet" type="text/css" />
+        <link href="../1244/css/1244.css" rel="stylesheet" type="text/css"/>
+        <link href="../1248/css/1248.css" rel="stylesheet" type="text/css"/>
+        <link href="../1234/css/1234.css" rel="stylesheet" type="text/css"/>
+        <link href="../1241/css/1241.css" rel="stylesheet" type="text/css"/>
          <!--file js-->
-        <script src="../blocks/1241/js/jquery-2.1.4.min.js"></script>
-        <script src="../blocks/1241/js/1277.js"></script>
-        <script src="../blocks/1241/js/jquery.min.js"></script>
-        <script src="../blocks/1248/js/amination.js"></script>
-        <script src="../blocks/1234/js/1234.js" ></script>
+        <script src="../1241/js/jquery-2.1.4.min.js"></script>
+        <script src="../1241/js/1277.js"></script>
+        <script src="../1241/js/jquery.min.js"></script>
+        <script src="../1248/js/amination.js"></script>
+        <script src="../1234/js/1234.js" ></script>
 
         
         
@@ -34,10 +34,10 @@
     <body>
 
 
-        <?php include '../blocks/1277/1277-content.php' ?>
-        <?php include '../blocks/1241/1241-content.php'; ?>
-        <?php include '../blocks/1244/1244-content.php'; ?>
-        <?php include '../blocks/1248/1248-content.php'; ?>
-        <?php include '../blocks/1234/1234-content.php'; ?>
+        <?php include '../1277/1277-content.php'; ?>
+        <?php include '../1241/1241-content.php'; ?>
+        <?php include '../1244/1244-content.php'; ?>
+        <?php include '../1248/1248-content.php'; ?>
+        <?php include '../1234/1234-content.php'; ?>
     </body>
 </html>
