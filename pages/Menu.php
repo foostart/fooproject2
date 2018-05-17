@@ -25,7 +25,7 @@
     </head>
 <body>
     <?php include '../1234/1234-content.php';?>
-    <?php include '../1260/1260-content.php';?>
+    <?php include '../1277/1277-content.php';?>
     <?php include '../1261/1261-content.php';?>
     <?php include '../1260/1260-content.php';?>
     <?php include '../1262/1262-content.php';?>
