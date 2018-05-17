@@ -34,13 +34,11 @@
         <script src="../1269/js/m1-slide-js.js"></script>
         <script src="../1269/js/modul1-navi-js.js"></script>
         <script src="../1269/js/1269.js"></script>
-        <script src="../1246/js/about.js"></script>
             
 
         
     </head>
     <body>
-    <div class="about"></div>
         <?php include '../1234/1234-content.php'; ?>
 
         <?php include '../1277/1277-content.php' ?>

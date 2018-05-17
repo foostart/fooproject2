@@ -45,7 +45,8 @@ $url_path = str_replace('\\', '/', $url_path);
 
                     <div class="content-menu-food">
                         <h3 class="">Combo Menu Bữa Sáng Bự<span class="disk-price">$20</span></h3>
-                        <div class="disk-descitpion">Trứng với thịt xông khói xông khói, cà chua, hành lá và phô mai. Cà phê nóng , bánh sừng bò, mỗi loại có chứa một thanh sôcôla đen chất lượng cao</div>
+                        <div class="disk-descitpion">
+                        </div>
                     </div>
 
                     <div class="content-menu-food">
