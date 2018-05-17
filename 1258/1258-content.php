@@ -23,7 +23,8 @@ if (empty($url_path)) {
                     <span>Q</span>
                 </div>
                 <div class="question-infor">
-                    Is Gordon available to attend or speak at our event?
+                    Gordon có sẵn sàng tham dự hoặc nói chuyện tại sự kiện của chúng tôi không?
+
                 </div>
             </div>
             <div class="space"></div>
@@ -32,7 +33,7 @@ if (empty($url_path)) {
                     <span>A</span>
                 </div>
                 <div class="answer-infor">
-                    As we’re sure you can understand, Gordon’s diary is very busy and often booked very far in advance. He is therefore simply unable to attend or speak at all the events that he is invited to.
+                    Như chúng tôi chắc chắn bạn có thể hiểu, nhật ký của Gordon rất bận rộn và thường được đặt trước rất xa. Do đó, anh ta không thể tham dự hoặc nói chuyện ở tất cả các sự kiện mà anh được mời đến.
                 </div>
             </div>
         </div>

@@ -18,16 +18,16 @@ if (empty($url_path)) {
             </div>
             <div class="text">
                 <div class="title">
-                    <h3>Join the team!</h3>
+                    <h3>Tham gia nhóm!</h3>
                 </div>
                 <div class="name">
-                    <p>We are always looking for dedicated and passionate individuals who are striving to build their career in the hospitality industry.<br>
-                        If you would like to be part of this award winning team please visit our Current Vacancies page and apply online.<br>
-                        We also offer an internship programme in our Support Office.
+                    <p>Chúng tôi luôn tìm kiếm những cá nhân chuyên dụng và nhiệt huyết, những người đang phấn đấu để xây dựng sự nghiệp của họ trong ngành khách sạn.<br>
+                        Nếu bạn muốn tham gia nhóm giải thưởng này, vui lòng truy cập trang Tuyển dụng hiện tại của chúng tôi và đăng ký trực tuyến. <br>
+                        Chúng tôi cũng cung cấp một chương trình thực tập tại Văn phòng Hỗ trợ của chúng tôi.
                     </p>
                 </div>
                 <button class="hvr-sweep-to-top"> 
-                    Apply Now
+                    Áp dụng ngay bây giờ
                 </button>
             </div>
         </div>
