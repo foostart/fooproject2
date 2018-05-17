@@ -52,7 +52,7 @@
                             </div>
                         </div>
                         <div id="c" class="tab-pane fade in active">
-                        </div>
+                        </div>  
 
                         <div id="d" class="tab-pane fade in active">
                         </div>
