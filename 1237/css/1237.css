@@ -34,9 +34,6 @@
   color: #000;
   font: normal 40px/50px Libre Baskerville;
 }
-.type-1237 .m3 .m3-container .m3-content .m3-content-menu :hover {
-  color: #CB7152;
-}
 .type-1237 .m3 .m3-container .m3-content .m3-content-menu h5 {
   color: #cb7152;
   font: normal 14px/22px Handlee;
@@ -69,6 +66,9 @@
   font-size: 16px;
   color: #000;
   line-height: 130%;
+}
+.type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food :hover {
+  color: #CB7152;
 }
 .type-1237 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:before {
   display: block;

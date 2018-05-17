@@ -19,22 +19,22 @@
                             <!--Brunch -->
                             <div class="col-xs-12 col-sm-6 col-md-4 m3-content-menu">
                                 <img src="<?php echo $url_path ?>/images/icon-food.PNG">
-                                <h3>Brunch</h3>
-                                <h5>Today Specials</h5>
+                                <h3>Bữa Sáng</h3>
+                                <h5>Ưu đãi hôm nay</h5>
                                 <div class="m3-content-menu-food">
-                                    <h3>Cashew Chicken With Stir-Fry Vegetables &amp; Green Salad
+                                    <h3>Gà trộn Sa-lát.
                                         <span class="price">$22</span>
                                     </h3>
-                                    <div class="m3-content-menu-food-description">Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.</div>
+                                    <div class="m3-content-menu-food-description">Sự kết hợp hoàn hảo giữa gà xào trộn với sa-lát và rau mầm</div>
                                 </div>
                                 <div class="m3-content-menu-food">
-                                    <h3>Optic Big Breakfast Combo Menu<span class="price">$20</span></h3>
+                                    <h3>Combo bữa sáng hoành tráng chỉ: <span class="price">$20</span></h3>
                                     <div class="m3-content-menu-food-description"></div>
                                 </div>
                                 <div class="m3-content-menu-food">
-                                    <h3>Coffee and Pain au chocolat (Chocolate croissant) Combo Menu
+                                    <h3>Combo gồm cà phê và bánh sừng Bò nổi tiếng nhất nước Pháp.
                                         <span class="price">$11</span></h3>
-                                    <div class="m3-content-menu-food-description">Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for ...</div>
+                                    <div class="m3-content-menu-food-description">Cà phế nóng kết hợp với bánh sừng bò chứa đầy Socola làm cho bạn ngất ngây cả ngày</div>
                                 </div>
                             </div>
                             <!--                <div class="clearfix"></div>-->
@@ -45,14 +45,15 @@
                             <div class="col-xs-12 col-sm-6 col-md-4 m3-content-event">
 
                                 <img src="<?php echo $url_path ?>/images/icon-coffe.PNG">
-                                <h3>Happy hour</h3>
-                                <h5>Starts at 3pm</h5>
-                                <p>The restaurant will open at 3pm for happy hour and dinner service starting at 5pm. We will continue to offer brunch on weekends from 10am-3pm with bottomless mimosas. We will also continue with our late night lounge on Friday and Saturdays until 2am.</p>
+                                <h3>Giờ Khuyến Mãi</h3>
+                                <h5>Sẽ bắt đầu vào lúc 15h</h5>
+                                <p>Nhà hàng sẽ bắt đầu mở cửa lúc 15 giờ để chuẩn bị cho giờ ưu đãi và bữa tối sẽ bắt đầu vào lúc 17 giờ cùng ngày.
+                                    Chúng tôi sẽ tiếp tục phục cho bữa sáng vào cuối tuần từ 10 giờ đến 15 giờ. Và chúng tối cũng tiếp tục phục vụ dưới sảnh đến 2 giờ khuya vào mỗi Thứ 7 và Chủ nhật hàng tuần.</p>
                                 <h4>+359 562 958</h4>
-                                <h6>30 minute guarantee!</h6>
+                                <h6>Đảm bảo trong 30 phút!</h6>
                                 <p class="m3-content-event-btn">
                                     <a href="#">
-                                        <span class="span-hover">Book a table!</span>
+                                        <span class="span-hover">Đặt bàn ngay!</span>
                                     </a>
                                 </p>
                             </div>
