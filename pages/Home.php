@@ -23,19 +23,20 @@
 
         <!--Cac file js-->
         <script src="../1234/js/jquery-2.1.4.min.js" ></script>
+        <script src="../1278/js/jquery-3.1.1.min.js"></script>
         <script src="../1234/js/1234.js" ></script>
         <script src="../1248/js/jquery.js"></script>
         <script src="../1248/js/amination.js"></script>
         <script src="../1251/js/m1-slide-js.js"></script>
         <script src="../1251/js/modul1-navi-js.js"></script>
+        <script src="../1251/js/bootstrap.min.js"></script>
         
     </head>
     <body>
         <?php include '../1234/1234-content.php'; ?>
         <?php include '../1251/1251-content.php'; ?>
-        <?php include '../1278/1278-content.php'; ?>
         <?php include '../1248/1248-content.php'; ?>
         <?php include '../1244/1244-content.php'; ?>
-      
+        <?php include '../1278/1278-content.php'; ?>
     </body>
 </html>
