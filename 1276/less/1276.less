@@ -25,19 +25,30 @@
                     list-style: none;
                     border-bottom: 1px solid #ededed;
                     padding: 35px 0;
-                    span{
-                        font-weight: 600;
-                        font-size: 24px;
-                        float: left;
-                        width: 15%;
-                    }
-                    p{
-                        font-size: 14px;
-                        float: left;
-                        width: 85%;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        span{
+                            font-weight: 600;
+                            font-size: 24px;
+                            float: left;
+                            width: 15%;
+                        }
+
+                        p{
+                            font-size: 14px;
+                            float: left;
+                            width: 85%;
+                        }
                     }
                 }
+
+                li:hover span, li:hover a{
+                    color: #cb7152;
+                }
             }
-        }
+        }:last-child{
+             margin-bottom: 30px;
+         }
     }
 }

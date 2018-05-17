@@ -19,85 +19,88 @@
                 <div class="col-md-4 col-sm-6 col-xs-12 item">
                     <ul>
                         <li>
-                            <span class="fa fa-internet-explorer"></span>
-                            <p>IE</p>
+                            <a href="#">
+                                <span class="fa fa-internet-explorer"></span>
+                                <p>IE</p>
+                            </a>
                         </li>
                         <li>
-                            <span class="fa fa-wheelchair"></span>
-                            <p>accessbility2</p>
+                            <a href="#">
+                                <s ccessbility2</p>
+                            </a>
                         </li>
-                        <li>
+                        <li><a href="#">
                             <span class="fa fa-plane"></span>
                             <p>airplane</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-clock-o"></span>
                             <p>alarm2</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>angry</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>apple-fruit</p>
-                        </li>
+                        </a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 item">
                     <ul>
-                        <li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>IE</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-wheelchair"></span>
                             <p>accessbility2</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-plane"></span>
                             <p>airplane</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-clock-o"></span>
                             <p>alarm2</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>angry</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>apple-fruit</p>
-                        </li>
+                        </a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 item">
                     <ul>
-                        <li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>IE</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-wheelchair"></span>
                             <p>accessbility2</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-plane"></span>
                             <p>airplane</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-clock-o"></span>
                             <p>alarm2</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>angry</p>
-                        </li>
-                        <li>
+                        </a></li>
+                        <li><a href="#">
                             <span class="fa fa-internet-explorer"></span>
                             <p>apple-fruit</p>
-                        </li>
+                        </a></li>
                     </ul>
                 </div>
             </div>

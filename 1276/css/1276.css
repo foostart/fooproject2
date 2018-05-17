@@ -22,14 +22,25 @@
   border-bottom: 1px solid #ededed;
   padding: 35px 0;
 }
-.type-1276 .content .item ul li span {
+.type-1276 .content .item ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.type-1276 .content .item ul li a span {
   font-weight: 600;
   font-size: 24px;
   float: left;
   width: 15%;
 }
-.type-1276 .content .item ul li p {
+.type-1276 .content .item ul li a p {
   font-size: 14px;
   float: left;
   width: 85%;
+}
+.type-1276 .content .item ul li:hover span,
+.type-1276 .content .item ul li:hover a {
+  color: #cb7152;
+}
+.type-1276 .content :last-child {
+  margin-bottom: 30px;
 }
