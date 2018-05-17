@@ -22,7 +22,7 @@
 			<div class="tab-content">
 			<div id="all" class="tab-pane active">
 				<div class="col-md-3 col-sm-4 col-xs-12 box">
-					<img src="images/hinh1.jpg" alt="hinh1">
+					<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 					<div class="content">
 						<p>Home Chef</p>
 						<div class="list">
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-4 col-xs-12 box">
-					<img src="images/hinh2.jpg" alt="hinh1">
+					<img src="<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh1">
 					<div class="content">
 						<p>Home Chef</p>
 						<div class="list">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-4 col-xs-12 box">
-					<img src="images/hinh2.jpg" alt="hinh1">
+					<img src="<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh1">
 					<div class="content">
 						<p>Home Chef</p>
 						<div class="list">
@@ -71,7 +71,7 @@
 				</div>
 				
 				<div class="col-md-3 col-sm-4 col-xs-12 box">
-					<img src="images/hinh1.jpg" alt="hinh1">
+					<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 					<div class="content">
 						<p>Home Chef</p>
 						<div class="list">
@@ -93,7 +93,7 @@
 		
 				<div id="menu1" class="tab-pane">
 					<div class="col-md-3 col-sm-4 col-xs-12 box">
-						<img src="images/hinh1.jpg" alt="hinh1">
+						<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 						<div class="content">
 							<p>Home Chef</p>
 							<div class="list">
@@ -109,7 +109,7 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-12 box">
-						<img src="images/hinh1.jpg" alt="hinh1">
+						<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 						<div class="content">
 							<p>Home Chef</p>
 							<div class="list">
@@ -127,7 +127,7 @@
 				</div>
 				<div id="menu2" class="tab-pane">
 					<div class="col-md-3 col-sm-4 col-xs-12 box">
-						<img src="images/hinh1.jpg" alt="hinh1">
+						<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 						<div class="content">
 							<p>Home Chef</p>
 							<div class="list">
@@ -144,7 +144,7 @@
 					</div>
 					
 					<div class="col-md-3 col-sm-4 col-xs-12 box">
-						<img src="images/hinh1.jpg" alt="hinh1">
+						<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 						<div class="content">
 							<p>Home Chef</p>
 							<div class="list">
@@ -162,7 +162,7 @@
 				</div>
 				<div id="menu3" class="tab-pane">
 					<div class="col-md-3 col-sm-4 col-xs-12 box">
-						<img src="images/hinh1.jpg" alt="hinh1">
+						<img src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
 						<div class="content">
 							<p>Home Chef</p>
 							<div class="list">
@@ -179,7 +179,7 @@
 					</div>
 				</div>
 				</div>
-			
+
 		</div>
 	</div>
 </div>
