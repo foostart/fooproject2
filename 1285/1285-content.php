@@ -12,81 +12,60 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1285">
-
-    <div style="height: 50px;"></div>
     <div class='container'>
         <div class='row'>
             <p>
-                <img src="images/sushi-icon-5.svg">
+                <img class="sushi" src="http://<?php echo $url_path ?>/images/sushi-icon-5.svg">
             </p>
-        </div>
-        <!--COL 1-->
-        <div class='col-md-4 col-1'>
-            <div class="vamtam-grid grid-1-3  vamtam-first-level grid-1-3  first unextended no-extended-padding" style="padding-top: 0.05px; padding-bottom: 0.05px; min-height: 331px;" id="vamtam-column-bd027786946bcf680ec73162bbda0c1b"><span class="vamtam-blank-space " style="height:50px"></span>
-                <h4 style="text-align: center;">Opening Times</h4>
-                <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-                <table class="vamtam-time-table">
-                    <tbody>
-                        <tr>
-                            <td>Week days</td>
-                            <td></td>
-                            <td>9.00 – 18:00</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td></td>
-                            <td>10.00 – 17:00</td>
-                        </tr>
-                        <tr>
-                            <td>Sunday</td>
-                            <td></td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <span class="vamtam-blank-space " style="height:10px"></span></div>
-        </div>
-
-        <!--COL 2-->
-        <div class='col-md-4 col-2' >
-
-            <div class='col-2-top'>
-                <span class="icon shortcode theme  use-hover" style="color:#cb7152;font-size:58px !important;"></span>
-            </div>
-            <div class='col-2-bottom'>
-                <h3> Directions</h3>
-                <h5> London, UK
-                    <br>
-                    10, Firs Avenue, Muswell Hill
-                    s</h5>
-
-                <p><a href="#">Wiew on map</a></p>
-            </div>
-
-            <div class='col-2-hinh'></div>
-
-
-        </div>
-        <!--COL 3-->
-        <div class='col-md-4 col-3'>
-            <div class="time3">
-                <div class="img1">
-                    <img src="images/Foursquare-logo.svg" alt="lg1" class="img-responsive" style="margin-left: 100px;">
-
-                </div>
-                <div class="sep"></div>
-                <div class="img2">
-                    <img src="images/Yelp-logo.svg" alt="lg2" class="img-responsive" style="margin-left: 100px;">
+            <div class='col-md-4 col-1'>
+                <div></span>
+                    <h4>Opening Times</h4>
+                    <span class="lich"></span>
+                    <div class="day">
+                        <span class="spleft">Week days</span> <span class="spright">9.00 – 18:00</span>
+                    </div>
+                    <div class="day">
+                        <span class="spleft"> Saturday </span>
+                        <span class="spright">10.00 – 17:00</span>
+                    </div>
+                    <div class="day">
+                        <span class="spleft">  Sunday </span>
+                        <span class="spright"> Closed</span>
+                    </div>
                 </div>
             </div>
-
-
+            <div class='col-md-4 col-2' >
+                <div class='col-2-top'>
+                    
+                </div>
+                <div class='col-2-bottom'>
+                    <img src="images/map.PNG" alt=""/>
+                    <h3> Directions</h3>
+                    <h5> London, UK
+                        <br>
+                        10, Firs Avenue, Muswell Hill
+                        s</h5>
+                    <p><a href="#">Wiew on map</a></p>
+                </div>
+            </div>
+            <div class='col-md-4 col-3'>
+                <div class="time3">
+                    <span class="imgright"></span>
+                    <a href="#"> <div class="img1">
+                            <img src="http://<?php echo $url_path ?>/images/Foursquare-logo.svg" alt="lg1">
+                        </div>
+                    </a>
+                    <div class="sep"></div>
+                    <a href="#"> 
+                        <div class="img2">
+                            <img src="http://<?php echo $url_path ?>/images/Yelp-logo.svg" alt="lg2">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12" >
+                <img  src="http://<?php echo $url_path ?>/images/photo-sushi-7.jpg">
+            </div>
         </div>
-        <div class='row'>
-            <p>
-                <img src="images/photo-sushi-7.jpg">
-            </p>
-        </div>
-
     </div>
 </div>
