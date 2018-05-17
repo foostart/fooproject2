@@ -23,9 +23,9 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <div class="col-md-2 del-space">
             <div class="contact">
-                <div class="img-top">
+                <!--<div class="img-top">
                     <img src="<?php echo $url_path ?>/images/ornament-top.svg" alt="">
-                </div>
+                </div>-->
                 <div class="contact-1">
                     <img src="<?php echo $url_path ?>/images/Capture1.png" alt="">
                     <h2 class="padding">Call</h2>
