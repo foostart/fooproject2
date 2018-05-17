@@ -39,12 +39,18 @@
         <link href="../1265/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
         <link href="../1265/css/1265.css" rel="stylesheet" type="text/css"/>
 
+        <link href="../1234/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../1234/css/1234.css" rel="stylesheet" type="text/css"/>
+        
         <script src="../1248/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../1248/js/1248.js" type="text/javascript"></script>
         <script src="../1235/js/jquery-2.1.4.min.js"></script>
         <script src="../1235/js/1235.js"></script>
         <script src="../1248/js/jquery.js"></script>
         <script src="../1248/js/amination.js"></script>
+        <script src="../1234/js/jquery-2.1.4.min.js" ></script>
+        <script src="../1234/js/1234.js" ></script>
+        <script src="../1246/js/about.js" ></script>
 
        
 	    
@@ -52,7 +58,8 @@
 
     </head>
     <body>
-
+        <div class="about"></div>
+        <?php  include '../1234/1234-content.php'; ?>
         <?php  include '../1235/1235-content.php'; ?>
         <?php  include '../1263/1263-content.php'; ?>
         <?php  include '../1264/1264-content.php'; ?>
