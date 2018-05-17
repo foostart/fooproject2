@@ -15,8 +15,6 @@
         <link href="../1262/css/1262.css" rel="stylesheet" type="text/css"/>
         <link href="../1277/css/1277.css" rel="stylesheet" type="text/css"/>
 
-
-
         <script src="../1234/js/jquery-2.1.4.min.js"></script>
         <script src="../1248/js/bootstrap.min.js"></script>
         <script src="../1234/js/1234.js"></script>
@@ -32,5 +30,4 @@
     <?php include '../1244/1244-content.php';?>
     <?php include '../1248/1248-content.php';?>
 </body>
-
 </html>
