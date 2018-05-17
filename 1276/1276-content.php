@@ -24,11 +24,10 @@
                                 <p>IE</p>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <s ccessbility2</p>
-                            </a>
-                        </li>
+                        <li><a href="#">
+                                <span class="fa fa-wheelchair"></span>
+                                <p>accessbility2</p>
+                            </a></li>
                         <li><a href="#">
                             <span class="fa fa-plane"></span>
                             <p>airplane</p>
