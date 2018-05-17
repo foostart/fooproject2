@@ -1,0 +1,145 @@
+.type-1281 {
+  background-color: #f4f3ef;
+}
+.type-1281 .bar-sushi {
+  background-image: url("../images/slider-bg-sushi-1.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.type-1281 .bar-sushi .sushi {
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+.type-1281 .bar-sushi .sushi h1:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 80px;
+  color: #FFFFFF;
+}
+.type-1281 .bar-sushi .sushi h1:last-child {
+  margin-top: -30px;
+  font-size: 80px;
+  color: #ffd408;
+  position: absolute;
+  left: 50%;
+}
+.type-1281 .detail-sushi {
+  background-color: #f4f3ef;
+}
+.type-1281 .detail-sushi .left,
+.type-1281 .detail-sushi .right {
+  margin-top: 100px;
+  text-align: center;
+}
+.type-1281 .detail-sushi .left img,
+.type-1281 .detail-sushi .right img {
+  width: 100%;
+  height: auto;
+}
+.type-1281 .detail-sushi .center {
+  text-align: center;
+}
+.type-1281 .detail-sushi .center img {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.type-1281 .detail-sushi .center .content-center .RESER {
+  position: relative;
+  background-color: #a5c63f;
+  height: 60px;
+  margin-top: -60px;
+  color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.type-1281 .detail-sushi .center .content-center .RESER h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+.type-1281 .detail-sushi .center .content-center .RESER:before {
+  display: block;
+  background: #a5c63f;
+  height: 26px;
+  content: " ";
+  -webkit-mask-image: url("../images/ornament-top.svg");
+  width: 156px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-left: -78px;
+  z-index: 10;
+}
+.type-1281 .detail-sushi .center .content-center .Making {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.type-1281 .detail-sushi .center .content-center .Making p {
+  padding: 30px 10px 10px 10px;
+  margin: 0;
+}
+.type-1281 .detail-sushi .center .content-center .Making h3 {
+  margin: 0;
+}
+.type-1281 .detail-sushi .center .content-center .Making a.btn-block1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+}
+.type-1281 .detail-sushi .center .content-center .Making a.btn-block1:hover {
+  text-decoration: none;
+  background-color: #ffd408 !important;
+  border-color: #ffd408;
+}
+.type-1281 .detail-sushi .center .content-center .Making:before {
+  display: block;
+  background: #fff;
+  height: 26px;
+  content: " ";
+  -webkit-mask-image: url("../images/ornament-bottom.svg");
+  width: 156px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -78px;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  .type-1281 h1:first-child {
+    font-size: 60px !important;
+  }
+  .type-1281 h1:last-child {
+    font-size: 60px !important;
+  }
+  .type-1281 .bar-sushi {
+    height: 300px;
+  }
+  .type-1281 .detail-sushi .left,
+  .type-1281 .detail-sushi .right {
+    margin-top: 0 !important;
+  }
+  .type-1281 .detail-sushi .left img,
+  .type-1281 .detail-sushi .right img {
+    width: 250px;
+    height: auto;
+  }
+  .type-1281 .detail-sushi .center img {
+    display: none;
+  }
+  .type-1281 .detail-sushi .center .content-center .RESER {
+    margin-top: 50px !important;
+  }
+}
