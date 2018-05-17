@@ -23,9 +23,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="m5-content-text">
                     <h2>
-                        Tea
+                        Trà
                     </h2>
-                    <div class="m5-content-text-subtitle">Today Specials</div>                           
+                    <div class="m5-content-text-subtitle">HÔM NAY UỐNG GÌ</div>                           
                 </div>
                 <div class="m5-content-line-right"><div class="m5-content-line"></div></div>
             </div> 

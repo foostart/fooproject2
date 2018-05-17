@@ -63,10 +63,14 @@
         
     </head>
     <body><div class="Recipes"></div>
-
+            <style type="text/css">
+                .type-1244 {
+                    position: relative;
+                }
+            </style>
             <?php include '../1277/1277-content.php' ?>
 
-     
+    
              <?php include '../1269/1269-content.php'; ?>
        
 
