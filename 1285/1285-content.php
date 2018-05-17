@@ -15,10 +15,10 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class='container'>
         <div class='row'>
             <p>
-                <img class="sushi" src="http://<?php echo $url_path ?>/images/sushi-icon-5.svg">
+                <img class="sushi" src="http://<?php echo $url_path ?>/images/sushi-icon-5.svg" alt="sushi">
             </p>
             <div class='col-md-4 col-1'>
-                <div></span>
+                <div>
                     <h4>Opening Times</h4>
                     <span class="lich"></span>
                     <div class="day">
@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-xs-12" >
-                <img  src="http://<?php echo $url_path ?>/images/photo-sushi-7.jpg">
+                <img  src="http://<?php echo $url_path ?>/images/photo-sushi-7.jpg" alt="sushi">
             </div>
         </div>
     </div>
