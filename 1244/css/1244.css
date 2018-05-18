@@ -1,10 +1,9 @@
 .type-1244 {
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -2;
   background-color: #23282f;
   background-image: none;
   font: normal 14px/22px Varela Round;
