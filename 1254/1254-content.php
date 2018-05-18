@@ -35,12 +35,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="team-member-info">
                                 <h4>
                                     <a href="#" title="Brad Farmerie">
-                                        Brad Farmerie </a>
+                                        Nguyễn Văn Hào </a>
                                 </h4>
-                                <h6> CEO &amp; FOUNDER </h6>
+                                <h6> Giám Đốc Điều Hành </h6>
                                 <a href="#" title="Call Brad Farmerie">Tel: 947 577 575</a>
                                 <div><a href="#" title="email Brad Farmerie">chef@vamtam.com</a></div>
-                                <p>Brad Farmerie took a year hiatus from college to move to London and witness firsthand the culinary revolution taking place in the UK.</p>
+                                <p>Nguyễn Văn A là một giám đốc đến từ đại học Sài Gòn, chứng kiến ​​tận mắt cuộc cách mạng ẩm thực diễn ra tại Anh.</p>
                             </div>
                             <!--/INFO-->
                         </div>
@@ -55,26 +55,26 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!--THUMBNAIL-->
                         <div class="thumbnail">
                             <a href="#" title="Brad Farmerie"><img src="<?php echo $url_path ?>/images/people-2.jpg" alt="img-reponsive"></a>
-                             <!--ICONS-->
+                            <!--ICONS-->
                             <div class="share-icons clearfix">
                                 <a href="#" title=""><span class="icon shortcode   use-hover" style=""><i class="fa fa-google-plus" aria-hidden="true"></i></span></a>
                                 <a href="#" title=""><span class="icon shortcode   use-hover" style=""><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
                                 <a href="#" title=""><span class="icon shortcode   use-hover" style=""><i class="fa fa-facebook-official" aria-hidden="true"></i></span></a>
                                 <a href="#" title=""><span class="icon shortcode   use-hover" style=""><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
                             </div>
-                              <!--/ICONS-->
+                            <!--/ICONS-->
                         </div>
                         <!--/THUMBNAIL-->
                         <!--INFO-->
                         <div class="team-member-info">
                             <h4>
                                 <a href="#" title="Brad Farmerie">
-                                    Brad Farmerie </a>
+                                    Trần Văn Minh </a>
                             </h4>
-                            <h6> MANAGER </h6>
+                            <h6> Giám Đốc </h6>
                             <a href="#" title="Call Brad Farmerie">Tel: 947 577 575</a>
                             <div><a href="#" title="email Brad Farmerie">chef@vamtam.com</a></div>
-                            <p>Brad Farmerie took a year hiatus from college to move to London and witness firsthand the culinary revolution taking place in the UK.</p>
+                            <p>Nguyễn Văn A là một giám đốc đến từ đại học Sài Gòn, chứng kiến ​​tận mắt cuộc cách mạng ẩm thực diễn ra tại Anh.</p>
                         </div>
                         <!--/INFO-->
                     </div>
@@ -102,13 +102,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="team-member-info">
                             <h4>
                                 <a href="#" title="Avroko">
-                                    Avroko </a>
+                                    Cao Văn Á </a>
                             </h4>
-                            <h6> MASTER CHEF </h6>
+                            <h6> Siêu Đầu Bếp </h6>
                             <a href="#" title="Call Avroko">Tel: 947 577 575</a>
                             <div><a href="#" title="email Avroko">owners@vamtam.com</a></div>
-                            <p>Four partners, 14 years, multiple disciplines rooted in hospitality.
-                                <br> New York-headquartered design-and-concept firm AvroKO.</p>
+                            <p>Nguyễn Văn A là một giám đốc đến từ đại học Sài Gòn, chứng kiến ​​tận mắt cuộc cách mạng ẩm thực diễn ra tại Anh.</p>
                         </div>
                         <!--/INFO-->
                     </div>
@@ -132,18 +131,18 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/ICONS-->
                         </div>
                         <!--/THUMBNAIL-->
-                         <!--INFO-->
+                        <!--INFO-->
                         <div class="team-member-info">
                             <h4>
                                 <a href="#" title="Dan Rafalin">
-                                    Dan Rafalin </a>
+                                    Lân Á Hậu </a>
                             </h4>
-                            <h6> SOUS CHEF </h6>
+                            <h6> ĐẦU BẾP </h6>
                             <a href="#" title="Call Dan Rafalin">Tel: 947 577 575</a>
                             <div><a href="#" title="email Dan Rafalin">manager@vamtam.com</a></div>
-                            <p>Dan Rafalin has been immersed in the culinary world from the beginning of his career when he received a Grand Diplôme.</p>
+                            <p>Nguyễn Văn A là một giám đốc đến từ đại học Sài Gòn, chứng kiến ​​tận mắt cuộc cách mạng ẩm thực diễn ra tại Anh.</p>
                         </div>
-                          <!--/INFO-->
+                        <!--/INFO-->
                     </div>
                     <!--/TEAM-->
                 </div>

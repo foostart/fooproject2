@@ -11,14 +11,14 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="form">
             <form>
-                <h3 class="form-title">Do you have any Questions?</h3>
-                <p>Fields marked with an <span class="req-symbol">*</span> are required</p>
+                <h3 class="form-title">Bạn có câu hỏi nào không?</h3>
+                <p>Các trường được đánh dấu <span class="req-symbol">*</span> là bắt buộc</p>
                 <!-- form-header -->
                 <div class="inline-group row">
                     <!--NAME-->
                     <div class="field required col-md-4 col-sm-4 col-xs-12">
                         <!-- add class error show error -->
-                        <label >Name</label>
+                        <label >Tên</label>
                         <input id="nf-field-37" name="nf-field-37" aria-invalid="true" type="text" value="">
                     </div>
                     <!--/NAME-->
@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="nf-after-field">
                             <nf-section>
                                 <div id="nf-error-38" class=" nf-error" role="alert">
-                                    <div class="nf-error-msg "><div class="hide">This is a required field.</div></div>
+                                    <div class="nf-error-msg "><div class="hide">Đây là một lĩnh vực cần thiết.</div></div>
                                 </div>
 
                             </nf-section>
@@ -42,24 +42,24 @@ $url_path = str_replace('\\', '/', $url_path);
                     <!--/EMAIL-->
                     <!--PHONE-->
                     <div class="field col-md-4 col-sm-4 col-xs-12">
-                        <label>Phone</label>
+                        <label>Điện Thoại</label>
 
                         <input id="nf-field-39" name="nf-field-39" type="tel" value="" >
 
-                        <div class="hide">This is a required field.</div>
+                        <div class="hide">Đây là một lĩnh vực cần thiết.</div>
                     </div>
                     <!--/PHONE-->
                 </div>
                 <!--MESAGE-->
                 <div class="field required">
-                    <label>Message </label>
+                    <label>THÔNG ĐIỆP </label>
 
                     <textarea id="nf-field-40" name="nf-field-40" aria-invalid="true"></textarea>
 
                     <div class="nf-after-field ">
                         <nf-section>
 
-                            <div class=" nf-error "><div class="nf-error-msg "><div class="hide">This is a required field.</div></div></div>
+                            <div class=" nf-error "><div class="nf-error-msg "><div class="hide">Đây là một lĩnh vực cần thiết.</div></div></div>
                         </nf-section></div>
                 </div>
                 <!--/MESAGE-->
