@@ -18,22 +18,22 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="content-1">
                         <div class="col-md-3 text-center">
                             <i class="fa fa-eye hvr-grow" style="font-size: 46px;"></i>
-                            <h2>Live Customizer</h2>
+                            <h2>Trình Tùy Chỉnh Trực Tiếp</h2>
                             <p>Tất cả các tùy chọn chủ đề có sẵn trong WordPress Live Customizer để tạo kiểu cho trang web của bạn dễ dàng ở giao diện người dùng.</p>
                         </div>
                         <div class="col-md-3 text-center">
                             <i class="material-icons hvr-grow" style="font-size: 46px;"> layers</i>
-                            <h2>Drag & Drop Builder</h2>
+                            <h2>Xây Dựng Kéo & Thả</h2>
                             <p>Chủ đề sử dụng trình tạo mẫu linh hoạt cho phép bạn tạo các trang và bài đăng duy nhất.</p>
                         </div>
                         <div class="col-md-3 text-center">
                             <i class="fa fa-cutlery hvr-grow" style="font-size: 46px;"></i>
-                            <h2>FoodPress</h2>
+                            <h2>Thực Đơn</h2>
                             <p>Plugin đặt chỗ và trình đơn phổ biến nhất FoodPress được tích hợp đầy đủ.</p>
                         </div>
                         <div class="col-md-3 text-center">
                             <i class="material-icons hvr-grow" style="font-size:46px">access_time</i>
-                            <h2>Timely Support</h2>
+                            <h2>Hỗ Trợ</h2>
                             <p>Trợ giúp bàn với một trên một email và hỗ trợ vé và nhân viên hỗ trợ chuyên dụng sẵn sàng hỗ trợ bạn.</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-4 col-sm-12 col-sm-12">
                                     <div class="text-center">
                                         <i class="fa fa-star hvr-grow" style="font-size: 46px;"></i>
-                                        <h3>Highlights</h3><hr>
+                                        <h3>Điểm Nổi Bật</h3><hr>
                                     </div>
 
                                     <ul>
@@ -81,7 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-4 col-sm-12">
                                     <div class="text-center">
                                         <i class="fa fa-adjust hvr-grow" style="font-size: 46px;"></i>
-                                        <h3>Top notch customer support</h3><hr>
+                                        <h3>Hỗ trợ khách hàng</h3><hr>
                                     </div>
 
                                     <ul>
@@ -109,7 +109,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-4 col-sm-12">
                                     <div class="text-center">
                                         <i class="fa fa-adjust hvr-grow" style="font-size: 46px;"></i>
-                                        <h3>Page/Post drag & drop builder</h3><hr>
+                                        <h3>Xây Dựng Kéo Và Thả Trang/Bài</h3><hr>
                                     </div>
 
                                     <ul>
