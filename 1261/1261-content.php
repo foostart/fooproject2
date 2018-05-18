@@ -17,9 +17,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="m3 container">
         <div class="m3-container">
             <div class="m3-content">
-                <div class="col-xs-12 col-md-3  m3-content-left"></div>
+                <div class="col-xs-12 col-md-3  col-sm-3 m3-content-left"></div>
                 <!--Brunch -->
-                <div class="col-xs-12  col-md-6 m3-content-menu">
+                <div class="col-xs-12  col-md-6 col-sm-6 m3-content-menu">
                     <div class="content-menu">
                         <span class="m3-content-menu-icon"><img src="<?php echo $url_path ?>/img/cookie.JPG" alt="img-reposive"></span>
                         <h3>BRUNCH</h3>
@@ -106,7 +106,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
                 <!--Happy  hour-->
-                <div class="col-xs-12  col-md-3 m3-content-right"></div>
+                <div class="col-xs-12  col-md-3 col-sm-3 m3-content-right"></div>
                 <div class="clearfix"></div>
             </div>
             <div class="m3-parallax">

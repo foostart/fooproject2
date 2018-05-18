@@ -11,34 +11,67 @@ ul{
     padding: 0;
 }
 .type-1261{
+    background: #ededed;
+    padding-top: 100px;
+    .nav-tabs>li {
+        display: inline-block;
+        float: unset;
+    }
     .m3{
+        width: 100%;
+        padding: 0;
+        max-width: 1260px;
+        
         .m3-container{
             margin: 0 auto;
             max-width: 100%;
             .m3-content{
                 .m3-content-left{
-                    width: 50%;
-                    position: absolute;
-                    z-index: -1;
                     left: 0;
                     transition: all 1s;
                     background: url(../img/section-title-bg-6-left.jpg) left center / auto no-repeat scroll;
                     background-attachment: fixed;
                     padding-top: 100px;
                     padding-bottom: 0.05px;
-                    min-height: 650px;
+                    min-height: 750px;
                 }
-
+                .m3-content-menu:before {
+                    display: block;
+                    background: #fff;
+                    height: 26px;
+                    content: " ";
+                    -webkit-mask-image: url(../img/ornament-top.svg);
+                    width: 156px;
+                    position: absolute;
+                    top: -25px;
+                    left: 50%;
+                    margin-left: -78px;
+                    z-index: 10;
+                }
+                .m3-content-menu:after {
+                    display: block;
+                    background: #fff;
+                    height: 26px;
+                    content: " ";
+                    -webkit-mask-image: url(../img/ornament-bottom.svg);
+                    width: 156px;
+                    position: absolute;
+                    bottom: -25px;
+                    left: 50%;
+                    margin-left: -78px;
+                    z-index: 10;
+                }
                 .m3-content-menu{
-                    max-width: 625px;
-                    width: 100%;
-                    min-height: 650px;
+                    margin-top: -50px;
+                    min-height: 800px;
                     background: #fff;
                     transition: all 1s;
-                    float: unset;
-                    margin: 0 auto; 
+                    float: left;
+                    border-radius: 15px;
+                    padding-bottom: 80px;
                     .content-menu{
                         text-align: center;
+                        padding-top: 40px;
                         .m3-content-menu-icon{
                             font-family: theme;
                             color: @color-pink;
@@ -48,12 +81,13 @@ ul{
                         h3{
                             color: @color-white;
                             font: normal 40px/50px Libre Baskerville;
+                            margin: 30px 0;
                         }
                         h5{
                             color: @color-pink;
                             font: normal 14px/22px Handlee;
                             letter-spacing: 0.3em;
-                            margin-bottom: 10px;
+                            margin-bottom: 20px;
                         }
                         h5:before, h5:after {
                             display: inline-block;
@@ -66,6 +100,7 @@ ul{
                     }
 
                     .tab-content{
+                        margin-top: 60px;
                         .menu{
                             text-align: center;
                         }
@@ -109,7 +144,7 @@ ul{
                             color: @color-pink;
                         }
                         .text-menu{
-                            margin-left: 10px;
+                            padding: 10px;
                         }
                         .menu-text:hover{
                             color: #cb7152;
@@ -126,11 +161,11 @@ ul{
                             font-weight: 400;
                             font-family: Varela Round;
                             padding-bottom: 12px;
-                            padding-right: 80px;
+                            padding-right: 50px;
                             position: relative;
                             margin-bottom: 2px;
                             transition: all .3s;
-                            font-size: 16px;
+                            font-size: 18px;
                             color: @color-white;
                             line-height: 130%;
                             transition: 0.3s;
@@ -299,17 +334,12 @@ ul{
                 }
 
                 .m3-content-right{
-                    width: 50%;
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                    z-index: -1;
                     transition: all 1s;
                     background: url(../img/section-title-bg-6-right.jpg) right center / auto no-repeat scroll;
                     background-attachment: fixed;
                     padding-top: 100px;
                     padding-bottom: 0.05px;
-                    min-height: 650px;
+                    min-height: 750px;
                 }
             }
             .m3-parallax{
