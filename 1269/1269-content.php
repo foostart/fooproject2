@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $url_host = $_SERVER['HTTP_HOST'];
 
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1269">
-    <div class="container-fluid clearfix">
+    <div class="container clearfix">
         <div class="row">
             <div class="header-middle type-featured col-md-12">
                 <h5>CÁC BÀI VIẾT</h5>
