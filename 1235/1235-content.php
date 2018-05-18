@@ -21,10 +21,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="navi-menus">
                         <ul>
                             <li>
-                                <a href="#">Homes</a>
+                                <a href="#">Trang Chủ</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="#">Giới Thiệu</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Menu</a>
+                                <a href="#">Thực Đơn</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -40,7 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Reservation</a>
+                                <a href="#">Đặt Trước</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -48,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Gallery</a>
+                                <a href="#">Bộ Sưu Tập</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
 
                             <li>
-                                <a href="#">Features</a>
+                                <a href="#">Đặc Điểm</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -75,7 +75,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
 
                             <li>
-                                <a href="#">Shop</a>
+                                <a href="#">Cửa Hàng</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -84,7 +84,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
 
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#">Liên Hệ</a>
                                 <ul>
                                     <li><a href="#">Gourmet</a></li>
                                     <li><a href="#">Coffe</a></li>
@@ -105,7 +105,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#"><i class="fa fa-shopping-bag"></i></a>
                             <span>0</span>
                             <div class="list-cart">
-                                <span>No product in the cart</span>
+                                <span>Không có sản phẩm</span>
                             </div>
                         </div>
                         <div id="icon-responsive">
