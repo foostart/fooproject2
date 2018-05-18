@@ -1,6 +1,6 @@
 $(document).ready(function () {         
     equalize();
-    $(".about").css({"width":"100%","height":"100%","position":"absolute","background":"#fff"});
+    $(".about").css({"width":"100%","height":"100%","position":"absolute","background":"#fff","z-index":"-1"});
     $("body").css("position","relative");
     $(".type-1244").css({"position":"fixed","z-index":"-2"});
 });           
