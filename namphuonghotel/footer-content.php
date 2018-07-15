@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <h4>Liên hệ với chúng tôi</h4>
         <address>
             <div class="col-md-6">               
-                <span><strong>Điện thoại:</strong>0987991693</span>
+                <span><strong>Điện thoại:</strong> 0987991693</span>
                 <span><strong>Fax:</strong> 0943318881</span>
                 <span><strong>Email:</strong><a href="#"> namphuonghotel@gmail.com</a></span>
             </div>
@@ -32,7 +32,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             <img src="//bizweb.dktcdn.net/100/139/137/themes/186250/assets/youtube.png?1516858385980" alt=""></a>
                     <a href="# ">
                             <img src="//bizweb.dktcdn.net/100/139/137/themes/186250/assets/vimeo.png?1516858385980" alt=""></a>
-
             </div>
             </div>
                 
