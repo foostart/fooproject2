@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="vi">
     <head>
-        <title>KaYa Store</title>
+        <title>NAMPHUONG HOTEL</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=100" />
         <meta http-equiv="REFRESH" content="1800" />
